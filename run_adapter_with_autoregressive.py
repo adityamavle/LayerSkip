@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script to run inference with DeBERTa adapter enhanced autoregressive decoding.
+Script to run adapter-enhanced autoregressive inference on RACE-M or RACE-H datasets.
 """
 
 import argparse
@@ -9,8 +9,11 @@ import json
 import logging
 import os
 import time
+import csv
 from typing import List, Optional, Tuple
-import colorama
+from tqdm import tqdm
+from datasets import load_dataset
+import numpy as np
 
 from arguments import Arguments
 from generate import load_model_and_tokenizer, setup
@@ -117,23 +120,105 @@ class AdapterEnhancedAutoregressiveStrategy(AutoRegressiveGenerationStrategy):
             acceptance_rate=None,  # Not applicable for autoregressive
         )
 
+def prepare_race_dataset(dataset_name, split='test', max_samples=None):
+    """
+    Prepare RACE-M or RACE-H dataset for evaluation.
+    
+    Args:
+        dataset_name: 'race_m' or 'race_h'
+        split: Dataset split to use ('train', 'validation', 'test')
+        max_samples: Maximum number of samples to use (optional)
+    
+    Returns:
+        List of formatted examples
+    """
+    race_type = 'middle' if dataset_name == 'race_m' else 'high'
+    dataset = load_dataset("race", race_type, split=split)
+    
+    if max_samples is not None:
+        indices = list(range(min(max_samples, len(dataset))))
+        dataset = dataset.select(indices)
+    
+    examples = []
+    for item in dataset:
+        article = item['article']
+        questions = item['questions']
+        options = item['options']
+        answers = item['answers']  # These are letter indices like 'A', 'B', etc.
+        
+        for q_idx, (question, opts, answer) in enumerate(zip(questions, options, answers)):
+            # Format as input to the model
+            formatted_text = f"Article: {article}\n\nQuestion: {question}\n"
+            for j, option in enumerate(opts):
+                formatted_text += f"{chr(65 + j)}. {option}\n"
+            formatted_text += "Answer:"
+            
+            # Create evaluation example
+            examples.append({
+                'id': f"{item['id']}_{q_idx}",
+                'prompt': formatted_text,
+                'answer': answer,  # The correct answer letter (A, B, C, D)
+                'options': opts
+            })
+    
+    return examples
+
+def extract_answer_letter(text):
+    """
+    Extract the answer letter (A, B, C, D) from model output.
+    """
+    # First check if the output starts with A, B, C, or D
+    text = text.strip()
+    if text and text[0] in 'ABCD':
+        return text[0]
+    
+    # Look for "The answer is X" pattern
+    import re
+    match = re.search(r"[Tt]he answer is\s+([ABCD])", text)
+    if match:
+        return match.group(1)
+    
+    # Look for patterns like "A.", "B.", etc.
+    for letter in 'ABCD':
+        pattern = f"{letter}\."
+        if re.search(pattern, text):
+            return letter
+    
+    # If nothing found, return the first letter that appears in the text
+    for char in text:
+        if char in 'ABCD':
+            return char
+    
+    # If still nothing found, return None
+    return None
+
+def evaluate_accuracy(predictions, ground_truth):
+    """
+    Calculate accuracy of predictions.
+    """
+    correct = sum(1 for p, gt in zip(predictions, ground_truth) if p == gt)
+    return correct / len(predictions) if predictions else 0
 
 def main():
-    parser = argparse.ArgumentParser(description="Run adapter-enhanced autoregressive decoding")
+    parser = argparse.ArgumentParser(description="Run adapter-enhanced inference on RACE dataset")
     parser.add_argument("--model", type=str, required=True, help="Path to base LLaMA model")
     parser.add_argument("--adapter_path", type=str, required=True, help="Path to trained adapter weights")
     parser.add_argument("--adapter_config", type=str, required=True, help="Path to adapter config JSON")
-    parser.add_argument("--prompt", type=str, required=True, help="Input prompt for generation")
-    parser.add_argument("--max_length", type=int, default=100, help="Maximum length of generated text")
-    parser.add_argument("--temperature", type=float, default=0.7, help="Sampling temperature")
+    parser.add_argument("--dataset", type=str, choices=["race_m", "race_h"], default="race_m", 
+                      help="Dataset to evaluate on")
+    parser.add_argument("--split", type=str, default="test", help="Dataset split to use")
+    parser.add_argument("--max_samples", type=int, default=None, help="Maximum number of samples to evaluate")
+    parser.add_argument("--batch_size", type=int, default=1, help="Batch size for evaluation")
+    parser.add_argument("--max_length", type=int, default=20, help="Maximum length of generated text")
+    parser.add_argument("--temperature", type=float, default=0.3, help="Sampling temperature")
     parser.add_argument("--top_p", type=float, default=0.9, help="Top-p sampling parameter")
     parser.add_argument("--top_k", type=int, default=50, help="Top-k sampling parameter")
     parser.add_argument("--target_layer", type=int, default=8, help="Layer to extract for adapter")
-    parser.add_argument("--output", type=str, default=None, help="Output file to save generation")
+    parser.add_argument("--output", type=str, default=None, help="Output file for results")
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu", 
-                        help="Device to run inference on")
-    parser.add_argument("--compare", action="store_true", 
-                      help="Compare with regular autoregressive generation")
+                      help="Device to run inference on")
+    parser.add_argument("--compare", action="store_true", help="Compare with regular autoregressive generation")
+    parser.add_argument("--num_workers", type=int, default=0, help="Number of workers for dataset loading")
     
     args = parser.parse_args()
     
@@ -194,83 +279,166 @@ def main():
         top_p=args.top_p
     )
     
-    # Record start time
-    start_time = time.time()
-    
-    # Generate text with enhanced model
-    logger.info("Generating with adapter-enhanced autoregressive decoding...")
-    result = enhanced_generator.generate(
-        prompt=args.prompt,
-        generation_config=generation_config
-    )
-    
-    # Record end time and calculate stats
-    generation_time = time.time() - start_time
-    
-    # Display results
-    print("\n======= ADAPTER-ENHANCED AUTOREGRESSIVE GENERATION =======")
-    print(f"Prompt: {args.prompt}")
-    print(f"\nGenerated text: {result.decoded_prediction}")
-    print("\n===========================================================")
-    
-    # Print stats
-    print(f"\nGeneration time: {generation_time:.2f} seconds")
-    print(f"Tokens generated: {result.num_tokens_generated}")
-    print(f"Tokens per second: {result.tokens_per_second:.2f}")
-    
-    # Compare with regular autoregressive if requested
+    # Initialize regular generator for comparison if requested
     if args.compare:
-        # Create regular autoregressive generator
         regular_strategy = AutoRegressiveGenerationStrategy()
         regular_generator = HuggingfaceLlamaGenerator(
             tokenizer=tokenizer,
             model=model,
             generation_strategy=regular_strategy
         )
-        
-        # Record start time
-        start_time = time.time()
-        
-        # Generate with regular autoregressive
-        logger.info("Generating with regular autoregressive decoding for comparison...")
-        regular_result = regular_generator.generate(
-            prompt=args.prompt,
-            generation_config=generation_config
-        )
-        
-        # Record end time
-        regular_time = time.time() - start_time
-        
-        # Display comparison results
-        print("\n======= REGULAR AUTOREGRESSIVE GENERATION =======")
-        print(f"Generated text: {regular_result.decoded_prediction}")
-        print("\n=================================================")
-        
-        # Print comparison stats
-        print(f"\nRegular generation time: {regular_time:.2f} seconds")
-        print(f"Regular tokens per second: {regular_result.tokens_per_second:.2f}")
-        print(f"Speed comparison: {regular_time / generation_time:.2f}x")
     
-    # Save to file if requested
-    if args.output:
-        with open(args.output, "w") as f:
-            f.write(f"Prompt: {args.prompt}\n\n")
-            f.write(f"Enhanced generated text: {result.decoded_prediction}\n\n")
-            f.write(f"Generation time: {generation_time:.2f} seconds\n")
-            f.write(f"Tokens generated: {result.num_tokens_generated}\n")
-            f.write(f"Tokens per second: {result.tokens_per_second:.2f}\n")
+    # Prepare dataset
+    logger.info(f"Preparing {args.dataset} dataset ({args.split} split)")
+    examples = prepare_race_dataset(args.dataset, args.split, args.max_samples)
+    logger.info(f"Loaded {len(examples)} examples")
+    
+    # Initialize results tracking
+    results = []
+    enhanced_predictions = []
+    ground_truth = [example['answer'] for example in examples]
+    
+    if args.compare:
+        regular_predictions = []
+    
+    # Run inference
+    logger.info("Starting inference with adapter-enhanced model...")
+    start_time = time.time()
+    
+    for i, example in enumerate(tqdm(examples, desc="Processing examples")):
+        # Generate with adapter-enhanced model
+        try:
+            enhanced_result = enhanced_generator.generate(
+                prompt=example['prompt'],
+                generation_config=generation_config
+            )
+            
+            enhanced_text = enhanced_result.decoded_prediction
+            enhanced_answer = extract_answer_letter(enhanced_text)
+            enhanced_predictions.append(enhanced_answer)
+            
+            # Generate with regular model if comparison is requested
+            if args.compare:
+                regular_result = regular_generator.generate(
+                    prompt=example['prompt'],
+                    generation_config=generation_config
+                )
+                
+                regular_text = regular_result.decoded_prediction
+                regular_answer = extract_answer_letter(regular_text)
+                regular_predictions.append(regular_answer)
+            
+            # Store result
+            result_item = {
+                'id': example['id'],
+                'prompt': example['prompt'],
+                'ground_truth': example['answer'],
+                'enhanced_prediction': enhanced_answer,
+                'enhanced_text': enhanced_text,
+            }
             
             if args.compare:
-                f.write("\n=== Comparison ===\n")
-                f.write(f"Regular generated text: {regular_result.decoded_prediction}\n\n")
-                f.write(f"Regular generation time: {regular_time:.2f} seconds\n")
-                f.write(f"Regular tokens per second: {regular_result.tokens_per_second:.2f}\n")
-                f.write(f"Speed comparison: {regular_time / generation_time:.2f}x\n")
+                result_item.update({
+                    'regular_prediction': regular_answer,
+                    'regular_text': regular_text,
+                })
+            
+            results.append(result_item)
+            
+            # Log progress
+            if (i + 1) % 10 == 0:
+                logger.info(f"Processed {i + 1}/{len(examples)} examples")
                 
+                # Calculate and log current accuracy
+                current_enhanced_acc = evaluate_accuracy(enhanced_predictions, ground_truth[:len(enhanced_predictions)])
+                logger.info(f"Current enhanced accuracy: {current_enhanced_acc:.4f}")
+                
+                if args.compare and regular_predictions:
+                    current_regular_acc = evaluate_accuracy(regular_predictions, ground_truth[:len(regular_predictions)])
+                    logger.info(f"Current regular accuracy: {current_regular_acc:.4f}")
+                
+        except Exception as e:
+            logger.error(f"Error processing example {example['id']}: {e}")
+            # Add a placeholder for failed examples
+            enhanced_predictions.append(None)
+            if args.compare:
+                regular_predictions.append(None)
+    
+    # Calculate total time
+    total_time = time.time() - start_time
+    
+    # Calculate final accuracy
+    enhanced_accuracy = evaluate_accuracy(
+        [p for p in enhanced_predictions if p is not None], 
+        [gt for p, gt in zip(enhanced_predictions, ground_truth) if p is not None]
+    )
+    
+    if args.compare:
+        regular_accuracy = evaluate_accuracy(
+            [p for p in regular_predictions if p is not None],
+            [gt for p, gt in zip(regular_predictions, ground_truth) if p is not None]
+        )
+    
+    # Print results
+    logger.info("\n======= EVALUATION RESULTS =======")
+    logger.info(f"Dataset: {args.dataset}")
+    logger.info(f"Split: {args.split}")
+    logger.info(f"Number of examples: {len(examples)}")
+    logger.info(f"Total time: {total_time:.2f} seconds")
+    logger.info(f"Average time per example: {total_time / len(examples):.2f} seconds")
+    logger.info(f"Enhanced model accuracy: {enhanced_accuracy:.4f}")
+    
+    if args.compare:
+        logger.info(f"Regular model accuracy: {regular_accuracy:.4f}")
+        logger.info(f"Accuracy improvement: {enhanced_accuracy - regular_accuracy:.4f}")
+    
+    # Save results to CSV if output path is provided
+    if args.output:
+        output_dir = os.path.dirname(args.output)
+        if output_dir and not os.path.exists(output_dir):
+            os.makedirs(output_dir, exist_ok=True)
+            
+        with open(args.output, 'w', newline='') as csvfile:
+            fieldnames = ['id', 'prompt', 'ground_truth', 'enhanced_prediction', 'enhanced_text']
+            
+            if args.compare:
+                fieldnames.extend(['regular_prediction', 'regular_text'])
+                
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for result in results:
+                writer.writerow(result)
+        
         logger.info(f"Results saved to {args.output}")
+        
+        # Save summary statistics
+        summary_path = os.path.splitext(args.output)[0] + "_summary.json"
+        summary = {
+            "dataset": args.dataset,
+            "split": args.split,
+            "num_examples": len(examples),
+            "model": args.model,
+            "adapter": args.adapter_path,
+            "enhanced_accuracy": enhanced_accuracy,
+            "total_time": total_time,
+            "avg_time_per_example": total_time / len(examples),
+        }
+        
+        if args.compare:
+            summary.update({
+                "regular_accuracy": regular_accuracy,
+                "accuracy_improvement": enhanced_accuracy - regular_accuracy,
+            })
+            
+        with open(summary_path, 'w') as f:
+            json.dump(summary, f, indent=2)
+            
+        logger.info(f"Summary statistics saved to {summary_path}")
     
     # Clean up
     layer_extractor.remove_hooks()
+    logger.info("Evaluation complete!")
 
 if __name__ == "__main__":
     main()
