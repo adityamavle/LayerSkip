@@ -1,4 +1,4 @@
-from typing import List, Optional, Dict
+from typing import List, Optional
 import torch
 import transformers
 from self_speculation.generator_base import (
@@ -17,8 +17,7 @@ class DepthAdaptiveSequenceGenerationStrategy(GenerationStrategy):
     
     This implementation more closely aligns with the Depth-Adaptive Transformer paper:
     1. Uses geometric accumulation for halting probabilities
-    2. Implements layer-specific thresholds for finer control
-    3. Adds random seed for reproducibility
+    2. Adds random seed for reproducibility
     """
     
     def __init__(
@@ -26,7 +25,6 @@ class DepthAdaptiveSequenceGenerationStrategy(GenerationStrategy):
         halting_threshold: float = 0.9,
         min_layers: int = 4,
         max_layers: Optional[int] = None,
-        layer_thresholds: Optional[Dict[int, float]] = None,
         seed: Optional[int] = None,
     ):
         """Initialize the sequence-level depth adaptive strategy.
@@ -35,17 +33,11 @@ class DepthAdaptiveSequenceGenerationStrategy(GenerationStrategy):
             halting_threshold: Base probability threshold to determine early exit
             min_layers: Minimum number of layers to process before considering early exit
             max_layers: Maximum number of layers to process (None = all layers)
-            layer_thresholds: Dictionary mapping layer indices to specific thresholds
             seed: Random seed for reproducibility
         """
         self.halting_threshold = halting_threshold
         self.min_layers = min_layers
         self.max_layers = max_layers
-        self.layer_thresholds = layer_thresholds or {
-            4: 0.85,  # Lower threshold at earlier eligible layers
-            6: 0.85,
-            8: 0.85,
-        }
         self.seed = seed
 
     def generate_token_ids(
@@ -117,4 +109,4 @@ class DepthAdaptiveSequenceGenerationStrategy(GenerationStrategy):
         return GenerationStrategyResult(
             predicted_tokens=output_ids,
             acceptance_rate=None,  # Not applicable for this strategy
-        ) 
+        )

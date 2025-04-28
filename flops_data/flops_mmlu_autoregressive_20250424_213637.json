@@ -1,0 +1,39 @@
+{
+  "strategy": "autoregressive",
+  "config": {
+    "max_steps": 20,
+    "exit_layer": -1,
+    "num_speculations": -1,
+    "generation_strategy": "autoregressive",
+    "sample": true,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9,
+    "no_repeat_ngram_size": null,
+    "stop_words": null,
+    "stop_token_ids": [],
+    "dropout_rate": 0.0,
+    "layerdrop_seed": null,
+    "halting_threshold": 0.99,
+    "min_layers": 4,
+    "max_layers": null
+  },
+  "total_flops": 553615032320,
+  "total_tokens": 2,
+  "flops_per_token": 276807516160.0,
+  "samples": [
+    {
+      "prompt": "Question: Your new \u2018client is a 37-year-old woman whose symptoms meet the diagnostic criteria for Ma...",
+      "tokens_generated": 1,
+      "total_flops": 410268282880,
+      "flops_per_token": 410268282880.0
+    },
+    {
+      "prompt": "Question: The hypothesis that says adults will remain healthy until very old age and then quickly be...",
+      "tokens_generated": 1,
+      "total_flops": 143346749440,
+      "flops_per_token": 143346749440.0
+    }
+  ],
+  "timestamp": "2025-04-24T21:36:37.144398"
+}

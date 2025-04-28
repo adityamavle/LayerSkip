@@ -1,0 +1,781 @@
+Using standard benchmark for dataset: race_h
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 7759
+  Verified Probability: 0.0
+  Draft Probability: 0.286865234375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 83649
+  Verified Probability: 0.0
+  Draft Probability: 0.003025054931640625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: A gentleman put an advertisement in a newspaper to look for a boy to work in his office. From nearly fifty persons, he chose one and refused the others.
+"I should like to know," said a friend, "Why you liked that boy better. He did not have a letter or a recommendation  ."
+"You are wrong," said the gentleman. "He had a great many. He cleaned his feet at the door and closed the door behind him. That showed that he was careful. He gave his seat at once to that old man. That showed that he was kind and _ . He took off his cap when he came in and answered my question at once. That showed that he was polite and gentlemanly."
+"I threw some books on the floor and some persons went over them, but that boy picked them up and put them on the table. He waited quietly for his turn instead of pushing. When I talked to him, I found his clothes were tidy, his hair was brushed clearly and his finger nails   were clean. I think these are more important than a letter and a recommendation."
+
+Question: That boy was chosen because   _  .
+A. he had many letters
+B. he didn't have a recommendation
+C. he spoke quietly
+D. he did everything carefully
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ D
+[Acceptance Rate]: 0.0
+Extracted prediction: D, Extracted target: D
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 227
+  Verified Probability: 0.0
+  Draft Probability: 0.01458740234375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 39530
+  Verified Probability: 0.0
+  Draft Probability: 0.00408935546875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: Do you kow that animals have love for each other and their children just like us humans? Let me tell you some moving stories of great animal parents.
+Several years ago a heavy rain hit a town and made the river go up. When the rain stopped, people found that a dog swam to an island in the river twice a day for two weeks. Why did she do so? Her four children were there. The mother swam there every day to feed her babies. This true story moved many people.
+Another story is about chimpanzees . A scientist named Jane Goodall spent 4 years living with chimpanzees in Africa. She found that chimpanzees also cared for those that were hurt or got lost. "It is not only humans who have duties, animals also do," she said.
+Two birds in Chengdu also showed their parental  love. Their baby was hurt and fell on the street in the center of the city. Cars were driving past but the brave parents rushed down to the road and took the little bird away with their claws .
+
+Question: From the passage we know   _  .
+A. dogs like to swim across the river in a heavy rain.
+B. mother birds don't want to save their children
+C. animal parents love their children a lot
+D. all animals want to move people very much
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+[Acceptance Rate]: 0.0
+Extracted prediction: C, Extracted target: C
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 46407
+  Verified Probability: 0.0
+  Draft Probability: 0.006031036376953125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 30492
+  Verified Probability: 0.0
+  Draft Probability: 0.0013914108276367188
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: Almost everyone likes to eat apples. Apples grow  in nearly every part of the world. The United States produces  more apples than any other country except France. The states of Washington and New York grow the most apples. New York is on the east coast and Washington is on the west near Canada.
+Apples are red, yellow or green. _ Many people like to carry apples to work or to school to eat with their lunches. Most American people are often too busy or too tired to cook, so they often have their lunches very simply. Apple juice is also a popular drink and apple pie is the favorite dessert of many Americans. The state of Washington is proud  of its apples. The trees there produce nearly five billion  apples every year - one apple for every man, woman and child in the whole world.
+
+Question: The state of Washington is proud of its apples because they think   _  .
+A. everyone in the world can share their happiness.
+B. they can produce apples for every person all over the world.
+C. their apples are better than any other fruit.
+D. their apple trees are the best in the world.
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ C
+[Acceptance Rate]: 0.0
+Extracted prediction: C, Extracted target: B
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 118352
+  Verified Probability: 0.0
+  Draft Probability: 0.0002624988555908203
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 34486
+  Verified Probability: 0.0
+  Draft Probability: 0.74462890625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: My name is Lin Tao. I'm a Chinese boy. Now I'm studying in America. There are many kinds of clubs here. When I first come here, l don't know anything about clubs.
+I'm a shy boy, so I can't speak English well. In my first year in America, l don't like to speak to others. In my second year I have to change myself by doing some new things. I _ that school is not just about getting good grades , it's also about being part of a club. One day, when I go to the Media Center with my classmate Jim, he tells me something about the club, It's interesting, so 1 join it.
+I am in many clubs now, it's good to be part of a club. These clubs help me to make new friends.
+
+Question: What can you learn from the passage ?
+A. Lin Tao lives in America with his parents.
+B. The Media Center is Lin Tao's first club.
+C. Lin Tao doesn't like joining clubs.
+D. Lin Tao makes many new friends in the first year.
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ D
+[Acceptance Rate]: 0.0
+Extracted prediction: D, Extracted target: B
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 80065
+  Verified Probability: 0.0
+  Draft Probability: 5.364418029785156e-05
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 66394
+  Verified Probability: 0.0
+  Draft Probability: 0.0001735687255859375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: Mr. Smith is one of my friends. He can run very fast and he is always ready to show  how fast he can run.
+One day a thief  breaks into his house,takes some things of his and runs off as fast as he can. Mr. Smith runs after him and shouts :"Stop! Stop! Don't you know you can't run away from me?"
+But the thief only runs faster. Mr. Smith gets angry. He tries his best to run. He is soon a few miles away from his house. He doesn't see anything or anybody and is still rushing  alone  when he runs into  me.
+"Why are you in such a hurry?"
+"I'm trying to catch a thief."
+"But where is the thief?" I ask.
+"Far, far behind me," says Mr. Smith with a smile on his face.
+"He thinks he can run faster than me,but you see he is wrong."
+
+Question: At last the thief   _  .
+A. runs away
+B. is very tired
+C. is caught
+D. is after Mr. Smith
+Answer:
+[Reference Response]:
+ A
+[Model Response]:
+ B
+[Acceptance Rate]: 0.0
+Extracted prediction: B, Extracted target: A
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 46407
+  Verified Probability: 0.0
+  Draft Probability: 0.01357269287109375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 82580
+  Verified Probability: 0.0
+  Draft Probability: 0.00015556812286376953
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: For many Chinese, winter holiday season doesn't seem complete without the CCTV Spring Festival Gala. But it's impossible to satisfy all 1.3 billion Chinese.
+Even if you, especially young audience complain about the Spring Festival Gala, watching it while having Lunar New Year's Eve dinner has become a common way for families to get together. It's much more than just a TV program, it's also a way to bring family members together and get them talking during the holiday. Think about how you'll watch the gala and discover its fun.
+1. Share your opinions about the programs and artists with your family members. Introduce artists who young people enjoy to the elderly memebers of your family, such as "fellow brother" William Chan, or former singing group EXO members Kris Wu and Lu Han.
+2. Post your _ and complaints on micro blogs and WeChat moments to share with friends. Then they will know what you're satisfied with and what you complain about. In recent years, the gala is trying to attract young people by using Internet slang . Guessing when and what Internet chat lingo will be mentioned in the show is surely going to be hot on social media. Will there be "drunk and tired" ? Have a bet with friends.
+3. Online video websites such as IQiyi and Youku have introduced a real-time online discussion system. All comments are displayed on the screen. You can try watching the show in this interactive way instead of the traditional TV sets so that you may know others' opinions about the programs in the Spring Festival Gala.
+
+Question: Which of the following is NOT mentioned in the passage?
+A. Using Internet slang to attract young audience.
+B. Introducing types of programs in the Spring Festival Gala.
+C. Watching the Spring Festival Gala on the online video websites.
+D. Posting compliments and complaints on micro blogs and WeChat moments.
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ C
+[Acceptance Rate]: 0.0
+Extracted prediction: C, Extracted target: B
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 20328
+  Verified Probability: 0.0
+  Draft Probability: 0.2081298828125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 67324
+  Verified Probability: 0.0
+  Draft Probability: 0.1531982421875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: What are your clothes made of? Are they made of cotton or wool? Some students in Shandong wear different things. Their clothes are made of discs  or old clothes!
+On October 7th, 36 students in Linyi, Shandong Province, wore beautiful clothes in a show. Their clothes were made of all kinds of things.
+The show gave the students a chance to make things with their own hands. It also helped them learn to make good use of waste and not to throw everything away.
+Students had lots of good ideas. Some found used things, like old clothes, to make new dresses.
+"We hope to save energy. Our world is _ of energy. So I don't want to just throw old things away," said Xie Jing at Linyi Art School.
+Xie had more than 20 discs on her nice blue dress. She got them from her family and friends.
+"Though the discs are old, I look very cool in them!" she said.
+Song Dandan, a student from the school, looked like a farmer in her straw  coat and hat. She picked the straw from the fields and put them all together.
+"I want to show what people wore in the past." she said.
+Du Yue made clothes for astronauts ! She had white cloth all over her. When she walked, she tried to be slow. It looked like she was walking on the moon.
+"I hope to wear it in space  some day. I wish that I could walk on the moon!" she said.
+
+Question: The show tells people   _  .
+A. we should save energy
+B. they are clever
+C. how to make use of old things
+D. A, B and C
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ C
+[Acceptance Rate]: 0.0
+Extracted prediction: C, Extracted target: D
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 20509
+  Verified Probability: 0.0
+  Draft Probability: 0.0006117820739746094
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 28877
+  Verified Probability: 0.0
+  Draft Probability: 0.0004086494445800781
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: When you look at the sky at night, the moon looks bigger than the stars. Actually, the moon is much smaller than the stars and the sun. It's much smaller than the earth. But the moon is much closer to us than any star. That is why it looks so big. If you hold a coin close to your eye, it looks big. If you look at it across the moon, it looks small.
+The moon moves around the earth. It makes one trip in about four weeks. The moon looks flat to us. But it is a round ball, like the earth.
+People once thought the moon had fire on it. They thought the fire made it bright. Now we know the moon is like a mirror. It gets its light from the sun.
+Our sunlight comes from the sun, too. What is the sun? The sun is a star. The stars we can see have their own light. There are many big stars we cannot see. Their light had burned out. Others are still bright, but they are so far away that we cannot see them. The sun looks bigger and much brighter than other stars because it is the nearest of all stars. The sun and the other stars we see are very hot, but the air around us saves us from the heat of the sun.
+The sun gives us light and warmth. It makes plants grow and turns leaves green. It makes life possible on our earth. It is a life giving star.
+
+Question: It takes   _   for the moon to go around the earth.
+A. more than a week
+B. nearly a month
+C. half a year
+D. more than a year
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ B
+[Acceptance Rate]: 0.0
+Extracted prediction: B, Extracted target: B
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 75675
+  Verified Probability: 0.0
+  Draft Probability: 0.44921875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 64063
+  Verified Probability: 0.0
+  Draft Probability: 0.05438232421875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 79335
+  Verified Probability: 0.0
+  Draft Probability: 0.00021183490753173828
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 51492
+  Verified Probability: 0.0
+  Draft Probability: 0.03472900390625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 53139
+  Verified Probability: 0.0
+  Draft Probability: 0.0023021697998046875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 94223
+  Verified Probability: 0.0
+  Draft Probability: 5.9545040130615234e-05
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 52056
+  Verified Probability: 0.0
+  Draft Probability: 0.008819580078125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 23414
+  Verified Probability: 0.0
+  Draft Probability: 0.0098876953125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 55300
+  Verified Probability: 0.0
+  Draft Probability: 0.034423828125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 32260
+  Verified Probability: 0.0
+  Draft Probability: 0.005382537841796875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 92216
+  Verified Probability: 0.0
+  Draft Probability: 0.0002574920654296875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 10994
+  Verified Probability: 0.0
+  Draft Probability: 0.005214691162109375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 17708
+  Verified Probability: 0.0
+  Draft Probability: 0.387939453125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 42327
+  Verified Probability: 0.0
+  Draft Probability: 0.66064453125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 25825
+  Verified Probability: 0.0
+  Draft Probability: 0.060699462890625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 92639
+  Verified Probability: 0.0
+  Draft Probability: 0.0003399848937988281
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 84850
+  Verified Probability: 0.0
+  Draft Probability: 0.0006856918334960938
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 76025
+  Verified Probability: 0.0
+  Draft Probability: 0.0001595020294189453
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 60005
+  Verified Probability: 0.0
+  Draft Probability: 0.1405029296875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 1994
+  Verified Probability: 0.0
+  Draft Probability: 0.0027027130126953125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 46077
+  Verified Probability: 0.0
+  Draft Probability: 0.10321044921875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 55748
+  Verified Probability: 0.0
+  Draft Probability: 0.5185546875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 126091
+  Verified Probability: 0.0
+  Draft Probability: 0.00019943714141845703
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 71017
+  Verified Probability: 0.0
+  Draft Probability: 0.389404296875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 66873
+  Verified Probability: 0.0
+  Draft Probability: 0.249755859375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 91674
+  Verified Probability: 0.0
+  Draft Probability: 0.0179443359375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 104236
+  Verified Probability: 0.0
+  Draft Probability: 0.0008230209350585938
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 66873
+  Verified Probability: 0.0
+  Draft Probability: 0.91015625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 55748
+  Verified Probability: 0.0
+  Draft Probability: 0.379150390625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 7023
+  Verified Probability: 0.0
+  Draft Probability: 0.00040984153747558594
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 1141
+  Verified Probability: 0.0
+  Draft Probability: 0.2900390625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 101520
+  Verified Probability: 0.0
+  Draft Probability: 0.0198516845703125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 58240
+  Verified Probability: 0.0
+  Draft Probability: 0.00029277801513671875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 25700
+  Verified Probability: 0.0
+  Draft Probability: 0.0489501953125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 27710
+  Verified Probability: 0.0
+  Draft Probability: 0.9248046875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 18675
+  Verified Probability: 0.0
+  Draft Probability: 0.458984375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 59768
+  Verified Probability: 0.0
+  Draft Probability: 0.00391387939453125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 1141
+  Verified Probability: 0.0
+  Draft Probability: 0.2015380859375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 726
+  Verified Probability: 0.0
+  Draft Probability: 0.096435546875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 35259
+  Verified Probability: 0.0
+  Draft Probability: 0.02581787109375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 35386
+  Verified Probability: 0.0
+  Draft Probability: 0.060699462890625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 63372
+  Verified Probability: 0.0
+  Draft Probability: 0.2392578125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 63170
+  Verified Probability: 0.0
+  Draft Probability: 0.11407470703125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 126452
+  Verified Probability: 0.0
+  Draft Probability: 0.01258087158203125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 96087
+  Verified Probability: 0.0
+  Draft Probability: 0.00222015380859375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 110682
+  Verified Probability: 0.0
+  Draft Probability: 0.01071929931640625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 106304
+  Verified Probability: 0.0
+  Draft Probability: 0.0005507469177246094
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: We are all learning English, but how can we learn English well? A student can know a lot about English, but maybe  he can't speak English. If you want to know how to   swim, you must get into the river. And if you want to be a football player, you must play football.
+So, you see. You can learn English only by  using it. You must listen to your teacher in class. You must read your lessons every day. You must speak English to your classmates and also you must write something sometimes. Then one day, you may find your English very good.
+
+Question: You know a lot about English but maybe you  _
+A. can speak
+B. can study it
+C. can't study it
+D. can't use it
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ A
+
+Question: You can know a lot about English but maybe  _
+A. you can speak
+B. you can study it
+C. you can use it
+D. you can't use it
+Answer: B
+[Acceptance Rate]: 0.0
+Extracted prediction: A, Extracted target: D
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 120685
+  Verified Probability: 0.0
+  Draft Probability: 0.00045800209045410156
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 103388
+  Verified Probability: 0.0
+  Draft Probability: 0.00047087669372558594
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+[Prompt]:
+Article: What does it feel like to break a bone  ? It's different for everyone, but the pain is often sharp  . If the break is small, however, the person may not feel much pain at all. If you think that you or someone else has broken a bone, the most important things to do are to stay calm, make the hurt person comfortable, and call the doctor. Do not move the injured body part since movement could make it worse.
+To treat the break, the doctor will need to take an X-ray. This gives the doctor the information he or she needs to set   the bone: to put it back to its normal place. If the bone is large or it is broken in more than one place, the doctor may need to use metal pins   to set it. After the bone has been set, the next step is usually putting on a cast, the special, hard thing that will keep the bone in place for a month or two.
+Your bones are excellent at healing themselves. Broken bones will produce many new cells   and tiny blood vessels  . These cover both ends of the broken part, and close up the break until the bone is as whole and strong as before.
+
+Question: Which of the following is the best title for the passage?
+A. How to Know if a Bone is Broken
+B. How Broken Bones Heal Themselves
+C. Common Causes   of Broken Bones
+D. What You Should Know about Broken Bones
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ B
+[Acceptance Rate]: 0.0
+Extracted prediction: B, Extracted target: D
+{'predicted_text': {'exact_match': 0.30000001192092896, 'accuracy': 0.3}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.931322979927063}, 'time_per_token': {'mean': 0.41036391332745553}, 'tokens_per_second': {'mean': 3.7104586899280547}}

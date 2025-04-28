@@ -1,0 +1,39 @@
+Optimizing generation config for multiple-choice dataset: mmlu
+Updated generation config: max_steps=20, temperature=0.3
+Benchmarking on MMLU with 10 samples...
+Extracted: prediction=A, target=A
+[CORRECT]
+--------------------------------------------------
+Extracted: prediction=C, target=A
+[INCORRECT]
+--------------------------------------------------
+Extracted: prediction=A, target=B
+[INCORRECT]
+--------------------------------------------------
+Extracted: prediction=B, target=B
+[CORRECT]
+--------------------------------------------------
+Extracted: prediction=D, target=D
+[CORRECT]
+--------------------------------------------------
+Extracted: prediction=A, target=A
+[CORRECT]
+--------------------------------------------------
+Extracted: prediction=C, target=D
+[INCORRECT]
+--------------------------------------------------
+Extracted: prediction=C, target=C
+[CORRECT]
+--------------------------------------------------
+Extracted: prediction=D, target=D
+[CORRECT]
+--------------------------------------------------
+Extracted: prediction=A, target=A
+[CORRECT]
+--------------------------------------------------
+
+--- Final Metrics (MMLU) ---
+exact_match: 0.7000
+accuracy: 0.7000
+Total Questions: 10
+{'predicted_text': {'exact_match': 0.699999988079071, 'accuracy': 0.7}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.5287617683410645}, 'time_per_token': {'mean': 0.48428318053483965}, 'tokens_per_second': {'mean': 4.228064960241317}}

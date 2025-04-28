@@ -1,0 +1,284 @@
+Optimizing generation config for multiple-choice dataset: race_m
+Updated generation config: max_steps=20, temperature=0.3
+Benchmarking on RACE_M with 10 samples...
+Layer 4/16: Halt prob: 0.1830, Accumulated: 0.1830, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0726, Accumulated: 0.2555, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0466, Accumulated: 0.3022, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0374, Accumulated: 0.3396, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0291, Accumulated: 0.3687, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0338, Accumulated: 0.4025, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0460, Accumulated: 0.4484, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1058, Accumulated: 0.5543, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1496, Accumulated: 0.7039, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1267, Accumulated: 0.8306, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0857, Accumulated: 0.9163, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0481, Accumulated: 0.9644, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0168, Accumulated: 0.9812, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0235, Accumulated: 0.0235, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0834, Accumulated: 0.1069, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0113, Accumulated: 0.1182, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0140, Accumulated: 0.1322, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0153, Accumulated: 0.1475, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0447, Accumulated: 0.1922, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0100, Accumulated: 0.2022, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1548, Accumulated: 0.3571, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.2026, Accumulated: 0.5597, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.4392, Accumulated: 0.9989, Threshold: 0.9900
+Early exit at layer 13/16
+Extracted: prediction=D, target=C
+[INCORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.1549, Accumulated: 0.1549, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0595, Accumulated: 0.2144, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0476, Accumulated: 0.2620, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0441, Accumulated: 0.3061, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0323, Accumulated: 0.3384, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0393, Accumulated: 0.3777, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0414, Accumulated: 0.4191, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0935, Accumulated: 0.5126, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1095, Accumulated: 0.6220, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1167, Accumulated: 0.7388, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1155, Accumulated: 0.8543, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0805, Accumulated: 0.9347, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0276, Accumulated: 0.9623, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0124, Accumulated: 0.0124, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0138, Accumulated: 0.0262, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0110, Accumulated: 0.0372, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0272, Accumulated: 0.0644, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0117, Accumulated: 0.0761, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0170, Accumulated: 0.0931, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0268, Accumulated: 0.1199, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0578, Accumulated: 0.1777, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1230, Accumulated: 0.3007, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6976, Accumulated: 0.9983, Threshold: 0.9900
+Early exit at layer 13/16
+Extracted: prediction=B, target=A
+[INCORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.1959, Accumulated: 0.1959, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0824, Accumulated: 0.2783, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0480, Accumulated: 0.3262, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0391, Accumulated: 0.3653, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0327, Accumulated: 0.3981, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0387, Accumulated: 0.4368, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0503, Accumulated: 0.4871, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0964, Accumulated: 0.5834, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1544, Accumulated: 0.7378, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1111, Accumulated: 0.8489, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0766, Accumulated: 0.9255, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0430, Accumulated: 0.9685, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0149, Accumulated: 0.9834, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0138, Accumulated: 0.0138, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0340, Accumulated: 0.0478, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0091, Accumulated: 0.0570, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0141, Accumulated: 0.0710, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0188, Accumulated: 0.0898, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0055, Accumulated: 0.0953, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0131, Accumulated: 0.1084, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0661, Accumulated: 0.1744, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0920, Accumulated: 0.2664, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7185, Accumulated: 0.9850, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0149, Accumulated: 0.9999, Threshold: 0.9900
+Early exit at layer 14/16
+Extracted: prediction=D, target=B
+[INCORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.1912, Accumulated: 0.1912, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0776, Accumulated: 0.2688, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0375, Accumulated: 0.3063, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0309, Accumulated: 0.3372, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0299, Accumulated: 0.3671, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0328, Accumulated: 0.3998, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0413, Accumulated: 0.4411, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1041, Accumulated: 0.5452, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1554, Accumulated: 0.7007, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1210, Accumulated: 0.8217, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0910, Accumulated: 0.9127, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0489, Accumulated: 0.9616, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0156, Accumulated: 0.9772, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0119, Accumulated: 0.0119, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0140, Accumulated: 0.0259, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0110, Accumulated: 0.0369, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0468, Accumulated: 0.0837, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0086, Accumulated: 0.0923, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0120, Accumulated: 0.1044, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0070, Accumulated: 0.1113, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0132, Accumulated: 0.1246, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0109, Accumulated: 0.1355, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6741, Accumulated: 0.8096, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1874, Accumulated: 0.9970, Threshold: 0.9900
+Early exit at layer 14/16
+Extracted: prediction=B, target=B
+[CORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.1790, Accumulated: 0.1790, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0782, Accumulated: 0.2571, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0477, Accumulated: 0.3048, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0388, Accumulated: 0.3437, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0290, Accumulated: 0.3727, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0443, Accumulated: 0.4170, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0484, Accumulated: 0.4654, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1058, Accumulated: 0.5712, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1424, Accumulated: 0.7136, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1205, Accumulated: 0.8341, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0858, Accumulated: 0.9199, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0460, Accumulated: 0.9658, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0157, Accumulated: 0.9816, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0063, Accumulated: 0.0063, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0182, Accumulated: 0.0245, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0110, Accumulated: 0.0355, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0381, Accumulated: 0.0737, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0120, Accumulated: 0.0857, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0122, Accumulated: 0.0979, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0287, Accumulated: 0.1266, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0472, Accumulated: 0.1738, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0519, Accumulated: 0.2257, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7663, Accumulated: 0.9921, Threshold: 0.9900
+Early exit at layer 13/16
+Extracted: prediction=A, target=A
+[CORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.2136, Accumulated: 0.2136, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0911, Accumulated: 0.3048, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0577, Accumulated: 0.3625, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0473, Accumulated: 0.4098, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0375, Accumulated: 0.4472, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0487, Accumulated: 0.4959, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0602, Accumulated: 0.5561, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1008, Accumulated: 0.6569, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1061, Accumulated: 0.7630, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.0868, Accumulated: 0.8499, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0689, Accumulated: 0.9187, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0433, Accumulated: 0.9620, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0167, Accumulated: 0.9786, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0072, Accumulated: 0.0072, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0093, Accumulated: 0.0164, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0058, Accumulated: 0.0222, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.1336, Accumulated: 0.1558, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0443, Accumulated: 0.2001, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0495, Accumulated: 0.2495, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0193, Accumulated: 0.2688, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0268, Accumulated: 0.2956, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0199, Accumulated: 0.3154, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6749, Accumulated: 0.9903, Threshold: 0.9900
+Early exit at layer 13/16
+Extracted: prediction=A, target=D
+[INCORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.2043, Accumulated: 0.2043, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0901, Accumulated: 0.2945, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0461, Accumulated: 0.3406, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0362, Accumulated: 0.3768, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0336, Accumulated: 0.4104, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0421, Accumulated: 0.4525, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0563, Accumulated: 0.5088, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1051, Accumulated: 0.6139, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1350, Accumulated: 0.7489, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1045, Accumulated: 0.8534, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0689, Accumulated: 0.9224, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0399, Accumulated: 0.9622, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0171, Accumulated: 0.9793, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0088, Accumulated: 0.0088, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0088, Accumulated: 0.0175, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0111, Accumulated: 0.0286, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.2235, Accumulated: 0.2521, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0127, Accumulated: 0.2649, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0086, Accumulated: 0.2735, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0162, Accumulated: 0.2897, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0273, Accumulated: 0.3170, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0320, Accumulated: 0.3490, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6357, Accumulated: 0.9847, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0152, Accumulated: 0.9999, Threshold: 0.9900
+Early exit at layer 14/16
+Extracted: prediction=C, target=A
+[INCORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.2350, Accumulated: 0.2350, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0900, Accumulated: 0.3250, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0573, Accumulated: 0.3823, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0445, Accumulated: 0.4268, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0387, Accumulated: 0.4654, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0433, Accumulated: 0.5088, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0487, Accumulated: 0.5574, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1050, Accumulated: 0.6625, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1270, Accumulated: 0.7895, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.0963, Accumulated: 0.8857, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0612, Accumulated: 0.9469, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0318, Accumulated: 0.9787, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0105, Accumulated: 0.9892, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0088, Accumulated: 0.0088, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0050, Accumulated: 0.0138, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0069, Accumulated: 0.0207, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0303, Accumulated: 0.0510, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0097, Accumulated: 0.0607, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0083, Accumulated: 0.0691, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0157, Accumulated: 0.0848, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0543, Accumulated: 0.1391, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0633, Accumulated: 0.2024, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7769, Accumulated: 0.9794, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0206, Accumulated: 0.9999, Threshold: 0.9900
+Early exit at layer 14/16
+Extracted: prediction=B, target=B
+[CORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.2363, Accumulated: 0.2363, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.1071, Accumulated: 0.3434, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0742, Accumulated: 0.4177, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0542, Accumulated: 0.4718, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0399, Accumulated: 0.5117, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0463, Accumulated: 0.5580, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0520, Accumulated: 0.6099, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0919, Accumulated: 0.7018, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1037, Accumulated: 0.8055, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.0815, Accumulated: 0.8870, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0587, Accumulated: 0.9458, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0323, Accumulated: 0.9781, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0105, Accumulated: 0.9886, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0077, Accumulated: 0.0077, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0101, Accumulated: 0.0178, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0084, Accumulated: 0.0261, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0706, Accumulated: 0.0967, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0094, Accumulated: 0.1062, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0063, Accumulated: 0.1124, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0108, Accumulated: 0.1232, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0145, Accumulated: 0.1377, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0126, Accumulated: 0.1503, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.8302, Accumulated: 0.9805, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0194, Accumulated: 0.9999, Threshold: 0.9900
+Early exit at layer 14/16
+Extracted: prediction=B, target=D
+[INCORRECT]
+--------------------------------------------------
+Layer 4/16: Halt prob: 0.1714, Accumulated: 0.1714, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0760, Accumulated: 0.2473, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0453, Accumulated: 0.2926, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0372, Accumulated: 0.3298, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0289, Accumulated: 0.3587, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0380, Accumulated: 0.3967, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0449, Accumulated: 0.4416, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0959, Accumulated: 0.5375, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1332, Accumulated: 0.6708, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1155, Accumulated: 0.7863, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0995, Accumulated: 0.8858, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0578, Accumulated: 0.9436, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0228, Accumulated: 0.9663, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0076, Accumulated: 0.0076, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0668, Accumulated: 0.0744, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0221, Accumulated: 0.0965, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0059, Accumulated: 0.1024, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0073, Accumulated: 0.1097, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0111, Accumulated: 0.1208, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0340, Accumulated: 0.1548, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0574, Accumulated: 0.2122, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1581, Accumulated: 0.3703, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6270, Accumulated: 0.9972, Threshold: 0.9900
+Early exit at layer 13/16
+Extracted: prediction=D, target=D
+[CORRECT]
+--------------------------------------------------
+
+--- Final Metrics (RACE_M) ---
+exact_match: 0.4000
+accuracy: 0.4000
+Total Questions: 10
+{'predicted_text': {'exact_match': 0.4000000059604645, 'accuracy': 0.4}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.28916819095611573}, 'time_per_token': {'mean': 0.28916819095611573}, 'tokens_per_second': {'mean': 4.798864895105362}}

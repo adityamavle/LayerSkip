@@ -1,0 +1,49 @@
+Optimizing generation config for multiple-choice dataset: race_m
+Updated generation config: max_steps=20, temperature=0.3
+Benchmarking on RACE_M with 10 samples...
+Checking output ids: [356]
+Extracted: prediction=C, target=D
+✗ INCORRECT
+--------------------------------------------------
+Checking output ids: [362]
+Extracted: prediction=A, target=A
+✓ CORRECT
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=D
+✗ INCORRECT
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=D
+✗ INCORRECT
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=C
+✓ CORRECT
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=B
+✗ INCORRECT
+--------------------------------------------------
+Checking output ids: [426]
+Extracted: prediction=B, target=B
+✓ CORRECT
+--------------------------------------------------
+Checking output ids: [362]
+Extracted: prediction=A, target=A
+✓ CORRECT
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=C
+✓ CORRECT
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=C
+✓ CORRECT
+--------------------------------------------------
+
+--- Final Metrics (RACE_M) ---
+exact_match: 0.6000
+accuracy: 0.6000
+Total Questions: 10
+{'predicted_text': {'exact_match': 0.6000000238418579, 'accuracy': 0.6}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.10081501007080078}, 'time_per_token': {'mean': 0.10081501007080078}, 'tokens_per_second': {'mean': 14.054910778999329}}

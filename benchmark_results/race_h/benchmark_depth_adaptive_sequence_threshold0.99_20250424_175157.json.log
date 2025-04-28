@@ -1,0 +1,421 @@
+Using standard benchmark for dataset: race_h
+Layer 4/16: Halt prob: 0.2031, Accumulated: 0.2031, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0683, Accumulated: 0.2715, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0415, Accumulated: 0.3130, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0286, Accumulated: 0.3416, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0254, Accumulated: 0.3670, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0327, Accumulated: 0.3997, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0322, Accumulated: 0.4319, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0703, Accumulated: 0.5021, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1058, Accumulated: 0.6079, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.0993, Accumulated: 0.7072, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1343, Accumulated: 0.8415, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0921, Accumulated: 0.9336, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0335, Accumulated: 0.9671, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0060, Accumulated: 0.0060, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0090, Accumulated: 0.0150, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0090, Accumulated: 0.0240, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0578, Accumulated: 0.0818, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0205, Accumulated: 0.1023, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0327, Accumulated: 0.1350, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0047, Accumulated: 0.1397, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0327, Accumulated: 0.1724, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0899, Accumulated: 0.2623, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6786, Accumulated: 0.9409, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0576, Accumulated: 0.9985, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Lucy:I like sports. I have ten tennis balls, seven basketballs, four volleyballs and five soccer balls. I play tennis with my friends every day.
+Mary:I have five baseballs, five volleyballs, two soccer balls. I like ping-pong. It's easy for me. I often play ping-pong with my classmates. I also have three ping-pong bats and some ping-pong balls.
+Alice:I don't have any balls. I  love sports, but I don't play them. I only watch them on TV.
+
+Question: Lucy and Mary have  _  volleyballs.
+A. four
+B. five
+C. eight
+D. nine
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: D
+Layer 4/16: Halt prob: 0.2120, Accumulated: 0.2120, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0884, Accumulated: 0.3004, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0604, Accumulated: 0.3608, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0459, Accumulated: 0.4068, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0368, Accumulated: 0.4436, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0407, Accumulated: 0.4843, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0454, Accumulated: 0.5297, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0892, Accumulated: 0.6188, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1222, Accumulated: 0.7410, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1035, Accumulated: 0.8445, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0809, Accumulated: 0.9254, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0425, Accumulated: 0.9680, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0153, Accumulated: 0.9833, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0079, Accumulated: 0.0079, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0148, Accumulated: 0.0228, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0142, Accumulated: 0.0369, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.3151, Accumulated: 0.3520, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0183, Accumulated: 0.3703, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0169, Accumulated: 0.3872, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0173, Accumulated: 0.4045, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0048, Accumulated: 0.4093, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0078, Accumulated: 0.4171, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.5536, Accumulated: 0.9707, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0287, Accumulated: 0.9994, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: "Make-A-Wish" is one of the world's most well-known charities . It makes wishes come true for children who have serious illnesses. It gives them hope and joy and helps them forget about their health problems and have fun.
+It all started in 1980 in Phoenix,Arizona.Christopher was a 7-year-old boy who was very sick. He always dreamed of becoming a police officer.Tommy Austin and Ron Cox,two police officers, made his wish come true. They gave Cristopher a tour of the city  in a police helicopter( )and made a real police uniform for him.
+There are four kinds of wishes children usually have:
+I wish to go. Children ueually want to travel or go to a concert ,a game or a park.
+I wish to meet. Children sometimes want to meet their favourite actors,singers or players.
+I wish to be. Some children wish to become actors,singers or police officers.
+I wish to have. They often want to have a computer, a game, a bike or many other things.
+Let's hope more wishes will come true in the future.People who work in the charity always try for the best.Almost 25,000 volunteers help,work or give money. Will you be one of them?
+
+Question: "Make-A-Wish "is a charity to help  _  .
+A. sick children
+B. serious officers
+C. famous actors
+D. popular singers
+Answer:
+[Reference Response]:
+ A
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: A
+Layer 4/16: Halt prob: 0.1776, Accumulated: 0.1776, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0837, Accumulated: 0.2613, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0492, Accumulated: 0.3105, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0412, Accumulated: 0.3517, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0332, Accumulated: 0.3849, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0373, Accumulated: 0.4222, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0417, Accumulated: 0.4639, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1026, Accumulated: 0.5665, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1441, Accumulated: 0.7107, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1138, Accumulated: 0.8245, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0835, Accumulated: 0.9079, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0492, Accumulated: 0.9572, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0190, Accumulated: 0.9761, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0066, Accumulated: 0.0066, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0273, Accumulated: 0.0339, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0216, Accumulated: 0.0555, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.2467, Accumulated: 0.3023, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0241, Accumulated: 0.3264, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0110, Accumulated: 0.3374, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0094, Accumulated: 0.3468, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0130, Accumulated: 0.3597, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0067, Accumulated: 0.3665, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.5327, Accumulated: 0.8992, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0977, Accumulated: 0.9968, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: One evening , my dad asked me to buy some bread for dinner . It was dark and cold outside . I rode a bike to a shop near my school . When I left the shop ,it got even darker , so I got on my bike right away. Then I found a woman in a white dress riding a motorcycle after me . She followed me for a long time . I rode very fast and started to cry for help, but no one was there . I was too scared and too tired to ride any faster . At last , I gave up . The woman stopped in front of me and said , " Why were you riding so fast , Ken ?It's dangerous !" I looked at the woman . " Oh , It's you, mum !You really scared me . Dad said you wouldn't be back for dinner tonight !"
+
+Question: Why did Ken go out that night ?
+A. To ride a bike
+B. To buy some food
+C. To go to cram school
+D. To look for his mother
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: B
+Layer 4/16: Halt prob: 0.1742, Accumulated: 0.1742, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0591, Accumulated: 0.2333, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0457, Accumulated: 0.2791, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0274, Accumulated: 0.3065, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0215, Accumulated: 0.3279, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0185, Accumulated: 0.3465, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0283, Accumulated: 0.3748, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0748, Accumulated: 0.4496, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1249, Accumulated: 0.5745, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1252, Accumulated: 0.6997, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1482, Accumulated: 0.8478, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.1020, Accumulated: 0.9499, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0266, Accumulated: 0.9764, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0069, Accumulated: 0.0069, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0108, Accumulated: 0.0177, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0085, Accumulated: 0.0261, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0490, Accumulated: 0.0751, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0071, Accumulated: 0.0822, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0305, Accumulated: 0.1127, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0164, Accumulated: 0.1291, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0171, Accumulated: 0.1462, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0156, Accumulated: 0.1619, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.8152, Accumulated: 0.9771, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0227, Accumulated: 0.9997, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Are you having trouble in science? If so, read the following tips to learn how to do well in science?
+
+Question: Which is the best title for the passage?
+A. How to be a science teacher
+B. How to be a scientist
+C. How to do well in science
+D. How to pay more attention in class
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Layer 4/16: Halt prob: 0.1481, Accumulated: 0.1481, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0739, Accumulated: 0.2220, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0441, Accumulated: 0.2660, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0347, Accumulated: 0.3007, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0333, Accumulated: 0.3339, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0439, Accumulated: 0.3779, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0458, Accumulated: 0.4237, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1100, Accumulated: 0.5337, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1528, Accumulated: 0.6865, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1386, Accumulated: 0.8251, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0937, Accumulated: 0.9188, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0498, Accumulated: 0.9686, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0158, Accumulated: 0.9844, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0062, Accumulated: 0.0062, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0124, Accumulated: 0.0186, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0104, Accumulated: 0.0290, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0612, Accumulated: 0.0902, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0156, Accumulated: 0.1058, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0393, Accumulated: 0.1451, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0122, Accumulated: 0.1573, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0101, Accumulated: 0.1675, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0084, Accumulated: 0.1758, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6407, Accumulated: 0.8165, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1753, Accumulated: 0.9918, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Do you know how to talk to others politely in English? Have a look at the following.
+Could you give me five minutes? VS Go away.
+You're really busy, but your classmate needs your help. When you're busy and can't help him or her, you can't say "Go away". And you can say, "Could you give me five minutes?"
+Excuse me. VS Move
+Telling someone to move out of the way is very rude . When someone is in your way, you should say "Excuse me".
+I'm afraid I can't. VS No
+It can often be difficult to _ an invitation from a friend. Saying "No" would be impolite. It's a good idea to say,"I'm afraid I can't." if you have to say no to an invitation.
+Would you mind...? VS Stop it!
+If someone is doing something rude, would you like them to stop? You shouldn't say, "Stop talking on your phone in the cinema!" You can say, "Would you mind not using your phone in the cinema, please?"
+
+Question: If you don't like what someone is doing, what can you say?
+A. Would you mind not stopping your car here?
+B. Don't stop your car here.
+C. Move out of the way.
+D. Stop smoking here
+Answer:
+[Reference Response]:
+ A
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: A
+Layer 4/16: Halt prob: 0.2183, Accumulated: 0.2183, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0995, Accumulated: 0.3178, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0625, Accumulated: 0.3803, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0469, Accumulated: 0.4272, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0379, Accumulated: 0.4651, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0469, Accumulated: 0.5120, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0507, Accumulated: 0.5627, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1026, Accumulated: 0.6653, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1312, Accumulated: 0.7965, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.0917, Accumulated: 0.8882, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0597, Accumulated: 0.9479, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0304, Accumulated: 0.9784, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0105, Accumulated: 0.9889, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0109, Accumulated: 0.0109, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0191, Accumulated: 0.0300, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0072, Accumulated: 0.0372, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0393, Accumulated: 0.0765, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0061, Accumulated: 0.0826, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0164, Accumulated: 0.0990, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0058, Accumulated: 0.1049, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0123, Accumulated: 0.1172, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0129, Accumulated: 0.1301, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.8572, Accumulated: 0.9873, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0127, Accumulated: 1.0000, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: One thing that British and Chinese cultures share is a love for fine tea. Today, when we think of western tea culture, we often think of the English and beautiful china cups.
+Afternoon tea
+People believe that an English lady, Anna, first introduced the idea of afternoon tea. In the 18thand 19thcenturies, the English are only two main meals each day ----breakfast and a heavy dinner that would last several hours in the evening. As a result, people often got very hungry during the long wait between these two meals. To solve this problem, Anna came up with the clever idea of inviting some friends to join her for an afternoon meal between four and five o`clock. This meal included cakes and sandwiches, and tea was served to wash down the food. In order to make this afternoon meal important,  fine china cups and plates, and silver teapots, forks and spoons were used. Soon, afternoon tea parties became popular social occasions. Today, afternoon tea parties continue to play an important part in the social life in the modern Britain.
+Will you come for coffee?
+Coffee also has an important role in British culture. People often use the words "Will you come for coffee?" to mean "Would you like to come to my home for a chat?"Normally, several different drinks such as tea, hot chocolate or a soft drink like orange juice will be served as well as coffee, and you will be asked what you would like. However, you will not normally be offered wine at a "coffee" party.
+Coffeehouses and the London Stock Exchange 
+In the 17thcentury London, coffeehouses were busy and noisy places. Businessmen and bankers went to coffeehouses to do their business, as well as to drink coffee. In fact, the London Stock Exchange is believed to have started from these coffeehouses.
+,,.
+
+Question: Which is the best title of the article?
+A. British and Chinese Cultures
+B. English Tea and Coffee Culture
+C. Coffeehouses and Business
+D. Chinese Tea and Coffee
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: B
+Layer 4/16: Halt prob: 0.1794, Accumulated: 0.1794, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0586, Accumulated: 0.2380, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0432, Accumulated: 0.2812, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0368, Accumulated: 0.3181, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0290, Accumulated: 0.3471, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0330, Accumulated: 0.3800, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0345, Accumulated: 0.4145, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0719, Accumulated: 0.4864, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1156, Accumulated: 0.6020, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1092, Accumulated: 0.7112, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1204, Accumulated: 0.8317, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0852, Accumulated: 0.9168, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0361, Accumulated: 0.9529, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0068, Accumulated: 0.0068, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0177, Accumulated: 0.0245, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0157, Accumulated: 0.0402, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.1178, Accumulated: 0.1580, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0480, Accumulated: 0.2060, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0199, Accumulated: 0.2260, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0287, Accumulated: 0.2547, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0062, Accumulated: 0.2608, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0118, Accumulated: 0.2726, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7185, Accumulated: 0.9911, Threshold: 0.9900
+Early exit at layer 13/16
+[Prompt]:
+Article: I am a Chinese boy. My name is Li Ming. I'm a student. In my class, some of the boys like playing football very much. Wu Jun and I are on school football team. And some of them like playing basketball. _ Han Mei and Zhang Hong are on school volleyball team. Each of them has a tennis racket. In a word  , everyone in our class likes sports very much.
+
+Question: Li Ming likes playing   _  .
+A. basketball
+B. football
+C. volleyball
+D. tennis
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: B
+Layer 4/16: Halt prob: 0.1747, Accumulated: 0.1747, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0785, Accumulated: 0.2532, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0487, Accumulated: 0.3018, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0316, Accumulated: 0.3334, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0281, Accumulated: 0.3615, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0342, Accumulated: 0.3956, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0541, Accumulated: 0.4497, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1067, Accumulated: 0.5564, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1621, Accumulated: 0.7185, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1248, Accumulated: 0.8433, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0886, Accumulated: 0.9319, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0422, Accumulated: 0.9741, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0125, Accumulated: 0.9866, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0094, Accumulated: 0.0094, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0100, Accumulated: 0.0195, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0100, Accumulated: 0.0295, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0146, Accumulated: 0.0441, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0140, Accumulated: 0.0581, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0125, Accumulated: 0.0705, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0096, Accumulated: 0.0802, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0322, Accumulated: 0.1124, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0181, Accumulated: 0.1305, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.8457, Accumulated: 0.9762, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0237, Accumulated: 0.9999, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: 20Today it is found that school students hardly pay much attention to sports. Is it because they aren't interested in sports? No. They often say they have other more important things to do.
+What are these important things? Examinations! Students have to spend much time on all kinds of examinations at school. So many of them almost become bookworms  . Books stop them from doing sports. Because of the pressure from their parents and teachers, the students have to work harder and spend most of their time on books. As for (......) the students, they want to get good results so that they can improve their studies. So it is necessary for them to give all of their free time to their studies and stop their school sports.
+In fact, education can't go without physical   exercises, because a quick mind hardly goes along with a weak body. If you don't have a strong body, you can never get anything, let alone   a great success in your life.
+
+Question: which sentence is true?
+A. If sudents want to get better results in studies, they must not do sports.
+B. If students spend all their time on sports, they will improve studies.
+C. If you have a weak body, you will have a hard mind.
+D. If you want to be successful in your life, you must have a strong body.
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: D
+Layer 4/16: Halt prob: 0.1719, Accumulated: 0.1719, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0816, Accumulated: 0.2535, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0513, Accumulated: 0.3048, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0363, Accumulated: 0.3412, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0284, Accumulated: 0.3695, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0346, Accumulated: 0.4041, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0434, Accumulated: 0.4476, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1304, Accumulated: 0.5779, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1602, Accumulated: 0.7382, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1066, Accumulated: 0.8447, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0776, Accumulated: 0.9223, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0439, Accumulated: 0.9662, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0150, Accumulated: 0.9812, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0075, Accumulated: 0.0075, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0077, Accumulated: 0.0152, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0065, Accumulated: 0.0216, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0468, Accumulated: 0.0685, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0226, Accumulated: 0.0911, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0192, Accumulated: 0.1103, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0302, Accumulated: 0.1405, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0076, Accumulated: 0.1481, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0235, Accumulated: 0.1716, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7374, Accumulated: 0.9090, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0874, Accumulated: 0.9964, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: In Britain ,people often invite friends for a meal , a party or just coffee. People who know each other very well may visit each other's houses without  an invitation ,but if we invite new friends, usually an invitation is needed. When people invite someone to their homes , they often say ,"Would you like to come for dinner on Saturday ?" Answers are, "Thanks, we'd love to. What time?" or "I'm sorry, We'd love to ,but we have tickets for the concert." However, it is not polite to say,"No, we wouldn't."
+Sometimes, the British use expressions that sound like invitations but which are not invitations. For example. "You must come over for a drink sometime ." or "Let's go out for a meal one of these days."  These are usually just polite ways of ending a talk . They are not real invitations because they don't mention an exact time or day. They just show that the person is trying to be friendly and the answers are ,"Yes , that would be nice ." or "OK, yes ,thanks."
+So next time you hear what sounds like an invitation, listen carefully. Is it a real invitation or is the person just being friendly?
+
+Question: It is not polite to answer the real invitation by saying "  _  "
+A. Sorry. We'd love to, but we have tickets for the concert .
+B. Thanks. We'd love to, what time?
+C. Sure. We'd like to. Thanks a lot.
+D. No, we wouldn't!
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: D
+Layer 4/16: Halt prob: 0.2297, Accumulated: 0.2297, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0735, Accumulated: 0.3033, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0535, Accumulated: 0.3568, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0383, Accumulated: 0.3950, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0346, Accumulated: 0.4297, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0428, Accumulated: 0.4725, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0424, Accumulated: 0.5148, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0895, Accumulated: 0.6044, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1332, Accumulated: 0.7376, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1104, Accumulated: 0.8480, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0783, Accumulated: 0.9263, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0414, Accumulated: 0.9676, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0158, Accumulated: 0.9835, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0079, Accumulated: 0.0079, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0099, Accumulated: 0.0178, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0064, Accumulated: 0.0242, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0647, Accumulated: 0.0890, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0135, Accumulated: 0.1025, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0468, Accumulated: 0.1493, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0077, Accumulated: 0.1570, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0099, Accumulated: 0.1669, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0204, Accumulated: 0.1873, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7821, Accumulated: 0.9694, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0303, Accumulated: 0.9997, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Detective Wolf and Miss Fox
+Detective Wolf has waited in the doorway all the morning. He is going to meet Miss Fox. She bought a bag of diamonds from Africa. A few hours ago, someone told the police that a group of thieves would try to steal the diamonds, so the police asked Detective Wolf to make sure Miss Fox and her diamonds would be safe.
+Miss Fox arrived in the airport. Detective Wolf quickly helped her get into the police car and took her to the hotel. While they were talking, Detective Wolf noticed that Miss Fox was left-handed. Half and hour later, they got to the room, two policemen checked it over and made sure there wasn't anyone else in it. Miss Fox said she was tired and wanted to have a shower. She asked Detective Wolf and the policemen to keep the diamonds for her. Half an hour later, Miss Fox didn't get out. Detective Wolf felt a little strange. Just then he got a call from the airport-a woman was found in the toilet on the plane. She said she was Miss Fox and reported the criminal was left-handed. Detective Wolf rushed to the bathroom but saw nobody in it. He opened the bag immediately and found there were only stones in it.(<<>> )
+
+Question: What message did the police get a few hours ago?
+A. Someone would kill Miss Fox.
+B. Someone would kidnap Miss Fox.
+C. A woman was trapped in the toilet on the plane.
+D. Some thieves would steal Miss Fox's diamonds.
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: D
+{'predicted_text': {'exact_match': 0.4000000059604645, 'accuracy': 0.4}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.5114557981491089}, 'time_per_token': {'mean': 0.5114557981491089}, 'tokens_per_second': {'mean': 2.2739625453948973}}

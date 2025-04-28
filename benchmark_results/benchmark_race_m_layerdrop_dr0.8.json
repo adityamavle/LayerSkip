@@ -1,0 +1,67 @@
+{
+  "args": {
+    "model": "C:\\Users\\adity\\LayerSkip_v2\\model_weights\\llama3_1B_local",
+    "model_args": null,
+    "dist_url": "env://",
+    "world_size": 1,
+    "rank": 0,
+    "seed": 42,
+    "output_dir": "./benchmark_results",
+    "distributed": false,
+    "model_arg": {}
+  },
+  "benchmark_arguments": {
+    "dataset": "race_m",
+    "data_path": null,
+    "random_shuffle": true,
+    "num_samples": 100,
+    "n_shot": 0,
+    "template": null
+  },
+  "generation_config": {
+    "max_steps": 20,
+    "exit_layer": -1,
+    "num_speculations": -1,
+    "generation_strategy": "layerdrop",
+    "sample": true,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9,
+    "no_repeat_ngram_size": null,
+    "stop_words": null,
+    "stop_token_ids": [],
+    "dropout_rate": 0.8,
+    "layerdrop_seed": null,
+    "halting_threshold": 0.99,
+    "min_layers": 4,
+    "max_layers": null
+  },
+  "metrics": {
+    "predicted_text": {
+      "exact_match": 0.4000000059604645,
+      "accuracy": 0.4
+    },
+    "acceptance_rate": {
+      "mean": 0.0
+    },
+    "total_time": {
+      "mean": 0.0763513684272766
+    },
+    "time_per_token": {
+      "mean": 0.05961446868255735
+    },
+    "tokens_per_second": {
+      "mean": 19.136071770191194
+    },
+    "total_flops": {
+      "mean": 717155738583.04,
+      "total": 71715573669888
+    },
+    "flops_per_token": {
+      "mean": 682751066624.0,
+      "average": 398419853721.6
+    }
+  },
+  "measure_flops": true,
+  "timestamp": "2025-04-27T18:54:21.263958"
+}

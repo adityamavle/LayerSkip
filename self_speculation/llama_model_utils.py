@@ -6,7 +6,7 @@
 #
 
 from dataclasses import dataclass
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple, Dict
 
 import torch
 import transformers
@@ -612,8 +612,7 @@ def forward_depth_adaptive_sequence(
     
     More closely aligned with the Depth-Adaptive Transformer paper:
     1. Uses geometric accumulation for halting probabilities
-    2. Implements layer-specific thresholds for finer control
-    3. Adds optional seed for reproducibility
+    2. Adds optional seed for reproducibility
     
     Args:
         model: LlamaForCausalLM model
@@ -667,15 +666,6 @@ def forward_depth_adaptive_sequence(
     # Track halting probabilities
     accumulated_halt_prob = 0.0
     
-    # Layer-specific halting thresholds - based on validation tuning as suggested
-    # Maps layer index to specific threshold values
-    layer_thresholds = {
-        4: 0.85,  # Lower threshold at earlier eligible layers
-        6: 0.85,
-        8: 0.85,
-        # Default threshold (halting_threshold) used for other layers
-    }
-    
     # Process through layers with depth adaptation
     total_layers = len(model.model.layers)
     max_layers = max_layers or total_layers
@@ -695,9 +685,6 @@ def forward_depth_adaptive_sequence(
             padding_mask=None,
         )
         
-        # Get effective threshold for this layer
-        effective_threshold = layer_thresholds.get(layer_idx, halting_threshold)
-        
         # After min_layers, compute halting probability
         if layer_idx >= min_layers - 1:
             # Compute halting probability based on current hidden states
@@ -711,14 +698,13 @@ def forward_depth_adaptive_sequence(
             sequence_confidence = token_probs.mean().item()
             
             # Apply geometric accumulation, more closely matching the paper's approach
-            # a^(l) = h^(l) * (1 - a^(l-1))
             halt_prob = sequence_confidence * (1 - accumulated_halt_prob)
             accumulated_halt_prob += halt_prob
             
-            print(f"Layer {layer_idx+1}/{total_layers}: Halt prob: {halt_prob:.4f}, Accumulated: {accumulated_halt_prob:.4f}, Threshold: {effective_threshold:.4f}")
+            print(f"Layer {layer_idx+1}/{total_layers}: Halt prob: {halt_prob:.4f}, Accumulated: {accumulated_halt_prob:.4f}, Threshold: {halting_threshold:.4f}")
             
-            # Check if we should exit using the layer-specific threshold
-            if accumulated_halt_prob >= effective_threshold:
+            # Check if we should exit
+            if accumulated_halt_prob >= halting_threshold:
                 print(f"Early exit at layer {layer_idx+1}/{total_layers}")
                 break
     

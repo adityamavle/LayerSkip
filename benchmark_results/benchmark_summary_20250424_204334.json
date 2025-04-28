@@ -1,0 +1,74 @@
+{
+  "args": {
+    "model": "C:\\Users\\adity\\LayerSkip_v2\\model_weights\\llama3_1B_local",
+    "datasets": [
+      "mmlu",
+      "race_m",
+      "race_h"
+    ],
+    "output_dir": "./benchmark_results",
+    "num_samples": 10,
+    "n_shot": 0,
+    "flops_samples": 10,
+    "distributed": false,
+    "flops_datasets": [
+      "mmlu"
+    ],
+    "skip_benchmarks": false,
+    "skip_flops": false,
+    "device": "cuda"
+  },
+  "results": {
+    "mmlu": {
+      "autoregressive_exit8": {
+        "success": true
+      },
+      "autoregressive_full": {
+        "success": true
+      },
+      "self_speculative_exit8_spec6": {
+        "success": true
+      },
+      "layerdrop_dropout0.2": {
+        "success": true
+      },
+      "depth_adaptive_sequence_threshold0.99": {
+        "success": true
+      }
+    },
+    "race_m": {
+      "autoregressive_exit8": {
+        "success": true
+      },
+      "autoregressive_full": {
+        "success": true
+      },
+      "self_speculative_exit8_spec6": {
+        "success": true
+      },
+      "layerdrop_dropout0.2": {
+        "success": true
+      },
+      "depth_adaptive_sequence_threshold0.99": {
+        "success": true
+      }
+    },
+    "race_h": {
+      "autoregressive_exit8": {
+        "success": false
+      },
+      "autoregressive_full": {
+        "success": true
+      },
+      "self_speculative_exit8_spec6": {
+        "success": true
+      },
+      "layerdrop_dropout0.2": {
+        "success": true
+      },
+      "depth_adaptive_sequence_threshold0.99": {
+        "success": true
+      }
+    }
+  }
+}

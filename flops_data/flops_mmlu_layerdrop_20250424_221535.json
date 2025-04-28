@@ -1,0 +1,627 @@
+{
+  "strategy": "layerdrop",
+  "config": {
+    "max_steps": 20,
+    "exit_layer": -1,
+    "num_speculations": -1,
+    "generation_strategy": "layerdrop",
+    "sample": true,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9,
+    "no_repeat_ngram_size": null,
+    "stop_words": null,
+    "stop_token_ids": [],
+    "dropout_rate": 0.8,
+    "layerdrop_seed": null,
+    "halting_threshold": 0.99,
+    "min_layers": 4,
+    "max_layers": null
+  },
+  "total_flops": 25737073913856,
+  "total_tokens": 221,
+  "flops_per_token": 116457348026.49774,
+  "samples": [
+    {
+      "prompt": "Question: Mammals are homeostatic for all of the following EXCEPT\nA. body temperature\nB. blood gluco...",
+      "tokens_generated": 1,
+      "total_flops": 103802818560,
+      "flops_per_token": 103802818560.0
+    },
+    {
+      "prompt": "Question: Which 18th century writer produced a famous book called 'The Wealth of Nations'?\nA. Freder...",
+      "tokens_generated": 1,
+      "total_flops": 116160296960,
+      "flops_per_token": 116160296960.0
+    },
+    {
+      "prompt": "Question: A 20-year-old man has had frequent upper respiratory tract infections over the past 4 year...",
+      "tokens_generated": 1,
+      "total_flops": 380610334720,
+      "flops_per_token": 380610334720.0
+    },
+    {
+      "prompt": "Question: What is the basic functional unit of skeletal muscle tissue?\n\nA. the muscle fibre\nB. the s...",
+      "tokens_generated": 1,
+      "total_flops": 121103288320,
+      "flops_per_token": 121103288320.0
+    },
+    {
+      "prompt": "Question: During which time frame is there evidence for anatomically modern Homo sapiens?\nA. 800,000...",
+      "tokens_generated": 1,
+      "total_flops": 163118714880,
+      "flops_per_token": 163118714880.0
+    },
+    {
+      "prompt": "Question: A landlord rented an apartment to a tenant for $250 per month in accordance with a month-t...",
+      "tokens_generated": 1,
+      "total_flops": 763692165120,
+      "flops_per_token": 763692165120.0
+    },
+    {
+      "prompt": "Question: Which of the following improves attitudes toward aging and older adults?\nA. Staying away f...",
+      "tokens_generated": 1,
+      "total_flops": 140875253760,
+      "flops_per_token": 140875253760.0
+    },
+    {
+      "prompt": "Question: The circle $2x^2 = -2y^2 + 12x - 4y + 20$ is inscribed inside a square which has a pair of...",
+      "tokens_generated": 20,
+      "total_flops": 243782592512,
+      "flops_per_token": 12189129625.6
+    },
+    {
+      "prompt": "Question: Operant extinction would NOT be the treatment-of-choice when:\nA. an alternative behavior c...",
+      "tokens_generated": 1,
+      "total_flops": 155704227840,
+      "flops_per_token": 155704227840.0
+    },
+    {
+      "prompt": "Question: What is a definition of an objective?\nA. A defined specified outcome to be achieved in the...",
+      "tokens_generated": 1,
+      "total_flops": 182769045504,
+      "flops_per_token": 182769045504.0
+    },
+    {
+      "prompt": "Question: A paper manufacturing company contracted with a construction company for the building of a...",
+      "tokens_generated": 1,
+      "total_flops": 429918613504,
+      "flops_per_token": 429918613504.0
+    },
+    {
+      "prompt": "Question: Which of the following methods is recommended to screen for malnutrition on admission to h...",
+      "tokens_generated": 1,
+      "total_flops": 126046279680,
+      "flops_per_token": 126046279680.0
+    },
+    {
+      "prompt": "Question: Statement 1| Maximizing the likelihood of logistic regression model yields multiple local ...",
+      "tokens_generated": 1,
+      "total_flops": 177947688960,
+      "flops_per_token": 177947688960.0
+    },
+    {
+      "prompt": "Question: What country gave us the fashionable headgear called the beret?\nA. Switzerland\nB. China\nC....",
+      "tokens_generated": 20,
+      "total_flops": 124542625792,
+      "flops_per_token": 6227131289.6
+    },
+    {
+      "prompt": "Question: what is one of the important differences between the middle and upper paleolithic?\nA. decr...",
+      "tokens_generated": 1,
+      "total_flops": 289164994560,
+      "flops_per_token": 289164994560.0
+    },
+    {
+      "prompt": "Question: The record-keeping system used by the Inca in which a series of knotted strings were used ...",
+      "tokens_generated": 1,
+      "total_flops": 135810627584,
+      "flops_per_token": 135810627584.0
+    },
+    {
+      "prompt": "Question: Assume a firm hires labor for $15 each and sells its products for $3 each. If the MP of th...",
+      "tokens_generated": 1,
+      "total_flops": 276807516160,
+      "flops_per_token": 276807516160.0
+    },
+    {
+      "prompt": "Question: The surface area, S, of a right rectangular prism with length l, width w, and height h can...",
+      "tokens_generated": 1,
+      "total_flops": 247149568000,
+      "flops_per_token": 247149568000.0
+    },
+    {
+      "prompt": "Question: A husband and wife divorced after 17 years of marriage. They had one son, aged 10. As part...",
+      "tokens_generated": 1,
+      "total_flops": 810650583040,
+      "flops_per_token": 810650583040.0
+    },
+    {
+      "prompt": "Question: A consumer report revealed the following information about three tubes of toothpaste. Brig...",
+      "tokens_generated": 1,
+      "total_flops": 289043359744,
+      "flops_per_token": 289043359744.0
+    },
+    {
+      "prompt": "Question: The process whereby immigrants learn the values, language, and customs of their new countr...",
+      "tokens_generated": 1,
+      "total_flops": 111217305600,
+      "flops_per_token": 111217305600.0
+    },
+    {
+      "prompt": "Question: Epicurus states that of all the things required for a complete life, the greatest is:\nA. h...",
+      "tokens_generated": 1,
+      "total_flops": 101209688064,
+      "flops_per_token": 101209688064.0
+    },
+    {
+      "prompt": "Question: A baby duck runs for cover when a large object is tossed over its head. After this object ...",
+      "tokens_generated": 1,
+      "total_flops": 190305167360,
+      "flops_per_token": 190305167360.0
+    },
+    {
+      "prompt": "Question: What was meant by the term 'Rogue States'?\nA. States aligned with the USSR during the Cold...",
+      "tokens_generated": 1,
+      "total_flops": 130989271040,
+      "flops_per_token": 130989271040.0
+    },
+    {
+      "prompt": "Question: The film 'Stand By Me' is based on a novel by what author?\nA. Anne Proulx\nB. Stephen King\n...",
+      "tokens_generated": 1,
+      "total_flops": 116160296960,
+      "flops_per_token": 116160296960.0
+    },
+    {
+      "prompt": "Question: The characteristic of injecting drug users in Asia is/are:\nA. Strong family support\nB. Low...",
+      "tokens_generated": 1,
+      "total_flops": 121103288320,
+      "flops_per_token": 121103288320.0
+    },
+    {
+      "prompt": "Question: Which of the following disorders is most likely related to the amount of light to which a ...",
+      "tokens_generated": 1,
+      "total_flops": 135932262400,
+      "flops_per_token": 135932262400.0
+    },
+    {
+      "prompt": "Question: Children who suffer brain damage may be able to regain their physical and mental abilities...",
+      "tokens_generated": 1,
+      "total_flops": 165468575744,
+      "flops_per_token": 165468575744.0
+    },
+    {
+      "prompt": "Question: Marshall wants to finish typing his English paper before class starts. If he still has 550...",
+      "tokens_generated": 1,
+      "total_flops": 202662645760,
+      "flops_per_token": 202662645760.0
+    },
+    {
+      "prompt": "Question: A ceramics studio contracted with an artist to produce cups and saucers designed by the ar...",
+      "tokens_generated": 1,
+      "total_flops": 645060372480,
+      "flops_per_token": 645060372480.0
+    },
+    {
+      "prompt": "Question: A man arranged to have custom-made wooden shutters installed on the windows of his home. T...",
+      "tokens_generated": 1,
+      "total_flops": 652474859520,
+      "flops_per_token": 652474859520.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 296579481600,
+      "flops_per_token": 296579481600.0
+    },
+    {
+      "prompt": "Question: After lengthy negotiations, a buyer and seller signed a written contract for the sale of t...",
+      "tokens_generated": 1,
+      "total_flops": 612930928640,
+      "flops_per_token": 612930928640.0
+    },
+    {
+      "prompt": "Question: Which of the following statements about circuits is (are) true?\nI. Combinational circuits ...",
+      "tokens_generated": 1,
+      "total_flops": 229727463424,
+      "flops_per_token": 229727463424.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 299050977280,
+      "flops_per_token": 299050977280.0
+    },
+    {
+      "prompt": "Question: A physician is conducting a retrospective review of a trial involving the use of Drug X in...",
+      "tokens_generated": 1,
+      "total_flops": 575858493440,
+      "flops_per_token": 575858493440.0
+    },
+    {
+      "prompt": "Question: A police officer was employed on a city's police force for 10 years. When the officer acce...",
+      "tokens_generated": 1,
+      "total_flops": 810650583040,
+      "flops_per_token": 810650583040.0
+    },
+    {
+      "prompt": "Question: The CPI is calculated for each by\nA. week; The Bureau of Economic Analysis\nB. month; The B...",
+      "tokens_generated": 1,
+      "total_flops": 133460766720,
+      "flops_per_token": 133460766720.0
+    },
+    {
+      "prompt": "Question: Police received reliable information that a homeowner had a stolen x-brand stereo in his p...",
+      "tokens_generated": 1,
+      "total_flops": 659889346560,
+      "flops_per_token": 659889346560.0
+    },
+    {
+      "prompt": "Question: A city has adopted ordinance 172 which provides:\"Section 1: It shall be unlawful for any p...",
+      "tokens_generated": 1,
+      "total_flops": 1047792533504,
+      "flops_per_token": 1047792533504.0
+    },
+    {
+      "prompt": "Question: The Pleistocene epoch lasted until how long ago?\nA. 1,000,000 years\nB. 100,000 years\nC. 10...",
+      "tokens_generated": 20,
+      "total_flops": 164086556672,
+      "flops_per_token": 8204327833.6
+    },
+    {
+      "prompt": "Question: A homeowner entered into a contract with an insurance company to purchase a fire insurance...",
+      "tokens_generated": 1,
+      "total_flops": 516542597120,
+      "flops_per_token": 516542597120.0
+    },
+    {
+      "prompt": "Question: Which of the following is not a TV cartoon duo?\nA. Chip and Dale\nB. Beavis and Butt-head\nC...",
+      "tokens_generated": 1,
+      "total_flops": 113688801280,
+      "flops_per_token": 113688801280.0
+    },
+    {
+      "prompt": "Question: Goldthorpe identified the 'service class' as:\nA. those in non-manual occupations, exercisi...",
+      "tokens_generated": 1,
+      "total_flops": 187712036864,
+      "flops_per_token": 187712036864.0
+    },
+    {
+      "prompt": "Question: A defendant incurred heavy gambling losses to a bookie. Short of cash, the defendant sough...",
+      "tokens_generated": 1,
+      "total_flops": 422625761280,
+      "flops_per_token": 422625761280.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 249621063680,
+      "flops_per_token": 249621063680.0
+    },
+    {
+      "prompt": "Question: Which of the following people would most likely be accused of influence peddling?\nA. A con...",
+      "tokens_generated": 1,
+      "total_flops": 239735080960,
+      "flops_per_token": 239735080960.0
+    },
+    {
+      "prompt": "Question: Mill argues that virtue:\nA. is not desirable.\nB. is desirable only as a means to one\u2019s own...",
+      "tokens_generated": 1,
+      "total_flops": 138403758080,
+      "flops_per_token": 138403758080.0
+    },
+    {
+      "prompt": "Question: According to the Mother Goose nursery rhyme which child is full of woe?\nA. Monday's child\n...",
+      "tokens_generated": 1,
+      "total_flops": 111217305600,
+      "flops_per_token": 111217305600.0
+    },
+    {
+      "prompt": "Question: A company created a new brand of pies. However, a study by the federal Food and Drug Admin...",
+      "tokens_generated": 1,
+      "total_flops": 432511744000,
+      "flops_per_token": 432511744000.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 247149568000,
+      "flops_per_token": 247149568000.0
+    },
+    {
+      "prompt": "Question: The royal graves of the Shang Dynasty consisted of enormous cruciform-shaped tombs, where ...",
+      "tokens_generated": 1,
+      "total_flops": 170533201920,
+      "flops_per_token": 170533201920.0
+    },
+    {
+      "prompt": "Question: An American buys an entertainment system that was manufactured in China. How does the U.S....",
+      "tokens_generated": 1,
+      "total_flops": 180419184640,
+      "flops_per_token": 180419184640.0
+    },
+    {
+      "prompt": "Question: What is the greatest common divisor of $2^{1001}-1$ and $2^{1012}-1$?\nA. 1\nB. 2049\nC. 2048...",
+      "tokens_generated": 1,
+      "total_flops": 133460766720,
+      "flops_per_token": 133460766720.0
+    },
+    {
+      "prompt": "Question: Droughts technical glitches and restrictions on the use of resources can all result in\nA. ...",
+      "tokens_generated": 1,
+      "total_flops": 116160296960,
+      "flops_per_token": 116160296960.0
+    },
+    {
+      "prompt": "Question: An example of a morally impossible rule would be:\nA. lie whenever doing so is necessary to...",
+      "tokens_generated": 1,
+      "total_flops": 150761236480,
+      "flops_per_token": 150761236480.0
+    },
+    {
+      "prompt": "Question: What is the English title for the divination text also known as the Yijing?\nA. The Classic...",
+      "tokens_generated": 1,
+      "total_flops": 128517775360,
+      "flops_per_token": 128517775360.0
+    },
+    {
+      "prompt": "Question: A capacitor loses half its remaining charge every second. If after five seconds its charge...",
+      "tokens_generated": 1,
+      "total_flops": 133460766720,
+      "flops_per_token": 133460766720.0
+    },
+    {
+      "prompt": "Question: A state law prohibits any barbershop licensed by the state from displaying posters in supp...",
+      "tokens_generated": 1,
+      "total_flops": 449812213760,
+      "flops_per_token": 449812213760.0
+    },
+    {
+      "prompt": "Question: Descartes believed that interaction between body and mind took place in _____.\nA. ectoplas...",
+      "tokens_generated": 1,
+      "total_flops": 113688801280,
+      "flops_per_token": 113688801280.0
+    },
+    {
+      "prompt": "Question: Babbling ordinarily begins at about 4 to 5 months of age and initially includes:\nA. phonem...",
+      "tokens_generated": 1,
+      "total_flops": 158054088704,
+      "flops_per_token": 158054088704.0
+    },
+    {
+      "prompt": "Question: What is the primary method of dietary assessment used in epidemiological studies?\n\nA. Weig...",
+      "tokens_generated": 1,
+      "total_flops": 116160296960,
+      "flops_per_token": 116160296960.0
+    },
+    {
+      "prompt": "Question: Homo erectus was:\nA. a stable, long-lived species.\nB. an unsuccessful, short-lived species...",
+      "tokens_generated": 1,
+      "total_flops": 148289740800,
+      "flops_per_token": 148289740800.0
+    },
+    {
+      "prompt": "Question: Which of the following propositions is an immediate (one-step) consequence in PL of the gi...",
+      "tokens_generated": 1,
+      "total_flops": 182890680320,
+      "flops_per_token": 182890680320.0
+    },
+    {
+      "prompt": "Question: Assume that the masses of chicken eggs are normally distributed with a mean of 45 g and a ...",
+      "tokens_generated": 1,
+      "total_flops": 205012506624,
+      "flops_per_token": 205012506624.0
+    },
+    {
+      "prompt": "Question: Which of the following statements reflects the Confucian worldview that figured prominentl...",
+      "tokens_generated": 1,
+      "total_flops": 244678072320,
+      "flops_per_token": 244678072320.0
+    },
+    {
+      "prompt": "Question: Two people who have been cohabitating decide to get married. The man asks the woman to agr...",
+      "tokens_generated": 1,
+      "total_flops": 595508824064,
+      "flops_per_token": 595508824064.0
+    },
+    {
+      "prompt": "Question: What assumption is the garbage can model of decision making based on?\nA. Limited knowledge...",
+      "tokens_generated": 1,
+      "total_flops": 128517775360,
+      "flops_per_token": 128517775360.0
+    },
+    {
+      "prompt": "Question: After taking AP Psychology and doing well in the class and on the exam, Donald goes to col...",
+      "tokens_generated": 1,
+      "total_flops": 331180421120,
+      "flops_per_token": 331180421120.0
+    },
+    {
+      "prompt": "Question: When a bank's balance sheet shows that the bank has excess reserves\nA. the bank\u2019s reserves...",
+      "tokens_generated": 1,
+      "total_flops": 165590210560,
+      "flops_per_token": 165590210560.0
+    },
+    {
+      "prompt": "Question: Which vitamin is required for vision in dim light?\n\nA. Vitamin A\nB. Vitamin D\nC. Vitamin E...",
+      "tokens_generated": 1,
+      "total_flops": 88973844480,
+      "flops_per_token": 88973844480.0
+    },
+    {
+      "prompt": "Question: When a retrovirus inserted its DNA into the middle of a bacterial gene, it altered the nor...",
+      "tokens_generated": 20,
+      "total_flops": 184223426560,
+      "flops_per_token": 9211171328.0
+    },
+    {
+      "prompt": "Question: An astronaut lands on a planet whose mass and radius are each twice that of Earth. If the ...",
+      "tokens_generated": 1,
+      "total_flops": 165590210560,
+      "flops_per_token": 165590210560.0
+    },
+    {
+      "prompt": "Question: Suppose the reserve ratio is 0.1. If a bank gets $200 in deposits what is the maximum amou...",
+      "tokens_generated": 1,
+      "total_flops": 153232732160,
+      "flops_per_token": 153232732160.0
+    },
+    {
+      "prompt": "Question: Under conditions of metabolic or other stress, which of the following amino acids generall...",
+      "tokens_generated": 1,
+      "total_flops": 160647219200,
+      "flops_per_token": 160647219200.0
+    },
+    {
+      "prompt": "Question: Individuals in which of the following occupations will be potentially LEAST likely to be s...",
+      "tokens_generated": 1,
+      "total_flops": 133460766720,
+      "flops_per_token": 133460766720.0
+    },
+    {
+      "prompt": "Question: Group A consists of people whose measured interests are highly similar to the interests of...",
+      "tokens_generated": 1,
+      "total_flops": 328587290624,
+      "flops_per_token": 328587290624.0
+    },
+    {
+      "prompt": "Question: The primary reason why we cannot taste sand or smell platinum is that\nA. they are not chem...",
+      "tokens_generated": 1,
+      "total_flops": 123574784000,
+      "flops_per_token": 123574784000.0
+    },
+    {
+      "prompt": "Question: How many kcal are there in one gram of ethanol?\n\nA. 23.5 kJ or 5.8 kcal per g\nB. 19.7 kJ o...",
+      "tokens_generated": 1,
+      "total_flops": 210077132800,
+      "flops_per_token": 210077132800.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 259507046400,
+      "flops_per_token": 259507046400.0
+    },
+    {
+      "prompt": "Question: Which fatty acids found in plasma phospholipids are associated with reduced cardiovascular...",
+      "tokens_generated": 1,
+      "total_flops": 192776663040,
+      "flops_per_token": 192776663040.0
+    },
+    {
+      "prompt": "Question: Which of the following is a characteristic of perfect competition?\nA. Firms produce a homo...",
+      "tokens_generated": 1,
+      "total_flops": 148289740800,
+      "flops_per_token": 148289740800.0
+    },
+    {
+      "prompt": "Question: There is a grand jury proceeding underway for a local businessman. What is not true about ...",
+      "tokens_generated": 1,
+      "total_flops": 163118714880,
+      "flops_per_token": 163118714880.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 264450037760,
+      "flops_per_token": 264450037760.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\nOf all the band of adventurous cavalier...",
+      "tokens_generated": 1,
+      "total_flops": 1057678516224,
+      "flops_per_token": 1057678516224.0
+    },
+    {
+      "prompt": "Question: James makes a written offer to Fred for the sale of land for $100,000. In this offer, Jame...",
+      "tokens_generated": 1,
+      "total_flops": 410146648064,
+      "flops_per_token": 410146648064.0
+    },
+    {
+      "prompt": "Question: Redox enzyme catalysis involves the cyclic oxidation and reduction of metal ions that have...",
+      "tokens_generated": 1,
+      "total_flops": 200191150080,
+      "flops_per_token": 200191150080.0
+    },
+    {
+      "prompt": "Question: What is another name for contingency planning?\nA. Synergy planning\nB. Ad hoc planning\nC. B...",
+      "tokens_generated": 1,
+      "total_flops": 91445340160,
+      "flops_per_token": 91445340160.0
+    },
+    {
+      "prompt": "Question: Part of the boundary between the United States and Mexico is the Rio Grande, an example of...",
+      "tokens_generated": 1,
+      "total_flops": 120981653504,
+      "flops_per_token": 120981653504.0
+    },
+    {
+      "prompt": "Question: In what country did Pokemon originate?\nA. France\nB. Hungary\nC. Japan\nD. Canada\nAnswer:",
+      "tokens_generated": 1,
+      "total_flops": 71551739904,
+      "flops_per_token": 71551739904.0
+    },
+    {
+      "prompt": "Question: Children begin to deliberately and regularly use rehearsal, elaboration, and organization ...",
+      "tokens_generated": 1,
+      "total_flops": 150761236480,
+      "flops_per_token": 150761236480.0
+    },
+    {
+      "prompt": "Question: A manufacturer of ready-bake cake mixes is interested in designing an experiment to test t...",
+      "tokens_generated": 20,
+      "total_flops": 419258785792,
+      "flops_per_token": 20962939289.6
+    },
+    {
+      "prompt": "Question: Pompeii was unusually well preserved because:\nA. the layer of volcanic pumice created a se...",
+      "tokens_generated": 1,
+      "total_flops": 172883062784,
+      "flops_per_token": 172883062784.0
+    },
+    {
+      "prompt": "Question: Viral transduction is the process by which viruses carry bacterial DNA from one bacterial ...",
+      "tokens_generated": 1,
+      "total_flops": 205134141440,
+      "flops_per_token": 205134141440.0
+    },
+    {
+      "prompt": "Question: Which pair of expressions below are equivalent?\nA. 7(2x) and 9x\nB. 3x + 5x and 15x\nC. 4(2x...",
+      "tokens_generated": 1,
+      "total_flops": 175476193280,
+      "flops_per_token": 175476193280.0
+    },
+    {
+      "prompt": "Question: In order to deal with the legal issue of age discrimination, iris important for the psycho...",
+      "tokens_generated": 1,
+      "total_flops": 257035550720,
+      "flops_per_token": 257035550720.0
+    },
+    {
+      "prompt": "Question: Another name for the fallacy of accident is\nA. Laudatory personality\nB. Guilt by associati...",
+      "tokens_generated": 20,
+      "total_flops": 146664452096,
+      "flops_per_token": 7333222604.8
+    },
+    {
+      "prompt": "Question: X is a finite set with the following property: The number of subsets of X that contain exa...",
+      "tokens_generated": 1,
+      "total_flops": 190305167360,
+      "flops_per_token": 190305167360.0
+    },
+    {
+      "prompt": "Question: Point out the most accurate response : According to Austin, law has the following attribut...",
+      "tokens_generated": 8,
+      "total_flops": 161902366720,
+      "flops_per_token": 20237795840.0
+    },
+    {
+      "prompt": "Question: When the ratio of brain size to body size is compared, which species has a proportionally ...",
+      "tokens_generated": 1,
+      "total_flops": 135932262400,
+      "flops_per_token": 135932262400.0
+    }
+  ],
+  "timestamp": "2025-04-24T22:15:35.715413"
+}

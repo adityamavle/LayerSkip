@@ -1,0 +1,184 @@
+Using standard benchmark for dataset: race_h
+Checking output ids: [356]
+[Prompt]:
+Article: One evening , my dad asked me to buy some bread for dinner . It was dark and cold outside . I rode a bike to a shop near my school . When I left the shop ,it got even darker , so I got on my bike right away. Then I found a woman in a white dress riding a motorcycle after me . She followed me for a long time . I rode very fast and started to cry for help, but no one was there . I was too scared and too tired to ride any faster . At last , I gave up . The woman stopped in front of me and said , " Why were you riding so fast , Ken ?It's dangerous !" I looked at the woman . " Oh , It's you, mum !You really scared me . Dad said you wouldn't be back for dinner tonight !"
+
+Question: Who was the motorcyclist   ?
+A. A stranger
+B. A policeman
+C. Ken's father
+D. Ken's mother
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: D
+Checking output ids: [356]
+[Prompt]:
+Article: It takes a lot of skills and hard work to set a world record in pumpkin-carving . Steve Clarke, a sixth-grade teacher from Pennsylvania, is a famous carver . Clarke has set many world records for carving pumpkins quickly. When he competes, he must cut our two eyes, two eyebrows, a nose, a mouth, and two ears as fast as possible. But Clarke knows something else about pumpkin-carving. It's easier to get a record than to keep it.
+He took the t _ in 2000 when he carved a pumpkin face in 74.8 seconds. That time was 19 seconds faster than what Jerry had set. From then on, Clarke broke his own records five times. In 2006, he set his best time in Florida. His winning time was 24.03 seconds!
+The only problem is that someone finally beat that mark. On October 7, 2010, David set the new record with 20.1 seconds. Clarke was not able to break that record this year, but he has planned to break the record. After Halloween, he will go to local pumpkin farms to practise designs and new skills.
+Clarke is popular because of his super pumpkin-carving skills. In 1999, he carved more than 30 pumpkins at the Halloween party for then vice-president Al Gore.
+
+Question: What was Clarke's best record in pumpkin-carving competitions?
+A. 74.8 seconds.
+B. 24.03 seconds.
+C. 20.1 seconds.
+D. 19 seconds.
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: B
+Checking output ids: [356]
+[Prompt]:
+Article: British food is very different from Chinese food. For example, they eat a lot of potatoes.They like to eat them every day.They eat a lot of bread with butter for breakfast and usually for one other meal. Butter is made from milk.They do not eat much rice.For their dinner they like meat or fish with potatoes and one or two other vegetables.They cook all this together.After dinner they always have something sweet.They do not have dumplings.They drink a lot of tea.They are the biggest tea drinkers in the world.They like Chinese tea, but they usually drink strong black tea from India.
+
+Question: Which of the following is not true?
+A. English people drink a lot of tea.
+B. Chinese food is different from British food
+C. Both Chinese people and English people like rice and fish.
+D. English people like both Chinese tea and Indian tea.
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Checking output ids: [356]
+[Prompt]:
+Article: "I believe you're the right person to write an advice column   for the students called Dear Amy!" Jenny, editor of the school newspaper, said to Andy, who finally agreed to accept the job if Jenny promised not to tell it to anyone else.
+At first it wasn't too bad. Most of the letters he received were interesting and quite easy to answer. Then came a letter from a person named Joe.
+"Dear Amy," it began, "I'm in real trouble. I've wanted to be a songwriter all my life, but my parents don't even let me take music lessons. I have a guitar, but they both get angry if I play. I've tried explaining, but they didn't listen. I feel sad. Should I run away from home? Maybe that will make my parents agree." The letter signed "Joe".
+Andy thought about this letter for a long time. Should he advise someone to run away from home? Probably not. But didn't Joe have a right to be a songwriter if he wanted to? Andy thought hard, but couldn't think out a good answer. Andy couldn't sleep. He just worried about poor Joe.
+At a bar a few days later, Eleanor, a girl in Andy's maths class, sat down next to him and asked, " What's wrong with you? You look a little worried."
+"I guess I do," said Andy.
+"If you get a problem, why don't you try writing to Dear Amy about it?" asked Eleanor.
+Andy sighed. But Eleanor continued, "In fact, I guess Dear Amy is rather busy with other problems. She still hasn't answered the _ letter I wrote her last week. You'd better read it -- it may even make the most hard-hearted person cry! It was supposed to be from a songwriter named Joe."
+
+Question: In the letter Joe says that   _  .
+A. his parents don't know about music
+B. his classmates don't understand him
+C. he would stay away from his parents
+D. he would obey his parents
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Checking output ids: [362]
+[Prompt]:
+Article: The best day of the week for shoppers is Saturday. In America, women do most of the shopping, while the young also enjoy shopping with their friends. Men don't enjoy taking time in the store. There are many places to shop. A mall is a group of many shops where you can buy clothes, _ and everything of the house. Shopping malls provide parking of the cars which is very important to the shopper. Usually the mall is under one roof, so each people doesn't get cold or wet from rain, wind, or snow. Mothers can buy clothes for family members. For the children, shoes, socks, dresses, coats, and sweaters are bought in August for the new school year. For the kitchen the mother might buy cooking pots, drinking glasses, and the television set. The bedroom furniture has beds, mirrors and so on. Finally, there are pictures in most rooms.
+To buy all these things at the mall takes many trips but mothers enjoy this kind of shopping.
+
+Question: What is a shopping mall?
+A. It's a group of many shops where you can buy everything you need.
+B. A department store where you can buy everything you need.
+C. A supermarket where you can buy vegetables, fruits and so on.
+D. You can park your car there
+Answer:
+[Reference Response]:
+ A
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: A
+Checking output ids: [356]
+[Prompt]:
+Article: It is very important for children to get to school safely and on time every day. Luckily, there is a new program called Free Home to School Transport . It gives children free rides to school. But to enjoy the free trip. Children have to qualify .
+Children can take free home to school transport if they:
+*are between 5 and 16 years old
+*are going to the nearest school
+*live far away from school
+No matter how far away children live from school, they Can take the free transport if they have walking problems or there is no safe road for them. A safe road usually has crossings, lights and should be clean.
+Also, there are still free home to school _ for children in poor families and children with special educational needs, you can find out more on the Internet and see if your children are qualified.
+
+Question: According to the passage, it is very important for children not to be   _  for school every day.
+A. late
+B. away
+C. early
+D. ill
+Answer:
+[Reference Response]:
+ A
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: A
+Checking output ids: [362]
+[Prompt]:
+Article: First, welcome to West Lake! I am glad to serve all of you.
+Today you come here, you are sure to be attracted by its beauty. Hangzhou is famous for West Lake which is a famous fresh water lake, It lies in central Hangzhou, in Zhejiang Province of eastern China.
+Traditionally, there are ten best-known spots on the West Lake. They are called Ten Scenes of West Lake by Qianlong Emperor. The West Lake is divided by three causeways called Su Di, Bai Di, and Yanggong Di. First I want to tell you the history of Bai Di.
+In the middle of the Tang Dynasty, Zhen yuan era(785-804), poet Bai Juyi came to Hangzhou as a governor(,). He realized that the farmland nearby depended on the water of West Lake, but the old dyke had collapsed , the water of West Lake had dried out, and the local farmers suffered drought. He ordered the construction of a causeway of a stronger and taller dyke to solve the drought problem. The lives of local people improved over the following years. Then Bai Juyi had more free time to enjoy the beauty of West Lake. He visited West Lake almost every day. This causeway was later named after Bai Di in Bai Juyi's honor.
+Next is Su Di. Spring Dawn on the Su Causeway is considered as the first of ten scenes. It was built by Su Dongpo, the great poet, during the Noah Song Dynasty. It is very beautiful in spring.
+
+Question: The West Lake has    _    causeways.
+A. two
+B. three
+C. five
+D. ten
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: B
+Checking output ids: [356]
+[Prompt]:
+Article: Are you a crazy chocolate fan? Have you heard about Hershey's Kisses? Do you love the movieCharlie and the Chocolate Factory? If your answer was, "yes", to any of the questions, then my experience will make you jealous  . I just went to the famous Hershey Chocolate Factory!
+The other day we drove from Washington DC to the small town of Hershey, Pennsylvania. When we arrived at the factory, we realized that this was much more than just a factory. The whole town is a chocolate-themed amusement park. The sweet smell of chocolate is on every street corner. There are even road signs that say things like, "Chocolate Ave " and "Cake St.".
+As we were walking towards the park, Jason, our tour guide, began telling us about this quiet little town. Hershey chocolate has been a _ in the world over the past hundred years. It is the biggest company that makes and sells chocolate in America," he started. "I guess you get the chocolate in China, don't you?"
+I nodded  without thinking. How could I possibly not know those lovely little candies when I've been eating them all these years?
+Jason went on, "The factory first started on a small farm. It developed very fast. So they built this town for factory workers to live in. Then they built hotels, hospitals, stadiums , theaters and even museums with the theme of chocolate. Isn't that cool?"
+"Yes, a hundred times yes!" I yelled ( )with delight.
+
+Question: Which of the following statements is TRUE?
+A. Hershey Chocolate has not been introduced to China yet.
+B. Hershey was a German company.
+C. Hershey Chocolate developed very fast.
+D. Hershey Chocolate first started on a big farm.
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Checking output ids: [356]
+[Prompt]:
+Article: Do you know the story about Vince? It was a true story. Vince was an English boy and he was eight years old. He didn't like soap or water. Three or four times a day his mother said to him, "Vince, your hands are very dirty again." Go and wash them. " But Vince never washed them well. He only put his hands in the water for a few seconds and then took them out again.
+Vince's uncle and aunt lived in another city. One day they came to stay with Vince's parents, and they brought their small son, Toby, with them. Toby was seven years old and he didn't like soap or water, either. The boys sat with their parents for a few minutes and then they went outside. When they were playing, Vince looked at Toby's hands and then went back to Toby's parents and said proudly  , "Toby's hands are dirtier than mine, "
+"Of course they are,"Toby said angrily. "You are one year older than I am, "
+
+Question: When Vince saw Toby's hands, he felt    _  .
+A. sorry
+B. proud
+C. sad
+D. terrible
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: B
+Checking output ids: [356]
+[Prompt]:
+Article: Snack time is a part of the day for children of all ages. But new research suggests that kids snacking in big groups could be at risk for _ .
+Scientists from American University looked at the eating behavior of 54 kids between the ages of 2 and 6. At snack time, the scientist watched the amount of food each child ate while they were in groups of either three or nine. According to the study, the more children there are in a group, the more likely they are to eat more. Those in the larger group ate nearly 30 percent more than those in the smaller group, and they actually ate faster.
+Since this is the first such study in children, scientists are quick to point out the importance of encouraging healthy habits in kids as early as possible.
+"If you know kids eat more in large groups, it seems perfect to use this information to keep snack groups small or use small tables," says Dr. Jana Klauer, an expert in New York.
+Smaller groups would allow for a quiet and more relaxing environment-a perfect chance to teach children about food, manners and how to know when they feel full. "This would have an effect on kids' eating," adds Klauer. "They would slow down and eat less."
+
+Question: The best title of the passage is "_"
+A. Snack Time
+B. Different Groups
+C. Eating More
+D. Food for Kids
+Answer:
+[Reference Response]:
+ A
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: A
+{'predicted_text': {'exact_match': 0.4000000059604645, 'accuracy': 0.4}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.5612850427627564}, 'time_per_token': {'mean': 0.5612850427627564}, 'tokens_per_second': {'mean': 5.068394356966019}}

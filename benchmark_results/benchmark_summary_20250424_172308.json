@@ -1,0 +1,126 @@
+{
+  "model": "C:\\Users\\adity\\LayerSkip_v2\\model_weights\\llama3_1B_local",
+  "timestamp": "2025-04-24T17:22:32.794029",
+  "benchmarks": [
+    {
+      "dataset": "mmlu",
+      "strategy": "autoregressive",
+      "args": "--generation_strategy autoregressive --exit_layer 8",
+      "exit_code": 1,
+      "elapsed_time": 5.558727502822876,
+      "timestamp": "2025-04-24T17:22:38.352756"
+    },
+    {
+      "dataset": "mmlu",
+      "strategy": "autoregressive_full",
+      "args": "--generation_strategy autoregressive",
+      "exit_code": 1,
+      "elapsed_time": 2.2127676010131836,
+      "timestamp": "2025-04-24T17:22:40.570833"
+    },
+    {
+      "dataset": "mmlu",
+      "strategy": "self_speculative",
+      "args": "--generation_strategy self_speculative --exit_layer 8 --num_speculations 6",
+      "exit_code": 1,
+      "elapsed_time": 3.1764771938323975,
+      "timestamp": "2025-04-24T17:22:43.747310"
+    },
+    {
+      "dataset": "mmlu",
+      "strategy": "layerdrop",
+      "args": "--generation_strategy layerdrop --dropout_rate 0.2 --layerdrop_seed 42",
+      "exit_code": 1,
+      "elapsed_time": 1.9684867858886719,
+      "timestamp": "2025-04-24T17:22:45.715797"
+    },
+    {
+      "dataset": "mmlu",
+      "strategy": "depth_adaptive_sequence",
+      "args": "--generation_strategy depth_adaptive_sequence --halting_threshold 0.99",
+      "exit_code": 1,
+      "elapsed_time": 1.9877593517303467,
+      "timestamp": "2025-04-24T17:22:47.703556"
+    },
+    {
+      "dataset": "race_m",
+      "strategy": "autoregressive",
+      "args": "--generation_strategy autoregressive --exit_layer 8",
+      "exit_code": 1,
+      "elapsed_time": 2.0587635040283203,
+      "timestamp": "2025-04-24T17:22:49.778095"
+    },
+    {
+      "dataset": "race_m",
+      "strategy": "autoregressive_full",
+      "args": "--generation_strategy autoregressive",
+      "exit_code": 1,
+      "elapsed_time": 2.0375618934631348,
+      "timestamp": "2025-04-24T17:22:51.817090"
+    },
+    {
+      "dataset": "race_m",
+      "strategy": "self_speculative",
+      "args": "--generation_strategy self_speculative --exit_layer 8 --num_speculations 6",
+      "exit_code": 1,
+      "elapsed_time": 2.1068778038024902,
+      "timestamp": "2025-04-24T17:22:53.923967"
+    },
+    {
+      "dataset": "race_m",
+      "strategy": "layerdrop",
+      "args": "--generation_strategy layerdrop --dropout_rate 0.2 --layerdrop_seed 42",
+      "exit_code": 1,
+      "elapsed_time": 2.102509021759033,
+      "timestamp": "2025-04-24T17:22:56.026476"
+    },
+    {
+      "dataset": "race_m",
+      "strategy": "depth_adaptive_sequence",
+      "args": "--generation_strategy depth_adaptive_sequence --halting_threshold 0.99",
+      "exit_code": 1,
+      "elapsed_time": 2.179903030395508,
+      "timestamp": "2025-04-24T17:22:58.210751"
+    },
+    {
+      "dataset": "race_h",
+      "strategy": "autoregressive",
+      "args": "--generation_strategy autoregressive --exit_layer 8",
+      "exit_code": 1,
+      "elapsed_time": 2.2743594646453857,
+      "timestamp": "2025-04-24T17:23:00.485110"
+    },
+    {
+      "dataset": "race_h",
+      "strategy": "autoregressive_full",
+      "args": "--generation_strategy autoregressive",
+      "exit_code": 1,
+      "elapsed_time": 2.1988685131073,
+      "timestamp": "2025-04-24T17:23:02.690007"
+    },
+    {
+      "dataset": "race_h",
+      "strategy": "self_speculative",
+      "args": "--generation_strategy self_speculative --exit_layer 8 --num_speculations 6",
+      "exit_code": 1,
+      "elapsed_time": 2.2339563369750977,
+      "timestamp": "2025-04-24T17:23:04.925643"
+    },
+    {
+      "dataset": "race_h",
+      "strategy": "layerdrop",
+      "args": "--generation_strategy layerdrop --dropout_rate 0.2 --layerdrop_seed 42",
+      "exit_code": 1,
+      "elapsed_time": 2.0179264545440674,
+      "timestamp": "2025-04-24T17:23:06.943569"
+    },
+    {
+      "dataset": "race_h",
+      "strategy": "depth_adaptive_sequence",
+      "args": "--generation_strategy depth_adaptive_sequence --halting_threshold 0.99",
+      "exit_code": 1,
+      "elapsed_time": 1.9911668300628662,
+      "timestamp": "2025-04-24T17:23:08.934736"
+    }
+  ]
+}

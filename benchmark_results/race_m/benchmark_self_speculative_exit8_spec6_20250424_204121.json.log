@@ -1,0 +1,219 @@
+Optimizing generation config for multiple-choice dataset: race_m
+Updated generation config: max_steps=20, temperature=0.3
+Benchmarking on RACE_M with 10 samples...
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 20328
+  Verified Probability: 0.0
+  Draft Probability: 1.0
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 70178
+  Verified Probability: 0.0
+  Draft Probability: 0.779296875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=A, target=A
+[CORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 75675
+  Verified Probability: 0.0
+  Draft Probability: 0.515625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 49568
+  Verified Probability: 0.0
+  Draft Probability: 0.2353515625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=C, target=C
+[CORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 4849
+  Verified Probability: 0.0
+  Draft Probability: 0.2254638671875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 17465
+  Verified Probability: 0.0
+  Draft Probability: 0.409423828125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=C, target=C
+[CORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 20328
+  Verified Probability: 0.0
+  Draft Probability: 0.412109375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 7523
+  Verified Probability: 0.0
+  Draft Probability: 0.07244873046875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=D, target=A
+[INCORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 20328
+  Verified Probability: 0.0
+  Draft Probability: 0.91845703125
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 70178
+  Verified Probability: 0.0
+  Draft Probability: 0.63134765625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=A, target=B
+[INCORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 20328
+  Verified Probability: 0.0
+  Draft Probability: 0.0867919921875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 73933
+  Verified Probability: 0.0
+  Draft Probability: 1.0
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=D, target=B
+[INCORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 75675
+  Verified Probability: 0.0
+  Draft Probability: 0.422607421875
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 85460
+  Verified Probability: 0.0
+  Draft Probability: 0.25390625
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=C, target=C
+[CORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 75675
+  Verified Probability: 0.0
+  Draft Probability: 1.0
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 12333
+  Verified Probability: 0.0
+  Draft Probability: 0.14990234375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=B, target=C
+[INCORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 75675
+  Verified Probability: 0.0
+  Draft Probability: 1.0
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 64063
+  Verified Probability: 0.0
+  Draft Probability: 0.036865234375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=C, target=D
+[INCORRECT]
+--------------------------------------------------
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 75675
+  Verified Probability: 0.0
+  Draft Probability: 1.0
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+
+[DEBUG] Speculation Step 0
+  Draft Output Token: 47830
+  Verified Probability: 0.0
+  Draft Probability: 0.0136566162109375
+
+[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)
+
+[SUMMARY] Zero-Division Cases Encountered: 0
+Extracted: prediction=A, target=B
+[INCORRECT]
+--------------------------------------------------
+
+--- Final Metrics (RACE_M) ---
+exact_match: 0.4000
+accuracy: 0.4000
+Total Questions: 10
+{'predicted_text': {'exact_match': 0.4000000059604645, 'accuracy': 0.4}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.3130886793136597}, 'time_per_token': {'mean': 0.3130886793136597}, 'tokens_per_second': {'mean': 3.5766966104507447}}

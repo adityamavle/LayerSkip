@@ -1,0 +1,180 @@
+Using standard benchmark for dataset: race_h
+[Prompt]:
+Article: More and more parents leave their homes and come into the big cities to make money. But their children can't go with them because their children have to go to school in their hometown. They are called home-left children. The problems of home-left children become more and more serious. And it becomes a big _ of our society. The main problem is that some home-left children become very lonely when they don't have their parents' love. And they are too young to tell right or wrong in many things. So they are fooled very easily by others.
+Xiao Mei , a 14-year-old girl, is a home-left child. Her parents are both in Shanghai. She is in her hometown with her grandpa. She likes playing games on the Internet. Her parents and grandpa only give her money and food. They hardly ever care for her studies. One day, she had no money to pay for the games in the Net bar. So she stole some money from her neighbor. Just at that time, Xiao Fang, a 9-year-old girl saw it. Xiao Mei was afraid that Xiao Fang would tell others about it. She cut Xiao Fang's throat with a knife, and then she went to school just like nothing happened. Luckily, Xiao Fang was saves by doctors. When she opened her eyes and wrote the fact to the policeman with a pencil, everybody was very surprised. This sad story reminds the parents to care for their children no matter how busy they are.
+Are you one of the home-left children? What do you need from your parents? Food, money or love? I think most children need love mostly. Let's care for the group together.
+,A, B, C, D,. 5,2,10
+
+Question: Which of the following is TRUE according to the passage?
+A. Home-left children can tell right or wrong easily.
+B. Home-left children never feel lonely.
+C. Xiao Fang likes playing games.
+D. Xiao Mei really needs love.
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: D
+[Prompt]:
+Article: "I'm so sorry. It was all my fault, with no excuse and no reason," said the 23-year-old Taiwan actor, Kai Ko or Ko Chen-tung  , bowing to the press conference  . Ko apologized publically for taking drugs   with friends at his house in Beijing"It was my personal behavior, selfish and stupid. I cannot go back in time to undo what I did, but there is willingness to correct a mistake. I want to correct my mistake, because I don't want to see the sad faces of those who love me and those who I love. I am really sorry to them."Ko said.
+Ko became very famous and popular after starring in the film called You Are the Apple of My Eye in 2011. His clean and youthful image won him many fans. For those fans, they are willing to trust Ko. By the end of the 10-minute press conference, 3,207 users of Sina Weibo   supported Ko and hoped he would be a better person in the future.
+However, there were other voices. Wang Zhuo, a user of Sina Weibo said, " It doesn't matter whether he apologizes or not, because nobody cares. Showbiz and the arts industry   will not use anyone like him from now on anyway." Another user said, "After 14 days of detention  , Ko's acting skills grew a lot!"
+When asked what his plans are after he regained freedom, Ko said he would continue to cooperate with the police on further investigations   after returning to Taiwan.
+
+Question: What made Ko become famous?
+A. The song called You Are the Apple of My Eye.
+B. The film You Are the Apple of My Eye.
+C. His good looking.
+D. His background.
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: B
+[Prompt]:
+Article: I was 10 the year my cousin Marley's parents gave her a painful Christmas surprise: they were getting a divorce . My aunt went to California, but my uncle decided to get her back. There was one matter: where to put his young daughter. Luckily, my mother loved Marley, giving her more attention than her family ever did.
+On that Christmas Eve, my cousin arrived on our doorstep carrying an old blue suitcase. Before she stepped inside, Marley said, "It doesn't matter. When my parents come back, we'll have a bigger Christmas than this."
+Late on the night Marley arrived, my mom came into my room, her arms filled with packages.I knew they were my Christmas presents. "I know how you love surprises but we have to decide which ones to give to Marley."
+My mother carefully opened the gifts. Wow! I saw ice skates, red leather gloves and a dollhouse. The last present was the music box we'd asked the lady at the local store to take down and play for us over and over again.
+"Which ones?" my mother asked. "She can have the ice skates," I said reluctantly . "That's good," my mother said. She began to tape the packages up again. Then she stopped and asked, "Are you sure about these?" At that moment, I realized she expected more from me than I had already given. So I gave her the music box, too, and  _ . The next morning, Marley's eyes were resolute . She expected nothing and wanted us to know she didn't care. But when she saw her name on the biggest box, she couldn't hide her excitement. I thought my happiness would be cut in half. Instead it was doubled.
+Over the last 40 years, Marley and I have grown apart . But the love we felt for each other that day still remains. Today Marley says, "They were the best presents I ever got.
+
+Question: According to this passage, which of the following statements is TRUE?
+A. The writer's parents got a divorce when she was ten.
+B. The writer hated her cousin because she took away some of her presents
+C. Marley expected nothing, so she wasn't excited about the Christmas presents.
+D. The writer was very happy during that Christmas.
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: D
+[Prompt]:
+Article: Li Ruyan, 13 and his classmates in Shanghai did something special last summer. They worked in groups with traffic police at different crossroads in the city. Holding small red flags, the students helped keep order and stopped people from jaywalking .
+As part of the school project. Li's school has encouraged its students to do more community work.
+After the half day of exhausting work Li told himself not to jaywalk anymore.
+"I think through community work we get to help others and, more importantly, we grow a sense of responsibility ," he said.
+Community service is an important part of education for teenagers around the world. In the US and Canada, high school students need to finish 40 hours of community service before graduation. For those Americans who have finished 1,400 hours of community work, they can be awarded nearly $ 5, 000(33, 000 yuan).
+Chinese students today do more community work, too. For example, starting from 2010, Sichuan high school students have been asked to do 10 days of community work. It will become part of their school grade.
+Qian Lijun, 16, and her classmates in Suzhou, Jiangsu went to a local elder care home this winter. They put Spring Festival couplets   on the walls and cheered up the people living there.
+Li Xiaotian, 15, of Anshan said he used to clear flyers   from telephone poles   with his classmates. They brought tools, towels and buckets and worked for three hours under the summer sun. "It was tiring, but seeing the clean poles without ugly ads -- we really felt proud," he said.
+
+Question: Which of the following is NOT true according to the passage?
+A. Community service helps students grow a sense of responsibility.
+B. Through community work students get to help others and learn something.
+C. Students are now encouraged to do more community work in many school in China.
+D. Students will be awarded much money for doing more community work in Canada and the US.
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ D
+Extracted prediction: D, Extracted target: D
+[Prompt]:
+Article: When people talk about air pollution, they usually think of smog, acid rain ,and other forms  of outdoor air pollution. But did you know that air pollution also is inside homes, offices, hotels and other buildings?Indoor air pollution is more serious. The air in your home can be 2 to 100 times  more polluted than the air outdoors!In fact, some American doctors say that 50% of illnesses have something to do with polluted indoor air. Indoor air pollution is bad for our health in many ways. Young children and the old often suffer  more from air pollution. People with health problems may also suffer more when the air is polluted. Indoor air pollution can be bad for people's eyes, nose and throat. Air pollution, both indoor and outdoor, can also lead to cancer, heart disease, and even bad for the brain!In the great London fog in 1952, 4,000 people died in a few days because of air pollution!It is said that half a million young kids and women die each year in India because of indoor air pollution!
+There're many ways to reduce  indoor air pollution. Here are some of them and see if they can help you:
+Increase outdoor air coming indoors and open your windows for 15 to 30 minutes each day.
+Turn off all the lights and fans when you don't need them.
+Share your room with others when the air conditioner is running.
+Don't smoke and try to stop your family members from smoking. People who smoke are going to have trouble breathing and even die someday. If you're smart, don't ever start.
+Environment-friendly products, such as water-based paints pollute less and work well.
+
+Question: The best title of the passage is  _  .
+A. The forms of outdoor air pollution
+B. The ways of reduce indoor air pollution
+C. The indoor air pollution
+D. The environment-friendly products
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: C
+[Prompt]:
+Article: John gets up early from Monday to Saturday, because he must go to school before 7:30 on weekdays  and go to Drawing Club at 8:00 on Saturday mornings. He usually goes to the bookshop on Saturday afternoon, and after dinner he watches TV until  midnight .
+He doesn't get up early on Sundays. John's parents both work on Sundays. John always watches TV after he gets up. Then he usually goes to KFC to have a hamburger and some juice for lunch. After that, he goes back home and starts to play computer games until his parents come back. He does his homework after dinner. He usually has lots of weekend homework, so he must spend three hours on it. He usually goes to bed at about 11:00 p.m. on Sundays. He often complains  he has too much homework to do.
+,.
+
+Question: Which of these is not right?
+A. John watches TV after dinner on Saturdays.
+B. John exercises on Sundays.
+C. John plays computer games on Sunday afternoon.
+D. John finishes his homework very late on Sundays.
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: B
+[Prompt]:
+Article: New York City's Chinatown is in the east of Manhattan. About 150,000 people live there. There are many things to do and many places to visit.
+Shopping in Chinatown
+You can find all kinds of Chinese things there just like you are in China: food, clothes, jewelry , and so on. On the north side of the Canal Street there are many jewelry shops while on the south side of the Canal Street there are small present shops, handbag shops, watch shops and some big supermarkets.
+Eating in Chinatown
+Chinatown has more than 200 restaurants. You can find many Chinese foods there. The foods come from all over China: Beijing, Shanghai, Suzhou, etc.
+Sightseeing  in Chinatown
+You should visit Chinatown when you are travelling in New York City. Thousands of people visit Chinatown every day. It is the largest Chinatown in the United States. It is famous for its restaurants, jewelry shops, food markets, and busy streets, such as Canal, Mott, Pell and Doyers Streets. Among them, Canal Street is famous for its handbags.
+
+Question: How many restaurants are there in New York's Chinatown?
+A. About 150,000
+B. More than 200
+C. Less than 200
+D. About 2,000
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ D
+Extracted prediction: D, Extracted target: B
+[Prompt]:
+Article: Paris is a very beautiful city but l will not call it the most romantic city at all! It is difficult to find a hotel !That is quite funny .Some policemen help us and then we find a hotel! The hotel is on the sixth floor and it is tired to climb up the stairs !The room is very simple but it has a big bathroom.We go out for a walk to visit the city. The Louvre Museum is our favourite one. There are some wonderful pieces of art there. The Eiffel Tower looks so cool from a far place, but when we get close to it, it doesn't look so good. We also don't feel well about the expensive food. Most of the time, we enjoy Paris, but the weather is not always good. It often rains. We feel a little difficult because not many people can speak English and we can't speak French. But I'm still glad that this is the beginning of our travel.
+
+Question: Who help the writer find a hotel?
+A. Some students.
+B. Some policemen.
+C. Some workers.
+D. Some farmers.
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: B
+[Prompt]:
+Article: Victory Bacelis is a California immigrant who grew up in a poor village in Mexico. He is used to working hard. He works more than 90 hours a week at three different jobs, including McDonal's. He is saving up to buy a house.
+One day, while Victory was cleaning the floor at McDonal's, he found an envelope and picked it up. There was $612 in it. He called the police to report the lost money. The police couldn't find the owner, so they gave the money back to Victory.
+Then Victory read a story in the newspaper about Adrian Snadoval, a baby who was very sick. Victory decided to give the money away to help pay for the baby's operation. Victory truly has a heart of gold.
+
+Question: What was in the envelope?
+A. 3 dollars
+B. 90 dollars
+C. 612 yuan
+D. 612 dollars
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: D
+[Prompt]:
+Article: You must have seen ads on TV about hair care products  . The models have shining hair like jewels  . But now to make hair shine is no longer the task of hair care products, because hair can be made into real jewels. Believe it or not, a company called LifeGem in the US turns hair into jewels.
+The company is in the business of taking hair from dead people and making it into diamonds  . The diamonds are for the families to remember the dead people.
+Now the company plans to make three diamonds using Beethoven's hair to show their latest technology  . The work will take about 7 months and in the end, Beethoven's long hair will become 3 shining diamonds between 0.5 to 1 carat  in size.
+Since the great musician died in 1827, you may wonder how they got Beethoven's hair. Actually, the hair was given by John Rezniloff, who holds the Guinness World Record for the largest and most valuable collection of celebrities'   hair. His collection also includes hair of Napoleon, Albert Einstein,  Abraham Lincoln and John F. Kennedy. In total,  the collection is worth over 5 million dollars.
+Though it sounds unbelievable  , to have such diamonds made with hair may be a good way to show respect   and love to those who died.
+
+Question: What does the company of LifeGem do?
+A. It buys shining hair.
+B. It produces hair care products.
+C. It uses hair to make jewels.
+D. It sells expensive diamonds to famous people.
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+{'predicted_text': {'exact_match': 0.5, 'accuracy': 0.5}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.1560041904449463}, 'time_per_token': {'mean': 0.1560041904449463}, 'tokens_per_second': {'mean': 8.119188070297241}}

@@ -1,0 +1,179 @@
+Using standard benchmark for dataset: race_h
+[Prompt]:
+Article: My name is Dan and I have two brothers, Bob and Ray .We like hamburgers for lunch.
+Bob and I like French fries , but Ray doesn't . I don't like eggs for breakfast, but Bob and Ray
+Do. I like fruit for breakfast .We really like chicken and salad for dinner.
+
+Question: _    likes fruit for breakfast .
+A. Bob and Ray
+B. Dan
+C. Bob
+D. Ray
+Answer:
+[Reference Response]:
+ B
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: B
+[Prompt]:
+Article: Everyone may feel it difficult to _ a new culture. However, you needn't change everything about yourself, because all of your experiences are part of you and make you special. The following tips may help you live in a new culture more easily.
+Teach people your culture. You're the one who meets the new culture, but it doesn't mean _ Take the opportunity to teach new friends your culture. They may know little about it. Invite them for traditional dishes from your culture, or show them how you celebrate your holidays.
+Find a support group. Find people in your neighborhood who recently moved here. You can share experiences, cheer each other up when things get difficult, and introduce each other to the new friends you've made.
+Keep in touch with home. You probably left behind your good friends and family when you move. If it's a long time, keep in touch with them. Write letters, send emails, and make phone calls so that you can learn about the things happening there, and talk about your new experiences. Keep pictures around to remind you of home.
+Remember: the key to getting over your culture shock is to understand the new culture and find a way to live comfortably within it _ keeping your culture in your heart.
+It's important to be yourself. Do not change too fast or too many things at once. You should have your own style. So, maintain what's important to you and find a good combination between old and new cultures, and you'll be fine.
+
+Question: According to the passage, which of the following is NOT true?
+A. People should teach their new friends their culture.
+B. People should try to make some friends in a new place.
+C. people should keep in touch with home after they leave.
+D. People should give up their old culture in a new place.
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ D
+Extracted prediction: D, Extracted target: D
+[Prompt]:
+Article: We know health and happiness are important in everyone's life. Here are some ways to make them easy.
+Eat a balanced diet . Eat a lot of fruit and vegetables, some grains  and a little meat.
+Exercise twice or three times a week.
+Get enough sleep. It is best to get eight hours' sleep a day.
+Keep yourself busy. This is good because _ stops you from having bad habits. To keep yourself busy, you can walk around the house, spend time with your pets, do a sport, or do a hobby you enjoy.
+Go out and make friends. Spend time and have fun with them. Talk with them, but you must be sure not to talk about anything bad. You should stay with the people who are healthy and happy themselves.
+
+Question: Which is the best title  for the passage?
+A. Eating Habit
+B. Healthy Lifestyle
+C. Making friends
+D. Ways to Have Health and Happines
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ D
+Extracted prediction: D, Extracted target: D
+[Prompt]:
+Article: In Britain ,people often invite friends for a meal , a party or just coffee. People who know each other very well may visit each other's houses without  an invitation ,but if we invite new friends, usually an invitation is needed. When people invite someone to their homes , they often say ,"Would you like to come for dinner on Saturday ?" Answers are, "Thanks, we'd love to. What time?" or "I'm sorry, We'd love to ,but we have tickets for the concert." However, it is not polite to say,"No, we wouldn't."
+Sometimes, the British use expressions that sound like invitations but which are not invitations. For example. "You must come over for a drink sometime ." or "Let's go out for a meal one of these days."  These are usually just polite ways of ending a talk . They are not real invitations because they don't mention an exact time or day. They just show that the person is trying to be friendly and the answers are ,"Yes , that would be nice ." or "OK, yes ,thanks."
+So next time you hear what sounds like an invitation, listen carefully. Is it a real invitation or is the person just being friendly?
+
+Question: It's always necessary for  _  to visit each other's houses with an invitation.
+A. close friends
+B. family members
+C. neighbours
+D. new friends
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ D
+Extracted prediction: D, Extracted target: D
+[Prompt]:
+Article: New York City's Chinatown is in the east of Manhattan. About 150,000 people live there. There are many things to do and many places to visit.
+Shopping in Chinatown
+You can find all kinds of Chinese things there just like you are in China: food, clothes, jewelry , and so on. On the north side of the Canal Street there are many jewelry shops while on the south side of the Canal Street there are small present shops, handbag shops, watch shops and some big supermarkets.
+Eating in Chinatown
+Chinatown has more than 200 restaurants. You can find many Chinese foods there. The foods come from all over China: Beijing, Shanghai, Suzhou, etc.
+Sightseeing  in Chinatown
+You should visit Chinatown when you are travelling in New York City. Thousands of people visit Chinatown every day. It is the largest Chinatown in the United States. It is famous for its restaurants, jewelry shops, food markets, and busy streets, such as Canal, Mott, Pell and Doyers Streets. Among them, Canal Street is famous for its handbags.
+
+Question: If you want to buy your mother a handbag, you'd better go to   _  .
+A. Pell Street
+B. Doyers Street
+C. Canal Street
+D. Mott Street
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+[Prompt]:
+Article: Look! Here's a pencil box, it's orange, it's my pencil box, it's on the desk. Look! This is a pen, it's black. And this is an eraser, it's blue and white. They're both in the pencil box. This is a ruler, it's red, it's on the pencil box. That is a ruler, too. It's yellow. It's in the drawer. Where's my math book? Ah, it's there, under the sofa.
+
+Question: The pencil box is  _  .
+A. yellow
+B. white
+C. blue
+D. orange
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: D
+[Prompt]:
+Article: Ann was my best friend. She had come to play half an hour ago, and I didn't want her to go. "Your mother said you could stay an hour." I said.
+Ann pointed at the Teddy Bear on my desk. "I'll stay if you give me your Teddy Bear." she said.
+I couldn't imagine giving it to her. It was a special gift from Aunt Reba on my tenth birthday. My aunt was a beautiful and kind woman who was never too busy to spend time with me. The day she died, I cried for hours, unable to believe that I would never see her again. Now, when I saw the Teddy Bear, I was filled with memories  of Aunt Reba.
+"Come on," Ann shouted, "I'm your best friend."
+I don't know what came over me, but I really wanted someone to play with me. So I handed Ann the Teddy Bear! Then, she stayed.
+That evening I went to bed without dinner. The memories of Aunt Reba brought tears to my eyes. How _ I felt. I was sad all night.
+Alone in the dark, I asked myself, "Is Ann really my best friend?"
+At school the next day, I found Ann. I asked for the Teddy Bear. She was surprised at first. Then she thought for a few seconds and finally said, "Okay, I don't like it anyway."
+After that, Ann and I stopped playing together. Through the years, I have had other best friends. I have come to understand that best friends are people who want to spend time with you, and they ask nothing in return.
+
+Question: The best title of the passage may be "  _  ".
+A. The Teddy Bear
+B. Aunt Reba
+C. Best Friends
+D. My Tenth Birthday
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: C
+[Prompt]:
+Article: What does it feel like to break a bone  ? It's different for everyone, but the pain is often sharp  . If the break is small, however, the person may not feel much pain at all. If you think that you or someone else has broken a bone, the most important things to do are to stay calm, make the hurt person comfortable, and call the doctor. Do not move the injured body part since movement could make it worse.
+To treat the break, the doctor will need to take an X-ray. This gives the doctor the information he or she needs to set   the bone: to put it back to its normal place. If the bone is large or it is broken in more than one place, the doctor may need to use metal pins   to set it. After the bone has been set, the next step is usually putting on a cast, the special, hard thing that will keep the bone in place for a month or two.
+Your bones are excellent at healing themselves. Broken bones will produce many new cells   and tiny blood vessels  . These cover both ends of the broken part, and close up the break until the bone is as whole and strong as before.
+
+Question: When someone breaks his bone, the following should be done except   _  .
+A. asking the doctor for help
+B. comforting the hurt person
+C. moving the injured part
+D. staying calm
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: C
+[Prompt]:
+Article: The scientists from the Lockheed Space Company   work in Felton, California, with the help of a computer. But the computer is placed in Sunnyside, about 80 kilometers away. What the scientists input is sent by telephone lines to the computer, and after a time, copies of the designs are needed back in Felton as possible. Lockheed people have tried several ways of sending the prints  , but the most effective seems to be by pigeon  . Are pigeons really used to carry messages in these days? They are, and they send the prints faster and cheaper than any other way.
+Human   messengers (persons carrying messages) are much more expensive and slower than the pigeons. The road to Felton goes through the mountains, and the driving is not easy. An electronic printout system  could do the work in Felton, but at a cost of 10 dollars a print. Pigeons carry the designs for about 1 dollar each.
+Now Lockheed people have ten pigeon messengers. The pigeons do the work, and they have made Lockheed more famous. You can often read the news about the pigeons in the newspapers around the world.
+
+Question: This story is unusual because pigeons_.
+A. don't like carrying things
+B. are often cheap to keep
+C. seem out of place in the space age
+D. aren't friendly to the scientists
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+[Prompt]:
+Article: Most people follow others blindly mainly under the effect of peer  pressure. Some people also feel it safe to follow a large number of people. In some _ cases it might be right to follow the crowd  , but in most cases this can be one big mistake. Ninety-five percent of people never succeed because they are following the wrong group. Actually there are reasons why we shouldn't follow the crowd blindly.  According to a study, people tend to follow the crowd when they aren't sure about the direction they should take. This means a large number of people could be following others without understanding what's right and what's wrong! This attracts more people to follow them and the result is that most people move in a certain direction even if it isn't right.
+A man who wants to be successful always hopes for others' guidance and he usually follows the same path of most people, but the question this man never asks himself is: are all of those people successful? Of course not! If you want to follow a crowd, then follow a successful one. However, in real life you'll only find one successful person among hundreds of people, and that's why following the crowd makes no sense at all.
+Most people act without thinking wisely. If you always follow others because
+they're greater than you in number, then sooner or later you'll discover that you're
+making decisions you might regret later.
+However, should we never follow the crowd?No. I'm not trying to say you should never follow the crowd, but instead I'm just asking you to think wisely before you take a decision. If you find others are right, there is no problem in following them, but if you have doubts about the direction they're moving in, don't follow them blindly.
+
+Question: A man who wants to succeed should  _  .
+A. follow the crowd
+B. follow others' guidance
+C. follow a successful person
+D. follow the same path of most people
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+{'predicted_text': {'exact_match': 0.6000000238418579, 'accuracy': 0.6}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.13829474449157714}, 'time_per_token': {'mean': 0.13829474449157714}, 'tokens_per_second': {'mean': 12.956340968608856}}

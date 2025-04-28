@@ -1,0 +1,49 @@
+Optimizing generation config for multiple-choice dataset: mmlu
+Updated generation config: max_steps=20, temperature=0.3
+Benchmarking on MMLU with 10 samples...
+Checking output ids: [356]
+Extracted: prediction=C, target=C
+[CORRECT]
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=C
+[CORRECT]
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=B
+[INCORRECT]
+--------------------------------------------------
+Checking output ids: [362]
+Extracted: prediction=A, target=D
+[INCORRECT]
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=D
+[INCORRECT]
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=A
+[INCORRECT]
+--------------------------------------------------
+Checking output ids: [423]
+Extracted: prediction=D, target=D
+[CORRECT]
+--------------------------------------------------
+Checking output ids: [423]
+Extracted: prediction=D, target=A
+[INCORRECT]
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=D
+[INCORRECT]
+--------------------------------------------------
+Checking output ids: [356]
+Extracted: prediction=C, target=C
+[CORRECT]
+--------------------------------------------------
+
+--- Final Metrics (MMLU) ---
+exact_match: 0.4000
+accuracy: 0.4000
+Total Questions: 10
+{'predicted_text': {'exact_match': 0.4000000059604645, 'accuracy': 0.4}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.10045161247253417}, 'time_per_token': {'mean': 0.10045161247253417}, 'tokens_per_second': {'mean': 17.804372346401216}}

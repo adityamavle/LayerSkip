@@ -1,0 +1,93 @@
+{
+  "timestamp": "20250424_205437",
+  "model": "C:\\Users\\adity\\LayerSkip_v2\\model_weights\\llama3_1B_local",
+  "datasets": [
+    "mmlu",
+    "race_m",
+    "race_h"
+  ],
+  "num_samples": 5,
+  "benchmark_results": {
+    "mmlu": [
+      {
+        "strategy": "autoregressive_full",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: mmlu\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on MMLU with 5 samples...\nExtracted: prediction=D, target=D\n[CORRECT]\n--------------------------------------------------\nExtracted: prediction=D, target=D\n[CORRECT]\n--------------------------------------------------\nExtracted: prediction=C, target=C\n[CORRECT]\n--------------------------------------------------\nExtracted: prediction=B, target=B\n[CORRECT]\n------------..."
+      },
+      {
+        "strategy": "autoregressive_exit8",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: mmlu\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on MMLU with 5 samples...\nExtracted: prediction=None, target=A\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=None, target=D\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=None, target=C\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=None, target=D\n[INC..."
+      },
+      {
+        "strategy": "self_speculative",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: mmlu\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on MMLU with 5 samples...\n\n[DEBUG] Speculation Step 0\n  Draft Output Token: 34286\n  Verified Probability: 0.0\n  Draft Probability: 0.037200927734375\n\n[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)\n\n[SUMMARY] Zero-Division Cases Encountered: 0\n\n[DEBUG] Speculation Step 0\n ..."
+      },
+      {
+        "strategy": "layerdrop",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: mmlu\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on MMLU with 5 samples...\nChecking output ids: [423]\nExtracted: prediction=D, target=A\n[INCORRECT]\n--------------------------------------------------\nChecking output ids: [356]\nExtracted: prediction=C, target=C\n[CORRECT]\n--------------------------------------------------\nChecking output ids: [356]\nExtracted: prediction=C, target=C\n[CORRECT]\n------------------------..."
+      },
+      {
+        "strategy": "depth_adaptive_sequence",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: mmlu\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on MMLU with 5 samples...\nLayer 4/16: Halt prob: 0.2410, Accumulated: 0.2410, Threshold: 0.9900\nLayer 5/16: Halt prob: 0.1028, Accumulated: 0.3438, Threshold: 0.9900\nLayer 6/16: Halt prob: 0.0512, Accumulated: 0.3950, Threshold: 0.9900\nLayer 7/16: Halt prob: 0.0419, Accumulated: 0.4369, Threshold: 0.9900\nLayer 8/16: Halt prob: 0.0326, Accumulated: 0.4696, Threshold..."
+      }
+    ],
+    "race_m": [
+      {
+        "strategy": "autoregressive_full",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: race_m\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on RACE_M with 5 samples...\nExtracted: prediction=D, target=D\n[CORRECT]\n--------------------------------------------------\nExtracted: prediction=A, target=C\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=A, target=B\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=A, target=C\n[INCORRECT]\n--..."
+      },
+      {
+        "strategy": "autoregressive_exit8",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: race_m\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on RACE_M with 5 samples...\nExtracted: prediction=None, target=B\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=None, target=A\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=None, target=A\n[INCORRECT]\n--------------------------------------------------\nExtracted: prediction=None, target=A\n..."
+      },
+      {
+        "strategy": "self_speculative",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: race_m\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on RACE_M with 5 samples...\n\n[DEBUG] Speculation Step 0\n  Draft Output Token: 53645\n  Verified Probability: 0.0\n  Draft Probability: 0.0849609375\n\n[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)\n\n[SUMMARY] Zero-Division Cases Encountered: 0\n\n[DEBUG] Speculation Step 0\n  ..."
+      },
+      {
+        "strategy": "layerdrop",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: race_m\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on RACE_M with 5 samples...\nChecking output ids: [362]\nExtracted: prediction=A, target=B\n[INCORRECT]\n--------------------------------------------------\nChecking output ids: [356]\nExtracted: prediction=C, target=D\n[INCORRECT]\n--------------------------------------------------\nChecking output ids: [356]\nExtracted: prediction=C, target=D\n[INCORRECT]\n----------------..."
+      },
+      {
+        "strategy": "depth_adaptive_sequence",
+        "success": true,
+        "output": "Optimizing generation config for multiple-choice dataset: race_m\nUpdated generation config: max_steps=20, temperature=0.3\nBenchmarking on RACE_M with 5 samples...\nLayer 4/16: Halt prob: 0.1937, Accumulated: 0.1937, Threshold: 0.9900\nLayer 5/16: Halt prob: 0.0877, Accumulated: 0.2814, Threshold: 0.9900\nLayer 6/16: Halt prob: 0.0515, Accumulated: 0.3330, Threshold: 0.9900\nLayer 7/16: Halt prob: 0.0384, Accumulated: 0.3714, Threshold: 0.9900\nLayer 8/16: Halt prob: 0.0337, Accumulated: 0.4051, Thres..."
+      }
+    ],
+    "race_h": [
+      {
+        "strategy": "autoregressive_full",
+        "success": true,
+        "output": "Using standard benchmark for dataset: race_h\n[Prompt]:\nArticle: Emily Urich 18 years old Canada\nA lot of teens aren't responsible ,and that's where I'm different. Not just about school but everyday things like being able to pay my own credit card bills on time.\nThe first time I got a cartoon book was on my third birthday. From then on , I fell in deep love with it. And can you guess how many cartoon books I've read? I don't really know the exact number. But I have three full boxes of them under ..."
+      },
+      {
+        "strategy": "autoregressive_exit8",
+        "success": false,
+        "output": "Using the latest cached version of the dataset since race couldn't be found on the Hugging Face Hub\nFound the latest cached dataset configuration 'middle' at C:\\Users\\adity\\.cache\\huggingface\\datasets\\race\\middle\\0.0.0\\2fec9fd81f1dc971569a9b729c43f2f0e6436637 (last modified on Sun Mar 23 22:43:46 2025).\n\n  0%|          | 0/5 [00:00<?, ?it/s]The attention layers in this model are transitioning from computing the RoPE embeddings internally through `position_ids` (2D tensor with the indexes of the ..."
+      },
+      {
+        "strategy": "self_speculative",
+        "success": true,
+        "output": "Using standard benchmark for dataset: race_h\n\n[DEBUG] Speculation Step 0\n  Draft Output Token: 75675\n  Verified Probability: 0.0\n  Draft Probability: 0.72509765625\n\n[DEBUG] Probability Distribution before multinomial at step 0: tensor([[0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:0', dtype=torch.float16)\n\n[SUMMARY] Zero-Division Cases Encountered: 0\n\n[DEBUG] Speculation Step 0\n  Draft Output Token: 29667\n  Verified Probability: 0.0\n  Draft Probability: 0.00276947021484375\n\n[DEBUG] Probability D..."
+      },
+      {
+        "strategy": "layerdrop",
+        "success": true,
+        "output": "Using standard benchmark for dataset: race_h\nChecking output ids: [356]\n[Prompt]:\nArticle: Tony, 18. a member of an anti-tobacco group, he says, \"Kids feel that everyone around them smokes.\" Tony wants kids to realize that most people don't smoke. He also wants to tell them that smoking doesn't make one look cool. Two national studies show that teenage smoking is down. Still, there is work to be done.\nSmoking is an unhealthy habit. It can cause heart disease, lung cancer and other serious illnes..."
+      },
+      {
+        "strategy": "depth_adaptive_sequence",
+        "success": true,
+        "output": "Using standard benchmark for dataset: race_h\nLayer 4/16: Halt prob: 0.1932, Accumulated: 0.1932, Threshold: 0.9900\nLayer 5/16: Halt prob: 0.1092, Accumulated: 0.3025, Threshold: 0.9900\nLayer 6/16: Halt prob: 0.0719, Accumulated: 0.3744, Threshold: 0.9900\nLayer 7/16: Halt prob: 0.0626, Accumulated: 0.4370, Threshold: 0.9900\nLayer 8/16: Halt prob: 0.0411, Accumulated: 0.4781, Threshold: 0.9900\nLayer 9/16: Halt prob: 0.0474, Accumulated: 0.5255, Threshold: 0.9900\nLayer 10/16: Halt prob: 0.0463, Acc..."
+      }
+    ]
+  }
+}

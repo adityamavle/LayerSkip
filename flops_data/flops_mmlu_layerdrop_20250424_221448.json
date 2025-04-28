@@ -1,0 +1,627 @@
+{
+  "strategy": "layerdrop",
+  "config": {
+    "max_steps": 20,
+    "exit_layer": -1,
+    "num_speculations": -1,
+    "generation_strategy": "layerdrop",
+    "sample": true,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9,
+    "no_repeat_ngram_size": null,
+    "stop_words": null,
+    "stop_token_ids": [],
+    "dropout_rate": 0.4,
+    "layerdrop_seed": null,
+    "halting_threshold": 0.99,
+    "min_layers": 4,
+    "max_layers": null
+  },
+  "total_flops": 24132856131584,
+  "total_tokens": 119,
+  "flops_per_token": 202797110349.44537,
+  "samples": [
+    {
+      "prompt": "Question:  Which of the following is not an example of vice?\nA. callousness\nB. obesity\nC. selfishnes...",
+      "tokens_generated": 1,
+      "total_flops": 93916835840,
+      "flops_per_token": 93916835840.0
+    },
+    {
+      "prompt": "Question: Mill claims that the principle of utility:\nA. can be proven from self-evident principles.\n...",
+      "tokens_generated": 1,
+      "total_flops": 173004697600,
+      "flops_per_token": 173004697600.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\nClearly, no longer can a dictator count...",
+      "tokens_generated": 1,
+      "total_flops": 570915502080,
+      "flops_per_token": 570915502080.0
+    },
+    {
+      "prompt": "Question: The term Baby Boom Generation refers to people who\nA. Were born before WW II\nB. Have had a...",
+      "tokens_generated": 1,
+      "total_flops": 130989271040,
+      "flops_per_token": 130989271040.0
+    },
+    {
+      "prompt": "Question: Suppose that elected officials and the central bank agree to combine fiscal and monetary p...",
+      "tokens_generated": 20,
+      "total_flops": 268945289216,
+      "flops_per_token": 13447264460.8
+    },
+    {
+      "prompt": "Question: Information about what the students in Mr. Paulson\u2019s class and in Ms. Hugo\u2019s class ate for...",
+      "tokens_generated": 1,
+      "total_flops": 415211274240,
+      "flops_per_token": 415211274240.0
+    },
+    {
+      "prompt": "Question: Which of these refers to an alcoholic drink laced with a knockout drug?\nA. Zombie\nB. Kamik...",
+      "tokens_generated": 1,
+      "total_flops": 106274314240,
+      "flops_per_token": 106274314240.0
+    },
+    {
+      "prompt": "Question: Erich Fromm states that the society prevents you from realizing true nature to be loving, ...",
+      "tokens_generated": 1,
+      "total_flops": 318822942720,
+      "flops_per_token": 318822942720.0
+    },
+    {
+      "prompt": "Question: If $f(x) = 8x^3 - 6x^2 - 4x + 5$, find the value of $f( -2)$.\nA. 5\nB. -75\nC. -64\nD. -24\nAn...",
+      "tokens_generated": 1,
+      "total_flops": 153232732160,
+      "flops_per_token": 153232732160.0
+    },
+    {
+      "prompt": "Question: ____________________ are those who address the same target market but provide a different ...",
+      "tokens_generated": 1,
+      "total_flops": 148289740800,
+      "flops_per_token": 148289740800.0
+    },
+    {
+      "prompt": "Question: The number of allowed energy levels for the 55Mn nuclide are:\nA. 3\nB. 5\nC. 8\nD. 4\nAnswer:",
+      "tokens_generated": 1,
+      "total_flops": 103681183744,
+      "flops_per_token": 103681183744.0
+    },
+    {
+      "prompt": "Question: In 1993, a landowner had good record title toa vineyard in fee simple absolute. In 1994, t...",
+      "tokens_generated": 1,
+      "total_flops": 1796777359360,
+      "flops_per_token": 1796777359360.0
+    },
+    {
+      "prompt": "Question: In Tendai Buddhism, what does the term honji mean?\nA. Trace\nB. Original ground\nC. Manifest...",
+      "tokens_generated": 1,
+      "total_flops": 96388331520,
+      "flops_per_token": 96388331520.0
+    },
+    {
+      "prompt": "Question: In Python 3, b = [11,13,15,17,19,21]; print(b[::2]) outputs what?\nA. [19,21]\nB. [11,15]\nC....",
+      "tokens_generated": 1,
+      "total_flops": 165590210560,
+      "flops_per_token": 165590210560.0
+    },
+    {
+      "prompt": "Question:  What is the main reason why Arthur doesn't think that the poor have a right to aid from t...",
+      "tokens_generated": 1,
+      "total_flops": 247149568000,
+      "flops_per_token": 247149568000.0
+    },
+    {
+      "prompt": "Question: To which primate are humans most closely related?\nA. chimpanzees\nB. gorillas\nC. orangutans...",
+      "tokens_generated": 1,
+      "total_flops": 93916835840,
+      "flops_per_token": 93916835840.0
+    },
+    {
+      "prompt": "Question: Which of the following are most vulnerable to injection attacks?\nA. Session IDs\nB. Registr...",
+      "tokens_generated": 1,
+      "total_flops": 101331322880,
+      "flops_per_token": 101331322880.0
+    },
+    {
+      "prompt": "Question: A 65-year-old woman has a 6-month history of progressive irritability, palpitations, heat ...",
+      "tokens_generated": 1,
+      "total_flops": 318822942720,
+      "flops_per_token": 318822942720.0
+    },
+    {
+      "prompt": "Question: ________ is the process of marketing accomplished or facilitated via the use of Internet t...",
+      "tokens_generated": 1,
+      "total_flops": 153232732160,
+      "flops_per_token": 153232732160.0
+    },
+    {
+      "prompt": "Question: Which of the following is a functional region?\nA. Dixie\nB. Pennsylvania\nC. The market area...",
+      "tokens_generated": 1,
+      "total_flops": 101331322880,
+      "flops_per_token": 101331322880.0
+    },
+    {
+      "prompt": "Question: A defendant had an argument with his neighbor. As they were quarreling, the defendant pull...",
+      "tokens_generated": 1,
+      "total_flops": 261978542080,
+      "flops_per_token": 261978542080.0
+    },
+    {
+      "prompt": "Question: Which of the following statements about datagrams sent by a node in a network using IPv4 p...",
+      "tokens_generated": 1,
+      "total_flops": 264450037760,
+      "flops_per_token": 264450037760.0
+    },
+    {
+      "prompt": "Question: Under certain conditions, a beam of electrons impinging on a crystal surface will diffract...",
+      "tokens_generated": 1,
+      "total_flops": 244556437504,
+      "flops_per_token": 244556437504.0
+    },
+    {
+      "prompt": "Question: A sound wave with frequency f travels through air at speed v. With what speed will a sound...",
+      "tokens_generated": 1,
+      "total_flops": 143346749440,
+      "flops_per_token": 143346749440.0
+    },
+    {
+      "prompt": "Question: A man kidnapped a victim in State A and transported the victim across the state border int...",
+      "tokens_generated": 1,
+      "total_flops": 610337798144,
+      "flops_per_token": 610337798144.0
+    },
+    {
+      "prompt": "Question: The No Child Left Behind Act, which established educational standards that states must mee...",
+      "tokens_generated": 1,
+      "total_flops": 148289740800,
+      "flops_per_token": 148289740800.0
+    },
+    {
+      "prompt": "Question: How are antibody producing cells stimulated?\nA. Interacting with a virus short peptide\nB. ...",
+      "tokens_generated": 1,
+      "total_flops": 128517775360,
+      "flops_per_token": 128517775360.0
+    },
+    {
+      "prompt": "Question: Who is the publication Your guide to the NHS written for?\nA. GPs.\nB. Patient lobby groups....",
+      "tokens_generated": 1,
+      "total_flops": 103802818560,
+      "flops_per_token": 103802818560.0
+    },
+    {
+      "prompt": "Question: Which of these is commonly used to treat allergies?\nA. antimatter\nB. anticoagulants\nC. ant...",
+      "tokens_generated": 1,
+      "total_flops": 106274314240,
+      "flops_per_token": 106274314240.0
+    },
+    {
+      "prompt": "Question: Which of the following contributes to reduced energy expenditure in older adults?\n\nA. A re...",
+      "tokens_generated": 1,
+      "total_flops": 128517775360,
+      "flops_per_token": 128517775360.0
+    },
+    {
+      "prompt": "Question: The coefficient of static friction between a small coin and the surface of a turntable is ...",
+      "tokens_generated": 1,
+      "total_flops": 229849098240,
+      "flops_per_token": 229849098240.0
+    },
+    {
+      "prompt": "Question: Which of the following statements best describes the United Nations?\nA. The UN operates a ...",
+      "tokens_generated": 1,
+      "total_flops": 145818245120,
+      "flops_per_token": 145818245120.0
+    },
+    {
+      "prompt": "Question: Another name for hasty conclusion is\nA. hasty generalization\nB. post hoc ergo prompter hoc...",
+      "tokens_generated": 1,
+      "total_flops": 111217305600,
+      "flops_per_token": 111217305600.0
+    },
+    {
+      "prompt": "Question: The inverse of -i in the multiplicative group, {1, -1, i , -i} is\nA. 1\nB. -1\nC. i\nD. -i\nAn...",
+      "tokens_generated": 1,
+      "total_flops": 121103288320,
+      "flops_per_token": 121103288320.0
+    },
+    {
+      "prompt": "Question: Which of the following countries has the longest life expectancy?\nA. U. S. A.\nB. Sweden\nC....",
+      "tokens_generated": 1,
+      "total_flops": 93916835840,
+      "flops_per_token": 93916835840.0
+    },
+    {
+      "prompt": "Question:  Which of the following is a basic intrinsic good, according to Aquinas's version of natur...",
+      "tokens_generated": 1,
+      "total_flops": 128517775360,
+      "flops_per_token": 128517775360.0
+    },
+    {
+      "prompt": "Question: The largest increase in peacetime defense spending in American history occurred under whic...",
+      "tokens_generated": 1,
+      "total_flops": 106274314240,
+      "flops_per_token": 106274314240.0
+    },
+    {
+      "prompt": "Question: Landowner's property was landlocked. He had to go to court to ask the court to compel the ...",
+      "tokens_generated": 1,
+      "total_flops": 459698196480,
+      "flops_per_token": 459698196480.0
+    },
+    {
+      "prompt": "Question: Light of variable frequency shines on the metal surface of a photoelectric tube. Einstein\u2019...",
+      "tokens_generated": 1,
+      "total_flops": 234792089600,
+      "flops_per_token": 234792089600.0
+    },
+    {
+      "prompt": "Question: The transition from food gathering to a total reliance on agriculture:\nA. happened everywh...",
+      "tokens_generated": 1,
+      "total_flops": 123574784000,
+      "flops_per_token": 123574784000.0
+    },
+    {
+      "prompt": "Question: Long-term potentiation is believed to play a critical role in which of the following?\nA. e...",
+      "tokens_generated": 1,
+      "total_flops": 116160296960,
+      "flops_per_token": 116160296960.0
+    },
+    {
+      "prompt": "Question: Which of the following is an example of a result of operant conditioning?\nA. Milo starts a...",
+      "tokens_generated": 1,
+      "total_flops": 289164994560,
+      "flops_per_token": 289164994560.0
+    },
+    {
+      "prompt": "Question:  Patrick Lee and Robert George argue that human embryos are complete human beings because\n...",
+      "tokens_generated": 1,
+      "total_flops": 165590210560,
+      "flops_per_token": 165590210560.0
+    },
+    {
+      "prompt": "Question: What, according to Systemic theories, is the primary determinant of a state's foreign poli...",
+      "tokens_generated": 1,
+      "total_flops": 165590210560,
+      "flops_per_token": 165590210560.0
+    },
+    {
+      "prompt": "Question: David is a nationally ranked cellist who recently accepted a scholarship to a major colleg...",
+      "tokens_generated": 1,
+      "total_flops": 405325291520,
+      "flops_per_token": 405325291520.0
+    },
+    {
+      "prompt": "Question: A widow was the owner in fee simple of an apartment building. The widow drafted a will by ...",
+      "tokens_generated": 1,
+      "total_flops": 667182198784,
+      "flops_per_token": 667182198784.0
+    },
+    {
+      "prompt": "Question: Which of the following procedures would an auditor most likely complete to test the existe...",
+      "tokens_generated": 1,
+      "total_flops": 286693498880,
+      "flops_per_token": 286693498880.0
+    },
+    {
+      "prompt": "Question: Which movie popularized the phrase \"You talkin' to me?\"\nA. Ghost Busters\nB. Taxi Driver\nC....",
+      "tokens_generated": 1,
+      "total_flops": 101331322880,
+      "flops_per_token": 101331322880.0
+    },
+    {
+      "prompt": "Question: Why do so many feminist scholars regard the exclusion of women from the military sphere or...",
+      "tokens_generated": 1,
+      "total_flops": 269393029120,
+      "flops_per_token": 269393029120.0
+    },
+    {
+      "prompt": "Question: If a real number x is chosen at random in the interval [0, 3] and a real number y is chose...",
+      "tokens_generated": 1,
+      "total_flops": 195248158720,
+      "flops_per_token": 195248158720.0
+    },
+    {
+      "prompt": "Question: To view your full-face image in a steamy mirror compared with the height of your face the ...",
+      "tokens_generated": 1,
+      "total_flops": 148289740800,
+      "flops_per_token": 148289740800.0
+    },
+    {
+      "prompt": "Question: Boundary problems along the United States\u2013Mexico border are caused by which type of issue ...",
+      "tokens_generated": 1,
+      "total_flops": 116160296960,
+      "flops_per_token": 116160296960.0
+    },
+    {
+      "prompt": "Question: Are GM foods a valuable tool with which to address global food security and climate change...",
+      "tokens_generated": 1,
+      "total_flops": 257035550720,
+      "flops_per_token": 257035550720.0
+    },
+    {
+      "prompt": "Question: Given that the sample has a standard deviation of zero, which of the following is a true s...",
+      "tokens_generated": 1,
+      "total_flops": 163118714880,
+      "flops_per_token": 163118714880.0
+    },
+    {
+      "prompt": "Question: Which of the following is the best explanation of the fallacy of loaded language?\nA. Using...",
+      "tokens_generated": 1,
+      "total_flops": 294107985920,
+      "flops_per_token": 294107985920.0
+    },
+    {
+      "prompt": "Question: The K-means algorithm:\nA. Requires the dimension of the feature space to be no bigger than...",
+      "tokens_generated": 1,
+      "total_flops": 217491619840,
+      "flops_per_token": 217491619840.0
+    },
+    {
+      "prompt": "Question: A musician's ability to make a distinction between two very similar pitches depends on whi...",
+      "tokens_generated": 1,
+      "total_flops": 121103288320,
+      "flops_per_token": 121103288320.0
+    },
+    {
+      "prompt": "Question: Which of the following is a balanced chemical reaction?\nA. Na2SO4 + Ba(NO3)2 \u2192 BaSO4 + NaS...",
+      "tokens_generated": 1,
+      "total_flops": 299050977280,
+      "flops_per_token": 299050977280.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\n\"After the Tencteri came, in former day...",
+      "tokens_generated": 1,
+      "total_flops": 788407121920,
+      "flops_per_token": 788407121920.0
+    },
+    {
+      "prompt": "Question: All of the following are constitutionally mandated presidential powers EXCEPT the power to...",
+      "tokens_generated": 1,
+      "total_flops": 116160296960,
+      "flops_per_token": 116160296960.0
+    },
+    {
+      "prompt": "Question: In the design of a competitive market system, which of the following does NOT describe how...",
+      "tokens_generated": 1,
+      "total_flops": 212548628480,
+      "flops_per_token": 212548628480.0
+    },
+    {
+      "prompt": "Question: The vibrations in a transverse wave move in a direction\nA. along the wave\nB. perpendicular...",
+      "tokens_generated": 1,
+      "total_flops": 106274314240,
+      "flops_per_token": 106274314240.0
+    },
+    {
+      "prompt": "Question: Members of which of the following groups are most likely to be surrounded by a protein coa...",
+      "tokens_generated": 1,
+      "total_flops": 113688801280,
+      "flops_per_token": 113688801280.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 286693498880,
+      "flops_per_token": 286693498880.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 257035550720,
+      "flops_per_token": 257035550720.0
+    },
+    {
+      "prompt": "Question: If p(x) is the minimal-degree interpolating polynomial for the real-valued function f(x) a...",
+      "tokens_generated": 1,
+      "total_flops": 182890680320,
+      "flops_per_token": 182890680320.0
+    },
+    {
+      "prompt": "Question: Assuming there is no statistical discrepancy a trade surplus must be offset elsewhere in t...",
+      "tokens_generated": 1,
+      "total_flops": 130989271040,
+      "flops_per_token": 130989271040.0
+    },
+    {
+      "prompt": "Question: A musician owned a summer cottage on the lake. A neighbor, an adjoining land owner, starte...",
+      "tokens_generated": 1,
+      "total_flops": 467112683520,
+      "flops_per_token": 467112683520.0
+    },
+    {
+      "prompt": "Question: Which of the following charts is used in advanced manufacturing to record results data for...",
+      "tokens_generated": 1,
+      "total_flops": 118510157824,
+      "flops_per_token": 118510157824.0
+    },
+    {
+      "prompt": "Question: What are the four tenets of analytical psychotherapy according to Jung?\nA. Self-regulating...",
+      "tokens_generated": 1,
+      "total_flops": 207605637120,
+      "flops_per_token": 207605637120.0
+    },
+    {
+      "prompt": "Question: At what age can someone first attend an R-rated movie without an accompanying adult?\nA. 15...",
+      "tokens_generated": 1,
+      "total_flops": 103802818560,
+      "flops_per_token": 103802818560.0
+    },
+    {
+      "prompt": "Question: Telework is a form of employment that involves:\nA. running one's own business through tele...",
+      "tokens_generated": 1,
+      "total_flops": 192776663040,
+      "flops_per_token": 192776663040.0
+    },
+    {
+      "prompt": "Question:  One objection to care ethics is thatit seems to imply that we areresponsible for our atti...",
+      "tokens_generated": 1,
+      "total_flops": 252092559360,
+      "flops_per_token": 252092559360.0
+    },
+    {
+      "prompt": "Question: Which of the following is a key difference between the experimental method and naturalisti...",
+      "tokens_generated": 1,
+      "total_flops": 212548628480,
+      "flops_per_token": 212548628480.0
+    },
+    {
+      "prompt": "Question: An owner of land entered into a month-to-month lease with a chemical company. At first, th...",
+      "tokens_generated": 1,
+      "total_flops": 516542597120,
+      "flops_per_token": 516542597120.0
+    },
+    {
+      "prompt": "Question: An Hfr strain of E. coli contains:\nA. a vector of yeast or bacterial origin which is used ...",
+      "tokens_generated": 1,
+      "total_flops": 177947688960,
+      "flops_per_token": 177947688960.0
+    },
+    {
+      "prompt": "Question: The native peoples of the northwest coast of North America were:\nA. maize agriculturalists...",
+      "tokens_generated": 1,
+      "total_flops": 108745809920,
+      "flops_per_token": 108745809920.0
+    },
+    {
+      "prompt": "Question: Unlike play activities for adults, play activities for children\nA. serve to relieve stress...",
+      "tokens_generated": 1,
+      "total_flops": 111217305600,
+      "flops_per_token": 111217305600.0
+    },
+    {
+      "prompt": "Question: Brenda gets enraged when people criticize her, talks about becoming the first woman presid...",
+      "tokens_generated": 1,
+      "total_flops": 249621063680,
+      "flops_per_token": 249621063680.0
+    },
+    {
+      "prompt": "Question: Areas of the brain that are damaged are referred to as having\nA. brain lesions\nB. hemisphe...",
+      "tokens_generated": 1,
+      "total_flops": 106274314240,
+      "flops_per_token": 106274314240.0
+    },
+    {
+      "prompt": "Question: On February 1, a woman conveys her farm to a man, and the man duly records the conveyance....",
+      "tokens_generated": 1,
+      "total_flops": 538786058240,
+      "flops_per_token": 538786058240.0
+    },
+    {
+      "prompt": "Question: Which of the following is NOT a feature of continuously compounded returns (i.e. log-retur...",
+      "tokens_generated": 1,
+      "total_flops": 200191150080,
+      "flops_per_token": 200191150080.0
+    },
+    {
+      "prompt": "Question: In preparation for a writing unit on short stories, a teacher presents students with sever...",
+      "tokens_generated": 1,
+      "total_flops": 192776663040,
+      "flops_per_token": 192776663040.0
+    },
+    {
+      "prompt": "Question: How is terrorism different from the types of crime described by the Chicago School?\nA. it ...",
+      "tokens_generated": 1,
+      "total_flops": 180419184640,
+      "flops_per_token": 180419184640.0
+    },
+    {
+      "prompt": "Question: A plaintiff was seriously injured in a collision involving three trucks. A sideswipe occur...",
+      "tokens_generated": 1,
+      "total_flops": 464641187840,
+      "flops_per_token": 464641187840.0
+    },
+    {
+      "prompt": "Question: snRNPs are most closely associated with which of the following?\nA. Cell division\nB. Apopto...",
+      "tokens_generated": 1,
+      "total_flops": 103802818560,
+      "flops_per_token": 103802818560.0
+    },
+    {
+      "prompt": "Question: What was the primary reason the Green Revolution did NOT help Africa much?\nA. It targeted ...",
+      "tokens_generated": 1,
+      "total_flops": 168061706240,
+      "flops_per_token": 168061706240.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 279279011840,
+      "flops_per_token": 279279011840.0
+    },
+    {
+      "prompt": "Question: Hunger, thirst, and sex are most closely associated with stimulation of the\nA. pons\nB. cer...",
+      "tokens_generated": 1,
+      "total_flops": 108745809920,
+      "flops_per_token": 108745809920.0
+    },
+    {
+      "prompt": "Question: A plaintiff filed a tort action in state court but then failed to prosecute the action. Th...",
+      "tokens_generated": 1,
+      "total_flops": 499242127360,
+      "flops_per_token": 499242127360.0
+    },
+    {
+      "prompt": "Question: Which lamp has the best Colour Rendering Index (CRI)?\nA. LED\nB. Fluorescent\nC. Incandescen...",
+      "tokens_generated": 1,
+      "total_flops": 103802818560,
+      "flops_per_token": 103802818560.0
+    },
+    {
+      "prompt": "Question: The majority of workers in periphery countries are probably employed in which type of acti...",
+      "tokens_generated": 1,
+      "total_flops": 103802818560,
+      "flops_per_token": 103802818560.0
+    },
+    {
+      "prompt": "Question: A patient has been on the operating table for four hours. How long may it take for any pre...",
+      "tokens_generated": 1,
+      "total_flops": 135932262400,
+      "flops_per_token": 135932262400.0
+    },
+    {
+      "prompt": "Question: In a private closed economy which of the following statements is true?\nA. Household saving...",
+      "tokens_generated": 1,
+      "total_flops": 153232732160,
+      "flops_per_token": 153232732160.0
+    },
+    {
+      "prompt": "Question: One day, an 11-year-old boy came home from school with red lipstick stains on his collar. ...",
+      "tokens_generated": 1,
+      "total_flops": 686954164224,
+      "flops_per_token": 686954164224.0
+    },
+    {
+      "prompt": "Question: Archaeology is a subfield of:\nA. biological anthropology.\nB. anthropology.\nC. cultural ant...",
+      "tokens_generated": 1,
+      "total_flops": 88973844480,
+      "flops_per_token": 88973844480.0
+    },
+    {
+      "prompt": "Question: One possible reason that time seems to pass more rapidly for older adults is that\nA. Their...",
+      "tokens_generated": 1,
+      "total_flops": 182769045504,
+      "flops_per_token": 182769045504.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 266921533440,
+      "flops_per_token": 266921533440.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\n\"The conscience of the people, in a tim...",
+      "tokens_generated": 1,
+      "total_flops": 795821608960,
+      "flops_per_token": 795821608960.0
+    },
+    {
+      "prompt": "Question: Normally, S-P arrival intervals from a minimum of how many seismic stations are required t...",
+      "tokens_generated": 1,
+      "total_flops": 128517775360,
+      "flops_per_token": 128517775360.0
+    }
+  ],
+  "timestamp": "2025-04-24T22:14:48.777327"
+}

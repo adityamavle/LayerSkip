@@ -1,0 +1,427 @@
+Using standard benchmark for dataset: race_h
+Layer 4/16: Halt prob: 0.2177, Accumulated: 0.2177, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0951, Accumulated: 0.3127, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0610, Accumulated: 0.3738, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0496, Accumulated: 0.4234, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0404, Accumulated: 0.4638, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0454, Accumulated: 0.5092, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0502, Accumulated: 0.5594, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0878, Accumulated: 0.6472, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1226, Accumulated: 0.7698, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.0989, Accumulated: 0.8686, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0693, Accumulated: 0.9380, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0368, Accumulated: 0.9748, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0127, Accumulated: 0.9875, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0080, Accumulated: 0.0080, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0070, Accumulated: 0.0150, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0090, Accumulated: 0.0239, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0244, Accumulated: 0.0484, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0121, Accumulated: 0.0604, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0223, Accumulated: 0.0828, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0082, Accumulated: 0.0909, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.2401, Accumulated: 0.3311, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0840, Accumulated: 0.4151, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.5812, Accumulated: 0.9963, Threshold: 0.9900
+Early exit at layer 13/16
+[Prompt]:
+Article: A young man woke up one morning under a bridge and checked his pocket. All he had left was less than ten dollars. He bought food and as he sat down to eat, an old man and two children came along. The old man asked him to help them with food as they had not eaten for almost a week.
+The young man looked at the children---they were so weak that they could hardly stand. With the last bit of kindness he had he gave them all the food. The old man and children thanked the young man and then gave him a dirty old coin. The young man said, "You need this coin more than I do--- just keep it." The old man insisted  that the young man put it in his pocket---and finally he did.
+The old man and children sat down to eat. And with no money, no job and no food, the young man went back under the bridge to lie down. As he was about to fall asleep he saw an old newspaper on the ground. He picked it up and saw an ad inviting people with old coins to come to a store. He decided to go there with the dirty old coin the man gave him.
+When he arrived at the store, he gave the keeper the dirty old coin. The keeper cried loudly. It was part of a Spanish treasure ship that had never been found. This same old coin was worth 67,000 dollars. The young man was pleased. He immediately sold the coin for money and then looked for the old man and little children to thank them and share the money. By the time he got to where he left them eating, they had gone.
+
+Question: Which of the following is True?
+A. The old man and children had nothing to eat for a month.
+B. The young man had a big meal after getting so much money.
+C. The young man thought the old man needed the coin more than he did.
+D. The young man sold the coin for 67,000 dollars and gave half of the money to the old man.
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Layer 4/16: Halt prob: 0.2157, Accumulated: 0.2157, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0831, Accumulated: 0.2988, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0555, Accumulated: 0.3543, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0461, Accumulated: 0.4004, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0389, Accumulated: 0.4393, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0419, Accumulated: 0.4811, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0515, Accumulated: 0.5327, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1100, Accumulated: 0.6427, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1370, Accumulated: 0.7797, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1008, Accumulated: 0.8805, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0690, Accumulated: 0.9495, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0309, Accumulated: 0.9804, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0095, Accumulated: 0.9898, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0122, Accumulated: 0.0122, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0096, Accumulated: 0.0219, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0062, Accumulated: 0.0281, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.1117, Accumulated: 0.1398, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0096, Accumulated: 0.1493, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0076, Accumulated: 0.1570, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0071, Accumulated: 0.1641, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0617, Accumulated: 0.2258, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0460, Accumulated: 0.2718, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7201, Accumulated: 0.9918, Threshold: 0.9900
+Early exit at layer 13/16
+[Prompt]:
+Article: There are many kinds of food in the world. Scientists learn a lot about them. They say that there are some kinds of food people must eat every day. For example, people must eat some green and yellow vegetables. We shouldn't eat too much meat. People also need to eat some fruits, bread and rice. Of course our bodies need some water and milk.
+Scientists say people in different countries and different places eat different kinds of food. They cook food in different ways. Different people eat at different times. In one place, people eat once or twice a day. But in another place, people eat three or four times. The scientists say when to eat and how many times to eat are not important. What we eat is the most important thing.
+Nowadays, the world faces two problems. People in some places, for example, in Africa, are not full. Many people are eating junk food. It's bad for people's health. So it's our duty to make everyone full and make everyone healthy.
+,.
+
+Question: _   is not good for our health.
+A. Meat
+B. Bread
+C. Milk
+D. Potato chips
+Answer:
+[Reference Response]:
+ D
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: D
+Layer 4/16: Halt prob: 0.1932, Accumulated: 0.1932, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0869, Accumulated: 0.2801, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0510, Accumulated: 0.3312, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0398, Accumulated: 0.3709, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0345, Accumulated: 0.4055, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0484, Accumulated: 0.4539, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0590, Accumulated: 0.5129, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1207, Accumulated: 0.6335, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1397, Accumulated: 0.7732, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1042, Accumulated: 0.8773, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0631, Accumulated: 0.9404, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0349, Accumulated: 0.9754, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0118, Accumulated: 0.9871, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0052, Accumulated: 0.0052, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0150, Accumulated: 0.0202, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0184, Accumulated: 0.0386, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.1200, Accumulated: 0.1586, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0173, Accumulated: 0.1758, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0059, Accumulated: 0.1818, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0310, Accumulated: 0.2127, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0181, Accumulated: 0.2309, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0169, Accumulated: 0.2478, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6615, Accumulated: 0.9093, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0829, Accumulated: 0.9922, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Dear Mr. Expert,
+I grew up in an abusive  home. I always promised myself that I'd get out as soon as possible. Now, at age 20, I have a good job and a nice house of my own, and I'm really proud.
+Here's the problem: some of my friends who still live with their parents spend the weekends with me. But now they make mine theirs. They bring boy friends over, talk on the phone, etc.
+I enjoy having my friends here sometimes - it makes the place feel comfortable and warm, but this is my home, not a party house, what shall I do?
+Joan
+Dear Joan,
+If your family didn't pay attention to your needs when you were a child, you probably have trouble letting others know your needs now.
+And if you've gathered your friends around you to rebuild a happy family, you may fear that saying no will bring back the kind of _ that you grew up in. You need to understand that in true friendship it's okay to put your own needs first from time to time.
+Be clear about the message you want to send. For example, "I really love you, but I also need some personal space. So please call before you come over."
+Edward
+
+Question: According to Mr. Expert, why can't Joan tell her friends her feeling?
+A. She is afraid of hurting her friends.
+B. She does not understand true friendship.
+C. Her family experience stops her doing so.
+D. She does not put her needs first.
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: C
+Layer 4/16: Halt prob: 0.1790, Accumulated: 0.1790, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0594, Accumulated: 0.2384, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0404, Accumulated: 0.2788, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0359, Accumulated: 0.3147, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0281, Accumulated: 0.3429, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0327, Accumulated: 0.3756, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0334, Accumulated: 0.4090, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0718, Accumulated: 0.4808, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1214, Accumulated: 0.6022, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1107, Accumulated: 0.7129, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1261, Accumulated: 0.8391, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0818, Accumulated: 0.9209, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0332, Accumulated: 0.9541, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0071, Accumulated: 0.0071, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0110, Accumulated: 0.0181, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0276, Accumulated: 0.0457, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.1560, Accumulated: 0.2017, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0257, Accumulated: 0.2274, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0108, Accumulated: 0.2382, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0039, Accumulated: 0.2421, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0068, Accumulated: 0.2489, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0223, Accumulated: 0.2713, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7220, Accumulated: 0.9932, Threshold: 0.9900
+Early exit at layer 13/16
+[Prompt]:
+Article: I am a Chinese boy. My name is Li Ming. I'm a student. In my class, some of the boys like playing football very much. Wu Jun and I are on school football team. And some of them like playing basketball. _ Han Mei and Zhang Hong are on school volleyball team. Each of them has a tennis racket. In a word  , everyone in our class likes sports very much.
+
+Question: Each of the girls has a   _  .
+A. tennis racket
+B. baseball bat
+C. volleyball
+D. basketball
+Answer:
+[Reference Response]:
+ A
+[Model Response]:
+ A
+Extracted prediction: A, Extracted target: A
+Layer 4/16: Halt prob: 0.1754, Accumulated: 0.1754, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0914, Accumulated: 0.2669, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0617, Accumulated: 0.3286, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0403, Accumulated: 0.3689, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0247, Accumulated: 0.3935, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0329, Accumulated: 0.4265, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0454, Accumulated: 0.4719, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1122, Accumulated: 0.5840, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1482, Accumulated: 0.7322, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1226, Accumulated: 0.8548, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0737, Accumulated: 0.9285, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0422, Accumulated: 0.9706, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0136, Accumulated: 0.9843, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0090, Accumulated: 0.0090, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0109, Accumulated: 0.0199, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0170, Accumulated: 0.0369, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0634, Accumulated: 0.1003, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0054, Accumulated: 0.1057, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0174, Accumulated: 0.1231, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0130, Accumulated: 0.1361, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0978, Accumulated: 0.2339, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0957, Accumulated: 0.3295, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.6587, Accumulated: 0.9882, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0118, Accumulated: 1.0000, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Today is Sunday. Our class meets at seven thirty a.m. at the school gate. We take a bus to Haian Park. The price of the ticket  for each adult  is eighteen yuan, but for each student is half. The park is open from 8 a.m. to 5 p.m. First we play games in the park. And then we have dinner at noon. After that we sit and chat under the trees. At half past three, we go to the Swimming Club. We come back home at about six o'clock in the afternoon because  it is time for all of us to have supper. We are tired  but we are very happy.
+
+Question: Why do the students go home at about six p.m.?
+A. Because they are happy
+B. Because they are tired
+C. Because they go home for supper
+D. Because they have some homework to do
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Layer 4/16: Halt prob: 0.1832, Accumulated: 0.1832, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0814, Accumulated: 0.2646, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0475, Accumulated: 0.3122, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0381, Accumulated: 0.3502, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0348, Accumulated: 0.3850, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0370, Accumulated: 0.4221, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0490, Accumulated: 0.4710, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1045, Accumulated: 0.5755, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1596, Accumulated: 0.7351, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1218, Accumulated: 0.8569, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0798, Accumulated: 0.9367, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0373, Accumulated: 0.9740, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0134, Accumulated: 0.9874, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0090, Accumulated: 0.0090, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0102, Accumulated: 0.0192, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0087, Accumulated: 0.0279, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0909, Accumulated: 0.1188, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0111, Accumulated: 0.1299, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0118, Accumulated: 0.1417, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0179, Accumulated: 0.1596, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0351, Accumulated: 0.1947, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0164, Accumulated: 0.2111, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7642, Accumulated: 0.9753, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0244, Accumulated: 0.9998, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: When you look at the sky at night, the moon looks bigger than the stars. Actually, the moon is much smaller than the stars and the sun. It's much smaller than the earth. But the moon is much closer to us than any star. That is why it looks so big. If you hold a coin close to your eye, it looks big. If you look at it across the moon, it looks small.
+The moon moves around the earth. It makes one trip in about four weeks. The moon looks flat to us. But it is a round ball, like the earth.
+People once thought the moon had fire on it. They thought the fire made it bright. Now we know the moon is like a mirror. It gets its light from the sun.
+Our sunlight comes from the sun, too. What is the sun? The sun is a star. The stars we can see have their own light. There are many big stars we cannot see. Their light had burned out. Others are still bright, but they are so far away that we cannot see them. The sun looks bigger and much brighter than other stars because it is the nearest of all stars. The sun and the other stars we see are very hot, but the air around us saves us from the heat of the sun.
+The sun gives us light and warmth. It makes plants grow and turns leaves green. It makes life possible on our earth. It is a life giving star.
+
+Question: Why do we call the sun "a life giving star"?
+A. Because it gives us warmth.
+B. Because there are some living things on it.
+C. Because plants and animals can't live without it.
+D. Because people have to live in the dark without it.
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Layer 4/16: Halt prob: 0.2214, Accumulated: 0.2214, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0868, Accumulated: 0.3082, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0608, Accumulated: 0.3690, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0456, Accumulated: 0.4145, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0358, Accumulated: 0.4503, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0486, Accumulated: 0.4989, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0440, Accumulated: 0.5430, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0860, Accumulated: 0.6290, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1326, Accumulated: 0.7616, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.0980, Accumulated: 0.8596, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0710, Accumulated: 0.9306, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0363, Accumulated: 0.9669, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0137, Accumulated: 0.9806, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0098, Accumulated: 0.0098, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0096, Accumulated: 0.0195, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0056, Accumulated: 0.0250, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0403, Accumulated: 0.0653, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0222, Accumulated: 0.0875, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0209, Accumulated: 0.1084, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0318, Accumulated: 0.1402, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0304, Accumulated: 0.1706, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0306, Accumulated: 0.2012, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7812, Accumulated: 0.9824, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0174, Accumulated: 0.9999, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: The Biggest and the Gentle
+The elephant is the biggest four-legged animal in the world.It is also the gentlest,but not always!
+Elephants are like us in some ways.They live for a long time--fifty or sixty years.They can remember things very well.They never forget great sadness or great happiness.When female elephant dies,her daughters and her granddaughters are sad for many months.They stay with the dead body.Then they carry a bit of it away with them.They never forget a dear friend.
+Elephants are like us,but they are also different.They live in families of females.There will be a few young males a few"baby boys".But the females will soon send them away.And elephant family keeps only its daughters,mothers and grandmothers.And its great-grandmothers.
+The females stay together for fifty,sixty...a hundred years.The older animals look after the younger ones.The mothers teach their daughters and set a good example.
+And what happens to male elephants?Well,the young males stay with their family.Then the females just send them away.A bull elephant does not often have a friend.He lives apart,away from the family,and often away from other bulls.
+Sometimes the females call a bull.He can visit them then,and stay for some time.But soon his"wives"and sisters send him away again.The females have a very happy family life.What do the bulls think about it?We don't know.
+
+Question: When a female elephant dies,the others  _  .
+A. leave its dead body there
+B. shed tears together
+C. take a bit of the dead body away sadly
+D. bury the dead
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Layer 4/16: Halt prob: 0.2109, Accumulated: 0.2109, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0847, Accumulated: 0.2957, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0449, Accumulated: 0.3406, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0365, Accumulated: 0.3771, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0288, Accumulated: 0.4059, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0406, Accumulated: 0.4465, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0535, Accumulated: 0.5001, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0995, Accumulated: 0.5995, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1388, Accumulated: 0.7384, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1123, Accumulated: 0.8507, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0763, Accumulated: 0.9270, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0419, Accumulated: 0.9689, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0142, Accumulated: 0.9831, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0069, Accumulated: 0.0069, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0083, Accumulated: 0.0151, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0159, Accumulated: 0.0311, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0214, Accumulated: 0.0525, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0148, Accumulated: 0.0673, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0205, Accumulated: 0.0878, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0131, Accumulated: 0.1009, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0796, Accumulated: 0.1805, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0500, Accumulated: 0.2305, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7578, Accumulated: 0.9884, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0116, Accumulated: 0.9999, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Mr. Evans lives in a city. He was a math teacher three years ago. He taught well and his students liked him. So he decided to work in the middle school all his life. But a terrible accident changed his fortune .
+One spring he took his class to visit a place of interest. The children saw a lot of interesting things and had a good time there. But on their way to school, their bus was hit by a truck because the young driver was drunk . Five students died and more than half of the children were injured in the accident. He didn't know how it had happened and was very sad about it and after he came out of hospital, he left the school and became a policeman. He tried his best to stop the drivers from breaking the traffic regulations . He worked hard and was strict with the drivers. So they were afraid of him.
+One afternoon it was very hot. Mr. Evans was on duty. He was standing at the crossing and watching the traffic. Suddenly he saw a car rushing towards the crossing. It ran so fast that it almost hit a man on a bike. He stopped it at once and saw a girl in it.
+"Show your license to me, madam," said Mr. Evans.
+The girl handed her bag to him and said: "Please look for it in it. I can't see anything without glasses."
+
+Question: In the accident   _  .
+A. more than half of the children died
+B. five children were injured
+C. more than half of those children were injured
+D. Mr. Evans was injured
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+Layer 4/16: Halt prob: 0.1951, Accumulated: 0.1951, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0867, Accumulated: 0.2818, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0536, Accumulated: 0.3354, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0388, Accumulated: 0.3742, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0272, Accumulated: 0.4014, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0352, Accumulated: 0.4366, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0425, Accumulated: 0.4791, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0895, Accumulated: 0.5687, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1165, Accumulated: 0.6851, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1030, Accumulated: 0.7881, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0987, Accumulated: 0.8869, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0717, Accumulated: 0.9586, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0222, Accumulated: 0.9807, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0097, Accumulated: 0.0097, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0112, Accumulated: 0.0209, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0130, Accumulated: 0.0339, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0542, Accumulated: 0.0881, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0084, Accumulated: 0.0964, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0087, Accumulated: 0.1052, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0070, Accumulated: 0.1122, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0147, Accumulated: 0.1269, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0212, Accumulated: 0.1481, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.7475, Accumulated: 0.8956, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.1032, Accumulated: 0.9988, Threshold: 0.9900
+Early exit at layer 14/16
+[Prompt]:
+Article: Hi! My name is Millie. I am from England. I am twelve years old. I am slim and tall. I have long hair. I like music. I listen to music every evening. I like reading and I am in the Reading Club. But I don't like sports.
+Hello! I am Peter from America. But I live in Shanghai now. I am 13 years old. I wear glasses. I am tall and strong. My hair is very short. I like sports very much. Every afternoon, I play football on the playground at school. I am good at swimming too.
+This is Amy. I was born in Beijing and now I live in Nanjing. My father works in a hospital in Nanjing. So we come here. I am fourteen years old. I am short but strong. I like playing computer games. I am polite and helpful. I often help other students.
+
+Question: Where does Amy come from?
+A. England
+B. America
+C. Beijing
+D. Nanjing
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ B
+Extracted prediction: B, Extracted target: C
+Layer 4/16: Halt prob: 0.1709, Accumulated: 0.1709, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0827, Accumulated: 0.2536, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0553, Accumulated: 0.3089, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0426, Accumulated: 0.3515, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0354, Accumulated: 0.3870, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0421, Accumulated: 0.4291, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0481, Accumulated: 0.4771, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.1058, Accumulated: 0.5830, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.1384, Accumulated: 0.7213, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.1110, Accumulated: 0.8323, Threshold: 0.9900
+Layer 14/16: Halt prob: 0.0833, Accumulated: 0.9156, Threshold: 0.9900
+Layer 15/16: Halt prob: 0.0456, Accumulated: 0.9612, Threshold: 0.9900
+Layer 16/16: Halt prob: 0.0163, Accumulated: 0.9774, Threshold: 0.9900
+Layer 4/16: Halt prob: 0.0080, Accumulated: 0.0080, Threshold: 0.9900
+Layer 5/16: Halt prob: 0.0169, Accumulated: 0.0249, Threshold: 0.9900
+Layer 6/16: Halt prob: 0.0156, Accumulated: 0.0405, Threshold: 0.9900
+Layer 7/16: Halt prob: 0.0160, Accumulated: 0.0565, Threshold: 0.9900
+Layer 8/16: Halt prob: 0.0074, Accumulated: 0.0639, Threshold: 0.9900
+Layer 9/16: Halt prob: 0.0189, Accumulated: 0.0828, Threshold: 0.9900
+Layer 10/16: Halt prob: 0.0103, Accumulated: 0.0930, Threshold: 0.9900
+Layer 11/16: Halt prob: 0.0352, Accumulated: 0.1283, Threshold: 0.9900
+Layer 12/16: Halt prob: 0.0611, Accumulated: 0.1893, Threshold: 0.9900
+Layer 13/16: Halt prob: 0.8075, Accumulated: 0.9968, Threshold: 0.9900
+Early exit at layer 13/16
+[Prompt]:
+Article: Take a class at Dulangkou School, and you'll see lots of things different from other schools, You can see the desks are not in rows and students sit in groups. They put their desks together so they're facing each other. How can they see the blackboard? There are three blackboards on the three walls of the classroom!
+The school calls the new way of learning "Tuantuanzuo", meaning sitting in groups. Wei Liying, a Junior 3 teacher, said it was to give students more chances to communicate.
+Each group has five or six students, according to Wei, and they play different roles .There is a team leader who takes care of the whole group. There is a "study leader"who makes sure that everyone finishes their homework. And there is a discipline leader who makes sure that nobody chats in class.
+Wang Lin is a team leader. The 15-year-old said that having to deal with so many things was tiring.
+"I just looked after my own business before,"said Wang. "But now I have to think about my five group members."
+But Wang has got used to it and can see the benefits now.
+"I used to speak too little. But being a team leader means you have to talk a lot. You could even call me an excellent speaker today."
+Zhang Qi, 16, was weak in English. She used to get about 70 in English tests. But in a recent test, Zhang got a grade of more than 80.
+"I rarely  asked others when I had problems with my English tests. But now I can ask the team leader or study leader. They are really helpful."
+
+Question: A discipline leader is supposed to  _  .
+A. take care of the whole group
+B. make sure that everybody finishes homework
+C. make sure that nobody chats in class
+D. collect all the homework and hand it in to teachers
+Answer:
+[Reference Response]:
+ C
+[Model Response]:
+ C
+Extracted prediction: C, Extracted target: C
+{'predicted_text': {'exact_match': 0.699999988079071, 'accuracy': 0.7}, 'acceptance_rate': {'mean': 0.0}, 'total_time': {'mean': 0.24512333869934083}, 'time_per_token': {'mean': 0.24512333869934083}, 'tokens_per_second': {'mean': 4.9797178387641905}}

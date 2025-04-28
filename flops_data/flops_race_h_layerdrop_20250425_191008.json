@@ -1,0 +1,627 @@
+{
+  "strategy": "layerdrop",
+  "config": {
+    "max_steps": 20,
+    "exit_layer": -1,
+    "num_speculations": -1,
+    "generation_strategy": "layerdrop",
+    "sample": true,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9,
+    "no_repeat_ngram_size": null,
+    "stop_words": null,
+    "stop_token_ids": [],
+    "dropout_rate": 0.4,
+    "layerdrop_seed": 42,
+    "halting_threshold": 0.99,
+    "min_layers": 4,
+    "max_layers": null
+  },
+  "total_flops": 76559521679360,
+  "total_tokens": 100,
+  "flops_per_token": 765595216793.6,
+  "samples": [
+    {
+      "prompt": "Article: Kitesurfing as a water sport began in the 1980s, but didn't get popular until the end of la...",
+      "tokens_generated": 1,
+      "total_flops": 934225367040,
+      "flops_per_token": 934225367040.0
+    },
+    {
+      "prompt": "Article: Take a class at Dulangkou School, and you'll see lots of things different from other school...",
+      "tokens_generated": 1,
+      "total_flops": 919396392960,
+      "flops_per_token": 919396392960.0
+    },
+    {
+      "prompt": "Article: Tiger Mom,\nYou've been criticized  a lot since your book, Battle Hymn of the Tiger Mother, ...",
+      "tokens_generated": 1,
+      "total_flops": 1196203909120,
+      "flops_per_token": 1196203909120.0
+    },
+    {
+      "prompt": "Article: \"Make-A-Wish\" is one of the world's most well-known charities . It makes wishes come true f...",
+      "tokens_generated": 1,
+      "total_flops": 746391695360,
+      "flops_per_token": 746391695360.0
+    },
+    {
+      "prompt": "Article: Robots are supposed to run on batteries, right? Well not all of them.\nScientists in England...",
+      "tokens_generated": 1,
+      "total_flops": 773578147840,
+      "flops_per_token": 773578147840.0
+    },
+    {
+      "prompt": "Article: Hearing what I said, my dad laughed kindly. I continued, \"I owe your thanks, and I hope you...",
+      "tokens_generated": 1,
+      "total_flops": 931753871360,
+      "flops_per_token": 931753871360.0
+    },
+    {
+      "prompt": "Article: Have you ever complained why life is so tiring? Does the sky sometimes seem dark to you? Ar...",
+      "tokens_generated": 1,
+      "total_flops": 874909470720,
+      "flops_per_token": 874909470720.0
+    },
+    {
+      "prompt": "Article: Lucy:I like sports. I have ten tennis balls, seven basketballs, four volleyballs and five s...",
+      "tokens_generated": 1,
+      "total_flops": 358366873600,
+      "flops_per_token": 358366873600.0
+    },
+    {
+      "prompt": "Article: One day in the eighth grade, I was taking a Math Test on basic trigonometry  . Now for a mi...",
+      "tokens_generated": 1,
+      "total_flops": 1033085194240,
+      "flops_per_token": 1033085194240.0
+    },
+    {
+      "prompt": "Article: Driving a car at a high speed along a highway seems to be fun. You only need to follow the ...",
+      "tokens_generated": 1,
+      "total_flops": 971297802240,
+      "flops_per_token": 971297802240.0
+    },
+    {
+      "prompt": "Article: A farmer had four lambs ( ) . One was black , and the other three were white. The black lam...",
+      "tokens_generated": 1,
+      "total_flops": 563501015040,
+      "flops_per_token": 563501015040.0
+    },
+    {
+      "prompt": "Article: A young man woke up one morning under a bridge and checked his pocket. All he had left was ...",
+      "tokens_generated": 1,
+      "total_flops": 921867888640,
+      "flops_per_token": 921867888640.0
+    },
+    {
+      "prompt": "Article: You are driving alone in your car on a wild, stormy night, when you pass by a bus stop, and...",
+      "tokens_generated": 1,
+      "total_flops": 785935626240,
+      "flops_per_token": 785935626240.0
+    },
+    {
+      "prompt": "Article: It is very important for children to get to school safely and on time every day. Luckily, t...",
+      "tokens_generated": 1,
+      "total_flops": 531371571200,
+      "flops_per_token": 531371571200.0
+    },
+    {
+      "prompt": "Article: This is Kim and Kate's bedroom. The blue bed is Kate's and the green one is Kim's. They are...",
+      "tokens_generated": 1,
+      "total_flops": 313879951360,
+      "flops_per_token": 313879951360.0
+    },
+    {
+      "prompt": "Article: Happiness is for everyone. You don't need to care about those who have beautiful houses wit...",
+      "tokens_generated": 1,
+      "total_flops": 850194513920,
+      "flops_per_token": 850194513920.0
+    },
+    {
+      "prompt": "Article: Trees are useful to man in three very important ways. The first important way is that they ...",
+      "tokens_generated": 1,
+      "total_flops": 573386997760,
+      "flops_per_token": 573386997760.0
+    },
+    {
+      "prompt": "Article: Each morning a rich man found a poor man sitting on a park bench  . The poor man always sat...",
+      "tokens_generated": 1,
+      "total_flops": 845251522560,
+      "flops_per_token": 845251522560.0
+    },
+    {
+      "prompt": "Article: Emily Urich 18 years old Canada\nA lot of teens aren't responsible ,and that's where I'm dif...",
+      "tokens_generated": 1,
+      "total_flops": 1055328655360,
+      "flops_per_token": 1055328655360.0
+    },
+    {
+      "prompt": "Article: Many people like to search the Internet. Exploring the Internet is one of the most importan...",
+      "tokens_generated": 1,
+      "total_flops": 780992634880,
+      "flops_per_token": 780992634880.0
+    },
+    {
+      "prompt": "Article: Mr. Smith is one of my friends. He can run very fast and he is always ready to show  how fa...",
+      "tokens_generated": 1,
+      "total_flops": 561029519360,
+      "flops_per_token": 561029519360.0
+    },
+    {
+      "prompt": "Article: This year, \"Wild China\" is famous, it shows us the beautiful scenes .But in fact, the envir...",
+      "tokens_generated": 1,
+      "total_flops": 682132807680,
+      "flops_per_token": 682132807680.0
+    },
+    {
+      "prompt": "Article: I hurried into the store to get Christmas gifts. Suddenly, I saw a little boy holding a lov...",
+      "tokens_generated": 1,
+      "total_flops": 1159131473920,
+      "flops_per_token": 1159131473920.0
+    },
+    {
+      "prompt": "Article: In some countries, people eat rice every day. Sometimes they eat it twice or three times a ...",
+      "tokens_generated": 1,
+      "total_flops": 449812213760,
+      "flops_per_token": 449812213760.0
+    },
+    {
+      "prompt": "Article: Is it important to have breakfast every day? A short time ago, a test was given in the Unit...",
+      "tokens_generated": 1,
+      "total_flops": 583272980480,
+      "flops_per_token": 583272980480.0
+    },
+    {
+      "prompt": "Article: Thursday, April 24th\nWe got to the clean, lovely city of Yangzhou early in the morning. Thi...",
+      "tokens_generated": 1,
+      "total_flops": 790878617600,
+      "flops_per_token": 790878617600.0
+    },
+    {
+      "prompt": "Article: My name is Peter.I am 12.I have one brother and one sister.My brother is 15 and my sister i...",
+      "tokens_generated": 1,
+      "total_flops": 294107985920,
+      "flops_per_token": 294107985920.0
+    },
+    {
+      "prompt": "Article: Several years ago, Kevin Stephan, then aged 11, was playing baseball when a player accident...",
+      "tokens_generated": 1,
+      "total_flops": 793350113280,
+      "flops_per_token": 793350113280.0
+    },
+    {
+      "prompt": "Article: If you think you are too shy and want to be a little outgoing, try the following. You can m...",
+      "tokens_generated": 1,
+      "total_flops": 795821608960,
+      "flops_per_token": 795821608960.0
+    },
+    {
+      "prompt": "Article: Lin Tao and Chen Hai are good friends. They are in the same class. They are in the same tea...",
+      "tokens_generated": 1,
+      "total_flops": 444869222400,
+      "flops_per_token": 444869222400.0
+    },
+    {
+      "prompt": "Article: My name is Peter.I am 12.I have one brother and one sister.My brother is 15 and my sister i...",
+      "tokens_generated": 1,
+      "total_flops": 328708925440,
+      "flops_per_token": 328708925440.0
+    },
+    {
+      "prompt": "Article: Train-spotting\nMany people around the world have seen Danny Boyle's movie Train spotting st...",
+      "tokens_generated": 1,
+      "total_flops": 1238219335680,
+      "flops_per_token": 1238219335680.0
+    },
+    {
+      "prompt": "Article: Some women are talking about the problems of getting old.\nOne woman says, \" Sometimes I sta...",
+      "tokens_generated": 1,
+      "total_flops": 499242127360,
+      "flops_per_token": 499242127360.0
+    },
+    {
+      "prompt": "Article: Happiness is for everyone. You don't need to care about those who have beautiful houses wit...",
+      "tokens_generated": 1,
+      "total_flops": 793350113280,
+      "flops_per_token": 793350113280.0
+    },
+    {
+      "prompt": "Article: There are two main kinds of sports. These two kinds of sports are team sports and individua...",
+      "tokens_generated": 1,
+      "total_flops": 600573450240,
+      "flops_per_token": 600573450240.0
+    },
+    {
+      "prompt": "Article: One day when Jack was walking in the park, he saw a woman, who lived a few miles away, sitt...",
+      "tokens_generated": 1,
+      "total_flops": 884795453440,
+      "flops_per_token": 884795453440.0
+    },
+    {
+      "prompt": "Article: Zhao Tao, a student from No.2 Middle School, has just come back from Shanghai. This morning...",
+      "tokens_generated": 1,
+      "total_flops": 847723018240,
+      "flops_per_token": 847723018240.0
+    },
+    {
+      "prompt": "Article: Tom is a little boy ,and he is only seven years old. One day he went to the cinema. It is t...",
+      "tokens_generated": 1,
+      "total_flops": 499242127360,
+      "flops_per_token": 499242127360.0
+    },
+    {
+      "prompt": "Article: Once a traveller came into a village which was suffering from hunger. The villagers asked h...",
+      "tokens_generated": 1,
+      "total_flops": 1065214638080,
+      "flops_per_token": 1065214638080.0
+    },
+    {
+      "prompt": "Article: Take a class at Dulangkou School, and you'll see lots of things different from other school...",
+      "tokens_generated": 1,
+      "total_flops": 951525836800,
+      "flops_per_token": 951525836800.0
+    },
+    {
+      "prompt": "Article: If you could see a movie of your life before you lived it, would you want to live it? Proba...",
+      "tokens_generated": 1,
+      "total_flops": 971297802240,
+      "flops_per_token": 971297802240.0
+    },
+    {
+      "prompt": "Article: \"You know, these cups brings to my mind a story I heard,\" Mary said to her students.\nShe po...",
+      "tokens_generated": 1,
+      "total_flops": 768635156480,
+      "flops_per_token": 768635156480.0
+    },
+    {
+      "prompt": "Article: Tom is a schoolboy. He is only seven years old, but he is very busy on weekdays. One Saturd...",
+      "tokens_generated": 1,
+      "total_flops": 536314562560,
+      "flops_per_token": 536314562560.0
+    },
+    {
+      "prompt": "Article: When you look at the sky at night, the moon looks bigger than the stars. Actually, the moon...",
+      "tokens_generated": 1,
+      "total_flops": 847723018240,
+      "flops_per_token": 847723018240.0
+    },
+    {
+      "prompt": "Article: A boy and his father were walking in the mountains. Suddenly the boy fell,hurt himself,and ...",
+      "tokens_generated": 1,
+      "total_flops": 800764600320,
+      "flops_per_token": 800764600320.0
+    },
+    {
+      "prompt": "Article: \"Depend on yourself\" is what nature says to every man. Parents can help you. Teachers can h...",
+      "tokens_generated": 1,
+      "total_flops": 674718320640,
+      "flops_per_token": 674718320640.0
+    },
+    {
+      "prompt": "Article: Do you like singing? Do you know how to use the iPod or iPhone to sing? The iPod and iPhone...",
+      "tokens_generated": 1,
+      "total_flops": 647531868160,
+      "flops_per_token": 647531868160.0
+    },
+    {
+      "prompt": "Article: \"I'm so sorry. It was all my fault, with no excuse and no reason,\" said the 23-year-old Tai...",
+      "tokens_generated": 1,
+      "total_flops": 973769297920,
+      "flops_per_token": 973769297920.0
+    },
+    {
+      "prompt": "Article: Kites have a long history. They may date back  long time ago. They were made of bamboo and ...",
+      "tokens_generated": 1,
+      "total_flops": 795821608960,
+      "flops_per_token": 795821608960.0
+    },
+    {
+      "prompt": "Article: If you do not use your arms or your legs for some time, they will become weak, when you sta...",
+      "tokens_generated": 1,
+      "total_flops": 790878617600,
+      "flops_per_token": 790878617600.0
+    },
+    {
+      "prompt": "Article: Dear Mr. Expert,\nI grew up in an abusive  home. I always promised myself that I'd get out a...",
+      "tokens_generated": 1,
+      "total_flops": 805707591680,
+      "flops_per_token": 805707591680.0
+    },
+    {
+      "prompt": "Article: Almost everyone likes to eat apples. Apples grow  in nearly every part of the world. The Un...",
+      "tokens_generated": 1,
+      "total_flops": 585744476160,
+      "flops_per_token": 585744476160.0
+    },
+    {
+      "prompt": "Article: In America, there is a traditional story called a \"tall tale\". A tall tale is a story about...",
+      "tokens_generated": 1,
+      "total_flops": 837837035520,
+      "flops_per_token": 837837035520.0
+    },
+    {
+      "prompt": "Article: If an American is satisfied with you,he will put his thumb and forefinger into a circle.Tha...",
+      "tokens_generated": 1,
+      "total_flops": 474527170560,
+      "flops_per_token": 474527170560.0
+    },
+    {
+      "prompt": "Article: One day in the eighth grade, I was taking a Math Test on basic trigonometry  . Now for a mi...",
+      "tokens_generated": 1,
+      "total_flops": 1003427246080,
+      "flops_per_token": 1003427246080.0
+    },
+    {
+      "prompt": "Article: On February 9 th,2013,Sarah Darling was walking along the street when she met a homeless ma...",
+      "tokens_generated": 1,
+      "total_flops": 865023488000,
+      "flops_per_token": 865023488000.0
+    },
+    {
+      "prompt": "Article: On a hot summer day, Holmes and Dr. Watson went on a camping trip. After a good meal and a ...",
+      "tokens_generated": 1,
+      "total_flops": 548672040960,
+      "flops_per_token": 548672040960.0
+    },
+    {
+      "prompt": "Article: Several years ago,a television reporter was talking to three of the most important people i...",
+      "tokens_generated": 1,
+      "total_flops": 813122078720,
+      "flops_per_token": 813122078720.0
+    },
+    {
+      "prompt": "Article: Mr. Jackson lives in a small town. He is a kind and funny man. And he is friendly to everyo...",
+      "tokens_generated": 1,
+      "total_flops": 642588876800,
+      "flops_per_token": 642588876800.0
+    },
+    {
+      "prompt": "Article: Be honest. That's all you have to do on Honesty Day. It would be great if we were all hones...",
+      "tokens_generated": 1,
+      "total_flops": 622816911360,
+      "flops_per_token": 622816911360.0
+    },
+    {
+      "prompt": "Article: Which part of the world has the most nearsighted students? Just look around you-it's East A...",
+      "tokens_generated": 1,
+      "total_flops": 1042971176960,
+      "flops_per_token": 1042971176960.0
+    },
+    {
+      "prompt": "Article: An Internet game named Happy Farm is becoming more and more popular among young office work...",
+      "tokens_generated": 1,
+      "total_flops": 632702894080,
+      "flops_per_token": 632702894080.0
+    },
+    {
+      "prompt": "Article: Mo, the first Nobel winner in literature born and living in China, said he had trouble with...",
+      "tokens_generated": 1,
+      "total_flops": 1008370237440,
+      "flops_per_token": 1008370237440.0
+    },
+    {
+      "prompt": "Article: You can be proud of yourselves, even if you can only make one or two of these green changes...",
+      "tokens_generated": 1,
+      "total_flops": 911981905920,
+      "flops_per_token": 911981905920.0
+    },
+    {
+      "prompt": "Article: Today is Sunday, and it is a fine day. The animals in the zoo are having a sports meeting n...",
+      "tokens_generated": 1,
+      "total_flops": 526428579840,
+      "flops_per_token": 526428579840.0
+    },
+    {
+      "prompt": "Article: Come and see the India elephants and the new tigers from America. The bears are waiting to ...",
+      "tokens_generated": 1,
+      "total_flops": 501713623040,
+      "flops_per_token": 501713623040.0
+    },
+    {
+      "prompt": "Article: Kitesurfing as a water sport began in the 1980s, but didn't get popular until the end of la...",
+      "tokens_generated": 1,
+      "total_flops": 865023488000,
+      "flops_per_token": 865023488000.0
+    },
+    {
+      "prompt": "Article: On my first holiday in America, I went to a large supermarket to buy breakfast. And althoug...",
+      "tokens_generated": 1,
+      "total_flops": 813122078720,
+      "flops_per_token": 813122078720.0
+    },
+    {
+      "prompt": "Article: Do you have a headache? Take an aspirin or eat bird brains. Do you want beautiful skin? Use...",
+      "tokens_generated": 1,
+      "total_flops": 924339384320,
+      "flops_per_token": 924339384320.0
+    },
+    {
+      "prompt": "Article: For many Chinese, winter holiday season doesn't seem complete without the CCTV Spring Festi...",
+      "tokens_generated": 1,
+      "total_flops": 951525836800,
+      "flops_per_token": 951525836800.0
+    },
+    {
+      "prompt": "Article: Dear readers,\nImagine a little girl who knows there will not be enough food for dinner, who...",
+      "tokens_generated": 1,
+      "total_flops": 951525836800,
+      "flops_per_token": 951525836800.0
+    },
+    {
+      "prompt": "Article: In the days when an ice cream sundae cost much less, a 10-year-old boy entered a hotel coff...",
+      "tokens_generated": 1,
+      "total_flops": 687075799040,
+      "flops_per_token": 687075799040.0
+    },
+    {
+      "prompt": "Article: While Nick was on the bus reading his newspaper, the man sitting next to him suddenly pushe...",
+      "tokens_generated": 1,
+      "total_flops": 867494983680,
+      "flops_per_token": 867494983680.0
+    },
+    {
+      "prompt": "Article: A boy and his father were walking in the mountains. Suddenly the boy fell,hurt himself,and ...",
+      "tokens_generated": 1,
+      "total_flops": 808179087360,
+      "flops_per_token": 808179087360.0
+    },
+    {
+      "prompt": "Article: Just as in face-to-face communication, there are some basic rules of behavior  that should ...",
+      "tokens_generated": 1,
+      "total_flops": 778521139200,
+      "flops_per_token": 778521139200.0
+    },
+    {
+      "prompt": "Article: \"I'm so sorry. It was all my fault, with no excuse and no reason,\" said the 23-year-old Tai...",
+      "tokens_generated": 1,
+      "total_flops": 884795453440,
+      "flops_per_token": 884795453440.0
+    },
+    {
+      "prompt": "Article: Every country has its favorite food. Italians like to eat pizza. Indians like to eat hot fo...",
+      "tokens_generated": 1,
+      "total_flops": 630231398400,
+      "flops_per_token": 630231398400.0
+    },
+    {
+      "prompt": "Article: People usually check whether their keys, wallets and phones are with them before going out....",
+      "tokens_generated": 1,
+      "total_flops": 1065214638080,
+      "flops_per_token": 1065214638080.0
+    },
+    {
+      "prompt": "Article: Before I started school, people felt that I was not going to be successful.At the age of fo...",
+      "tokens_generated": 1,
+      "total_flops": 818065070080,
+      "flops_per_token": 818065070080.0
+    },
+    {
+      "prompt": "Article: Mr. White lives on the 20th floor in a tall building in Beijing. His office is about ten ki...",
+      "tokens_generated": 1,
+      "total_flops": 699433277440,
+      "flops_per_token": 699433277440.0
+    },
+    {
+      "prompt": "Article: Do you kow that animals have love for each other and their children just like us humans? Le...",
+      "tokens_generated": 1,
+      "total_flops": 664832337920,
+      "flops_per_token": 664832337920.0
+    },
+    {
+      "prompt": "Article: The first time I went abroad was when I went to London. It was in the summer holidays about...",
+      "tokens_generated": 1,
+      "total_flops": 832894044160,
+      "flops_per_token": 832894044160.0
+    },
+    {
+      "prompt": "Article: A story is told about a soldier who was finally coming home after having fought in Vietnam....",
+      "tokens_generated": 1,
+      "total_flops": 958940323840,
+      "flops_per_token": 958940323840.0
+    },
+    {
+      "prompt": "Article: The widespread number of food scandals in  China is making many people pause before they pu...",
+      "tokens_generated": 1,
+      "total_flops": 837837035520,
+      "flops_per_token": 837837035520.0
+    },
+    {
+      "prompt": "Article: First, welcome to West Lake! I am glad to serve all of you.\nToday you come here, you are su...",
+      "tokens_generated": 1,
+      "total_flops": 889738444800,
+      "flops_per_token": 889738444800.0
+    },
+    {
+      "prompt": "Article: Some women are talking about the problems of getting old.\nOne woman says, \" Sometimes I sta...",
+      "tokens_generated": 1,
+      "total_flops": 494299136000,
+      "flops_per_token": 494299136000.0
+    },
+    {
+      "prompt": "Article: Welcome to our club l  Our club is a good place to have fun for students. We have ten sport...",
+      "tokens_generated": 1,
+      "total_flops": 514071101440,
+      "flops_per_token": 514071101440.0
+    },
+    {
+      "prompt": "Article: Wonder why you can get angry so easily while your friend smiles all the time? It's probably...",
+      "tokens_generated": 1,
+      "total_flops": 758749173760,
+      "flops_per_token": 758749173760.0
+    },
+    {
+      "prompt": "Article: Tom was a farmer. He worked on the farm all day,but sometimes he went to the town market to...",
+      "tokens_generated": 1,
+      "total_flops": 758749173760,
+      "flops_per_token": 758749173760.0
+    },
+    {
+      "prompt": "Article: \"High tech\" and \"state of the art\" are two expressions that describe very modern technology...",
+      "tokens_generated": 1,
+      "total_flops": 1003427246080,
+      "flops_per_token": 1003427246080.0
+    },
+    {
+      "prompt": "Article: When he was a teenager, Hunter Adam was very unhappy and he spent many years in a special h...",
+      "tokens_generated": 1,
+      "total_flops": 852666009600,
+      "flops_per_token": 852666009600.0
+    },
+    {
+      "prompt": "Article: Today is Sunday, and it is a fine day. The animals in the zoo are having a sports meeting n...",
+      "tokens_generated": 1,
+      "total_flops": 521485588480,
+      "flops_per_token": 521485588480.0
+    },
+    {
+      "prompt": "Article: Before I left to meet Lynne, my friend told me that I had better take some money, but I did...",
+      "tokens_generated": 1,
+      "total_flops": 647531868160,
+      "flops_per_token": 647531868160.0
+    },
+    {
+      "prompt": "Article: Lucy:I like sports. I have ten tennis balls, seven basketballs, four volleyballs and five s...",
+      "tokens_generated": 1,
+      "total_flops": 380610334720,
+      "flops_per_token": 380610334720.0
+    },
+    {
+      "prompt": "Article: One evening , my dad asked me to buy some bread for dinner . It was dark and cold outside ....",
+      "tokens_generated": 1,
+      "total_flops": 506656614400,
+      "flops_per_token": 506656614400.0
+    },
+    {
+      "prompt": "Article: Children in England mustn't work until they are 13. They need to have a work permit   to st...",
+      "tokens_generated": 1,
+      "total_flops": 768635156480,
+      "flops_per_token": 768635156480.0
+    },
+    {
+      "prompt": "Article: One day a farmer went out for a walk with his daughter. The farmer put on a pair of wrong s...",
+      "tokens_generated": 1,
+      "total_flops": 682132807680,
+      "flops_per_token": 682132807680.0
+    },
+    {
+      "prompt": "Article: Emily Urich 18 years old Canada\nA lot of teens aren't responsible ,and that's where I'm dif...",
+      "tokens_generated": 1,
+      "total_flops": 1015784724480,
+      "flops_per_token": 1015784724480.0
+    },
+    {
+      "prompt": "Article: \"Can I see my baby?\" asked the happy new mother. When the baby was in her arms, she couldn'...",
+      "tokens_generated": 1,
+      "total_flops": 1030613698560,
+      "flops_per_token": 1030613698560.0
+    },
+    {
+      "prompt": "Article: There are several ways you can find out about the countries and places you wish to visit. Y...",
+      "tokens_generated": 1,
+      "total_flops": 840308531200,
+      "flops_per_token": 840308531200.0
+    }
+  ],
+  "timestamp": "2025-04-25T19:10:08.951629"
+}

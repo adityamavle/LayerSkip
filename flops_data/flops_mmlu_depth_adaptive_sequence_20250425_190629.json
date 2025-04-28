@@ -1,0 +1,627 @@
+{
+  "strategy": "depth_adaptive_sequence",
+  "config": {
+    "max_steps": 20,
+    "exit_layer": -1,
+    "num_speculations": -1,
+    "generation_strategy": "depth_adaptive_sequence",
+    "sample": true,
+    "temperature": 0.3,
+    "top_k": 0,
+    "top_p": 0.9,
+    "no_repeat_ngram_size": null,
+    "stop_words": null,
+    "stop_token_ids": [],
+    "dropout_rate": 0.0,
+    "layerdrop_seed": null,
+    "halting_threshold": 0.9,
+    "min_layers": 4,
+    "max_layers": null
+  },
+  "total_flops": 95177425424384,
+  "total_tokens": 100,
+  "flops_per_token": 951774254243.84,
+  "samples": [
+    {
+      "prompt": "Question: The magnitude of the gravitational force on a satellite is constant if the orbit is\nA. par...",
+      "tokens_generated": 1,
+      "total_flops": 362169847808,
+      "flops_per_token": 362169847808.0
+    },
+    {
+      "prompt": "Question: Which of the following factors can affect enzyme activity?\nA. Temperature.\nB. pH.\nC. The p...",
+      "tokens_generated": 1,
+      "total_flops": 345509019648,
+      "flops_per_token": 345509019648.0
+    },
+    {
+      "prompt": "Question:  Which of the following is the timespan for Japan's closure to Christianity and Europe?\nA....",
+      "tokens_generated": 1,
+      "total_flops": 556111355904,
+      "flops_per_token": 556111355904.0
+    },
+    {
+      "prompt": "Question: A PO3- radical produces a pair of lines separated by 280 MHz with giso = 2.005. Calculate ...",
+      "tokens_generated": 1,
+      "total_flops": 1660254814208,
+      "flops_per_token": 1660254814208.0
+    },
+    {
+      "prompt": "Question: A defendant, a nurse at a nursing home, is charged with murdering a resident at the home b...",
+      "tokens_generated": 1,
+      "total_flops": 1573715816448,
+      "flops_per_token": 1573715816448.0
+    },
+    {
+      "prompt": "Question: Subsequent to issuing a report on audited financial statements, a CPA discovers that the a...",
+      "tokens_generated": 1,
+      "total_flops": 916019433472,
+      "flops_per_token": 916019433472.0
+    },
+    {
+      "prompt": "Question: A manufacturer of ready-bake cake mixes is interested in designing an experiment to test t...",
+      "tokens_generated": 1,
+      "total_flops": 1331406622720,
+      "flops_per_token": 1331406622720.0
+    },
+    {
+      "prompt": "Question: Say the incidence of a disease D is about 5 cases per 100 people (i.e., P(D) = 0.05). Let ...",
+      "tokens_generated": 1,
+      "total_flops": 1374676121600,
+      "flops_per_token": 1374676121600.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 959288932352,
+      "flops_per_token": 959288932352.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 1080443529216,
+      "flops_per_token": 1080443529216.0
+    },
+    {
+      "prompt": "Question: Owner owned two adjoining lots. There was a building located on both lots that was separat...",
+      "tokens_generated": 1,
+      "total_flops": 2081154408448,
+      "flops_per_token": 2081154408448.0
+    },
+    {
+      "prompt": "Question: You receive an e-mail from Dr. Brenda Browne, a licensed psychologist, who is currently se...",
+      "tokens_generated": 1,
+      "total_flops": 1175636426752,
+      "flops_per_token": 1175636426752.0
+    },
+    {
+      "prompt": "Question: The following measure of general cognitive abilities would be most appropriate for use wit...",
+      "tokens_generated": 1,
+      "total_flops": 621217454080,
+      "flops_per_token": 621217454080.0
+    },
+    {
+      "prompt": "Question: Predict the hyperfine value for the EPR spectrum of fully deuteriated benzene radical anio...",
+      "tokens_generated": 1,
+      "total_flops": 621217454080,
+      "flops_per_token": 621217454080.0
+    },
+    {
+      "prompt": "Question: Compared with political parties in countries such as England and Israel, both of which hav...",
+      "tokens_generated": 1,
+      "total_flops": 615886514176,
+      "flops_per_token": 615886514176.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\nRead the the following poem to answer q...",
+      "tokens_generated": 1,
+      "total_flops": 2144873201664,
+      "flops_per_token": 2144873201664.0
+    },
+    {
+      "prompt": "Question: Kevin wants shoes and grows turnips. Lisa wants turnips and makes sheet metal. Bob wants s...",
+      "tokens_generated": 1,
+      "total_flops": 604479041536,
+      "flops_per_token": 604479041536.0
+    },
+    {
+      "prompt": "Question: For which of the following is it appropriate to use a census?\nA. A 95% confidence interval...",
+      "tokens_generated": 1,
+      "total_flops": 890057734144,
+      "flops_per_token": 890057734144.0
+    },
+    {
+      "prompt": "Question: During a semester, a student received scores of 76, 80, 83, 71, 80, and 78 on six tests. W...",
+      "tokens_generated": 1,
+      "total_flops": 595825141760,
+      "flops_per_token": 595825141760.0
+    },
+    {
+      "prompt": "Question: While on a camping trip, a defendant became intoxicated and decided to take a walk late at...",
+      "tokens_generated": 1,
+      "total_flops": 1913008912384,
+      "flops_per_token": 1913008912384.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\nBy what principle of reason then, shoul...",
+      "tokens_generated": 1,
+      "total_flops": 2393424615424,
+      "flops_per_token": 2393424615424.0
+    },
+    {
+      "prompt": "Question: About how many people are infected by HIV/AIDS as of 2020?\nA. 3 million\nB. 14 million\nC. 4...",
+      "tokens_generated": 1,
+      "total_flops": 388131547136,
+      "flops_per_token": 388131547136.0
+    },
+    {
+      "prompt": "Question:  Which of the following propositions is an immediate (one-step) consequence in PL of the g...",
+      "tokens_generated": 1,
+      "total_flops": 760730521600,
+      "flops_per_token": 760730521600.0
+    },
+    {
+      "prompt": "Question: A very slow-moving positron interacts with a stationary electron. Which of the following s...",
+      "tokens_generated": 1,
+      "total_flops": 1096302217216,
+      "flops_per_token": 1096302217216.0
+    },
+    {
+      "prompt": "Question: To improve the quality of rental housing within its boundaries, a city proposed an ordinan...",
+      "tokens_generated": 1,
+      "total_flops": 2513528541184,
+      "flops_per_token": 2513528541184.0
+    },
+    {
+      "prompt": "Question: Dr. Mansfield Mayhem receives a subpoena requiring him to testify about a current therapy ...",
+      "tokens_generated": 1,
+      "total_flops": 1232419999744,
+      "flops_per_token": 1232419999744.0
+    },
+    {
+      "prompt": "Question: Which author emphasised strategy as achieving competitive advantage for an organization?\nA...",
+      "tokens_generated": 1,
+      "total_flops": 440054945792,
+      "flops_per_token": 440054945792.0
+    },
+    {
+      "prompt": "Question: ___________ has implications for internal validity and ___________ has implications for ex...",
+      "tokens_generated": 1,
+      "total_flops": 526593943552,
+      "flops_per_token": 526593943552.0
+    },
+    {
+      "prompt": "Question: When did the first Jaina temples appear?\nA. Second century CE\nB. Fifth century CE\nC. Fifth...",
+      "tokens_generated": 1,
+      "total_flops": 344862048256,
+      "flops_per_token": 344862048256.0
+    },
+    {
+      "prompt": "Question: Interference is characteristic of\nA. sound waves\nB. light waves\nC. water waves\nD. All of t...",
+      "tokens_generated": 1,
+      "total_flops": 284931721216,
+      "flops_per_token": 284931721216.0
+    },
+    {
+      "prompt": "Question: Among primates, a high degree of sexual dimorphism in a species usually indicates intense ...",
+      "tokens_generated": 1,
+      "total_flops": 527810301952,
+      "flops_per_token": 527810301952.0
+    },
+    {
+      "prompt": "Question: A truck driver negligently changed lanes on the highway without checking to see if it was ...",
+      "tokens_generated": 1,
+      "total_flops": 2281327618048,
+      "flops_per_token": 2281327618048.0
+    },
+    {
+      "prompt": "Question: \"Misuse of statistics,\" \"questionable statistics,\" and \"questionable use of statistics\" ar...",
+      "tokens_generated": 1,
+      "total_flops": 491978344448,
+      "flops_per_token": 491978344448.0
+    },
+    {
+      "prompt": "Question: What is the main clinical picture of hepatitis A?\nA. Rash\nB. Limb paralysis\nC. Jaundice an...",
+      "tokens_generated": 1,
+      "total_flops": 362169847808,
+      "flops_per_token": 362169847808.0
+    },
+    {
+      "prompt": "Question: What is the meaning of functional recognition?\nA. Recognition is a function as opposed to ...",
+      "tokens_generated": 1,
+      "total_flops": 587171241984,
+      "flops_per_token": 587171241984.0
+    },
+    {
+      "prompt": "Question: The fallacy of _ignoratio elenchi_ is also known as\nA. argument against the person\nB. appe...",
+      "tokens_generated": 1,
+      "total_flops": 457362745344,
+      "flops_per_token": 457362745344.0
+    },
+    {
+      "prompt": "Question: A use of easy money (expansionary) policy by the Fed could result in which of the followin...",
+      "tokens_generated": 1,
+      "total_flops": 552555642880,
+      "flops_per_token": 552555642880.0
+    },
+    {
+      "prompt": "Question: Proposed legislation was offered to a state legislature that would reorganize the state po...",
+      "tokens_generated": 1,
+      "total_flops": 2265313761280,
+      "flops_per_token": 2265313761280.0
+    },
+    {
+      "prompt": "Question: The elasticity of supply is typically greater when\nA. producers have fewer alternative goo...",
+      "tokens_generated": 1,
+      "total_flops": 526593943552,
+      "flops_per_token": 526593943552.0
+    },
+    {
+      "prompt": "Question: Are there any limits to the application of article 103 of the UN Charter?\nA. No, there are...",
+      "tokens_generated": 1,
+      "total_flops": 777557037056,
+      "flops_per_token": 777557037056.0
+    },
+    {
+      "prompt": "Question: A dentist has noticed that about two children in every seven whom he sees professionally d...",
+      "tokens_generated": 1,
+      "total_flops": 1184290326528,
+      "flops_per_token": 1184290326528.0
+    },
+    {
+      "prompt": "Question: Which of the following is a feature of X-linked dominant inheritance?\nA. Parental consangu...",
+      "tokens_generated": 1,
+      "total_flops": 440054945792,
+      "flops_per_token": 440054945792.0
+    },
+    {
+      "prompt": "Question: A 72-year-old man comes to the physician because of a 7-month history of leg weakness and ...",
+      "tokens_generated": 1,
+      "total_flops": 2127565402112,
+      "flops_per_token": 2127565402112.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 941981132800,
+      "flops_per_token": 941981132800.0
+    },
+    {
+      "prompt": "Question: Which of the following accurately describes individual entitlements?\nA. Congress provides ...",
+      "tokens_generated": 1,
+      "total_flops": 671935012864,
+      "flops_per_token": 671935012864.0
+    },
+    {
+      "prompt": "Question: In computer terminology what does the acronym 'FTP' stand for?\nA. file transfer protocol\nB...",
+      "tokens_generated": 1,
+      "total_flops": 370823747584,
+      "flops_per_token": 370823747584.0
+    },
+    {
+      "prompt": "Question: In the three-box information processing model, what is the first place memories are stored...",
+      "tokens_generated": 1,
+      "total_flops": 388131547136,
+      "flops_per_token": 388131547136.0
+    },
+    {
+      "prompt": "Question: If 30,000 is divided by 10 and then divided by 10 again, what will be the resulting number...",
+      "tokens_generated": 1,
+      "total_flops": 457362745344,
+      "flops_per_token": 457362745344.0
+    },
+    {
+      "prompt": "Question: Why is it important to separate the concept of punishment from its justification?\nA. Becau...",
+      "tokens_generated": 1,
+      "total_flops": 569863442432,
+      "flops_per_token": 569863442432.0
+    },
+    {
+      "prompt": "Question: Which of these horror films spawned the most sequels?\nA. Scream'\nB. Jaws'\nC. Halloween'\nD....",
+      "tokens_generated": 1,
+      "total_flops": 336208148480,
+      "flops_per_token": 336208148480.0
+    },
+    {
+      "prompt": "Question: Cattle breeders have improved the quality of meat over the years by which process?\nA. arti...",
+      "tokens_generated": 1,
+      "total_flops": 388131547136,
+      "flops_per_token": 388131547136.0
+    },
+    {
+      "prompt": "Question: The European Union (EU) replaced which of the following organizations?\nA. NATO\nB. EEC\nC. U...",
+      "tokens_generated": 1,
+      "total_flops": 318900348928,
+      "flops_per_token": 318900348928.0
+    },
+    {
+      "prompt": "Question: Which of the following heavenly bodies have never had a spacecraft landed on it?\nA. Venus\n...",
+      "tokens_generated": 1,
+      "total_flops": 327554248704,
+      "flops_per_token": 327554248704.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\n\"The Chinese are all infidels: they wor...",
+      "tokens_generated": 1,
+      "total_flops": 3096802177024,
+      "flops_per_token": 3096802177024.0
+    },
+    {
+      "prompt": "Question: Which State ordinarily exercises jurisdiction in respect of crimes committed on board vess...",
+      "tokens_generated": 1,
+      "total_flops": 448708845568,
+      "flops_per_token": 448708845568.0
+    },
+    {
+      "prompt": "Question: What is New Mexico's nickname?\nA. The Desert State'\nB. Gateway to Paradise'\nC. Land of Enc...",
+      "tokens_generated": 1,
+      "total_flops": 327554248704,
+      "flops_per_token": 327554248704.0
+    },
+    {
+      "prompt": "Question: The moving coil-meters, damping is provided by\nA. the aluminium frame of the coil.\nB. the ...",
+      "tokens_generated": 1,
+      "total_flops": 509607000064,
+      "flops_per_token": 509607000064.0
+    },
+    {
+      "prompt": "Question: According to researchers Darley and Latanne, bystander intervention decreases when a large...",
+      "tokens_generated": 1,
+      "total_flops": 552555642880,
+      "flops_per_token": 552555642880.0
+    },
+    {
+      "prompt": "Question: A homeowner listed his home for sale with a real estate broker. The written six-month excl...",
+      "tokens_generated": 1,
+      "total_flops": 1520669421568,
+      "flops_per_token": 1520669421568.0
+    },
+    {
+      "prompt": "Question: What has been a central focus of religious traditions in China and Korea?\nA. Peace and har...",
+      "tokens_generated": 1,
+      "total_flops": 351657877504,
+      "flops_per_token": 351657877504.0
+    },
+    {
+      "prompt": "Question: What is the ones digit of $1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8 \\cdot...",
+      "tokens_generated": 1,
+      "total_flops": 587171241984,
+      "flops_per_token": 587171241984.0
+    },
+    {
+      "prompt": "Question: Statement 1 | Every ideal in a ring is a subring of the ring. Statement 2 | Every subring ...",
+      "tokens_generated": 1,
+      "total_flops": 552555642880,
+      "flops_per_token": 552555642880.0
+    },
+    {
+      "prompt": "Question:  Which of the following is an example of a virtue?\nA. honesty\nB. courage\nC. kindness\nD. al...",
+      "tokens_generated": 1,
+      "total_flops": 318900348928,
+      "flops_per_token": 318900348928.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\nAddison's Act had been conceived in the...",
+      "tokens_generated": 1,
+      "total_flops": 2101603702784,
+      "flops_per_token": 2101603702784.0
+    },
+    {
+      "prompt": "Question: Dr. Pavel Petrovich, a licensed psychologist, has been seeing a client in therapy for over...",
+      "tokens_generated": 1,
+      "total_flops": 960184434688,
+      "flops_per_token": 960184434688.0
+    },
+    {
+      "prompt": "Question: A police officer stopped a driver who had run a red light. Upon approaching the car, the o...",
+      "tokens_generated": 1,
+      "total_flops": 2249299904512,
+      "flops_per_token": 2249299904512.0
+    },
+    {
+      "prompt": "Question: Applying irrelevant standards to the subject of the argument is the fallacy of\nA. ad crume...",
+      "tokens_generated": 1,
+      "total_flops": 435200030720,
+      "flops_per_token": 435200030720.0
+    },
+    {
+      "prompt": "Question: According to Hobbes, whenever and wherever men live without a common power to keep them al...",
+      "tokens_generated": 1,
+      "total_flops": 405439346688,
+      "flops_per_token": 405439346688.0
+    },
+    {
+      "prompt": "Question:  Which of the following best characterizes de Marneffe's view?\nA. The use, sale, and manuf...",
+      "tokens_generated": 1,
+      "total_flops": 743997368320,
+      "flops_per_token": 743997368320.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 967942832128,
+      "flops_per_token": 967942832128.0
+    },
+    {
+      "prompt": "Question: In Ward-Leonard system, the lower limit of the speed imposed by\nA. Field resistance.\nB. Ar...",
+      "tokens_generated": 1,
+      "total_flops": 453801773056,
+      "flops_per_token": 453801773056.0
+    },
+    {
+      "prompt": "Question: A research report states that a special education program for children aged 3-5 under stud...",
+      "tokens_generated": 1,
+      "total_flops": 1224413071360,
+      "flops_per_token": 1224413071360.0
+    },
+    {
+      "prompt": "Question: The DiGeorge/Shprintzen syndrome is caused by a deletion in which chromosome?\nA. 4\nB. 7\nC....",
+      "tokens_generated": 1,
+      "total_flops": 362169847808,
+      "flops_per_token": 362169847808.0
+    },
+    {
+      "prompt": "Question: Which of the following states of matter is characterized by a closely packed arrangement o...",
+      "tokens_generated": 1,
+      "total_flops": 431401046016,
+      "flops_per_token": 431401046016.0
+    },
+    {
+      "prompt": "Question: What is the largest animal ever to live on Earth?\nA. blue whale\nB. giant squid\nC. woolly m...",
+      "tokens_generated": 1,
+      "total_flops": 354162919424,
+      "flops_per_token": 354162919424.0
+    },
+    {
+      "prompt": "Question: A 72-year-old man is admitted to the intensive care unit for pain management and observati...",
+      "tokens_generated": 1,
+      "total_flops": 2291989497856,
+      "flops_per_token": 2291989497856.0
+    },
+    {
+      "prompt": "Question: Which of the following is another name for the fallacy of amphiboly?\nA. Misusing ambiguity...",
+      "tokens_generated": 1,
+      "total_flops": 397996546048,
+      "flops_per_token": 397996546048.0
+    },
+    {
+      "prompt": "Question:  What is the overall percentage of capital cases that are overturned because of serious er...",
+      "tokens_generated": 1,
+      "total_flops": 414093246464,
+      "flops_per_token": 414093246464.0
+    },
+    {
+      "prompt": "Question: If $725x + 727y = 1500$ and $729x+ 731y = 1508$, what is the value of $x - y$ ?\nA. 725\nB. ...",
+      "tokens_generated": 1,
+      "total_flops": 584013969408,
+      "flops_per_token": 584013969408.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 873396905984,
+      "flops_per_token": 873396905984.0
+    },
+    {
+      "prompt": "Question: Find the volume of the solid generated when the region bounded by the y-axis, y = e^x, and...",
+      "tokens_generated": 1,
+      "total_flops": 587171241984,
+      "flops_per_token": 587171241984.0
+    },
+    {
+      "prompt": "Question: Which of the following is true about possible rectal findings?\nA. The finding of a palpabl...",
+      "tokens_generated": 1,
+      "total_flops": 742941437952,
+      "flops_per_token": 742941437952.0
+    },
+    {
+      "prompt": "Question: Solve 13 over 4 = x over 7.\nA. 22.75\nB. 23.25\nC. 24.25\nD. none of these\nAnswer:",
+      "tokens_generated": 1,
+      "total_flops": 416598288384,
+      "flops_per_token": 416598288384.0
+    },
+    {
+      "prompt": "Question: Say the incidence of a disease D is about 5 cases per 100 people (i.e., P(D) = 0.05). Let ...",
+      "tokens_generated": 1,
+      "total_flops": 1305444923392,
+      "flops_per_token": 1305444923392.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 967942832128,
+      "flops_per_token": 967942832128.0
+    },
+    {
+      "prompt": "Question: Which of the following types of electromagnetic radiation has the longest wavelength?\nA. G...",
+      "tokens_generated": 1,
+      "total_flops": 336208148480,
+      "flops_per_token": 336208148480.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\nThe following excerpt is from a pamphle...",
+      "tokens_generated": 1,
+      "total_flops": 3922747936768,
+      "flops_per_token": 3922747936768.0
+    },
+    {
+      "prompt": "Question:  Kant argues that because sexual attraction involves seeing another person as the object o...",
+      "tokens_generated": 1,
+      "total_flops": 621786841088,
+      "flops_per_token": 621786841088.0
+    },
+    {
+      "prompt": "Question: \"An assault is an unlawful attempt, with or without present ability, to commit a battery o...",
+      "tokens_generated": 1,
+      "total_flops": 2601604753408,
+      "flops_per_token": 2601604753408.0
+    },
+    {
+      "prompt": "Question: This question refers to the following information.\n\"After the Tencteri came, in former day...",
+      "tokens_generated": 1,
+      "total_flops": 2585590896640,
+      "flops_per_token": 2585590896640.0
+    },
+    {
+      "prompt": "Question: A defendant was on the first day of her new secretarial job when her boss called her into ...",
+      "tokens_generated": 1,
+      "total_flops": 2097168265216,
+      "flops_per_token": 2097168265216.0
+    },
+    {
+      "prompt": "Question: Sutherland's study of the 'professional thief' suggested that:\nA. people are socialized in...",
+      "tokens_generated": 1,
+      "total_flops": 735990439936,
+      "flops_per_token": 735990439936.0
+    },
+    {
+      "prompt": "Question: Which of the following best describes what is meant by security in the contemporary world,...",
+      "tokens_generated": 1,
+      "total_flops": 1624759490560,
+      "flops_per_token": 1624759490560.0
+    },
+    {
+      "prompt": "Question: A cross between two true breeding lines one with dark blue flowers and one with bright whi...",
+      "tokens_generated": 1,
+      "total_flops": 820826535936,
+      "flops_per_token": 820826535936.0
+    },
+    {
+      "prompt": "Question: The most frequent chronic condition for older adults is\nA. Hypertension\nB. Arthritis\nC. Di...",
+      "tokens_generated": 1,
+      "total_flops": 318900348928,
+      "flops_per_token": 318900348928.0
+    },
+    {
+      "prompt": "Question: Erection in the male and vaginal lubrication in the female mark the __________ stage of se...",
+      "tokens_generated": 1,
+      "total_flops": 370823747584,
+      "flops_per_token": 370823747584.0
+    },
+    {
+      "prompt": "Question: On January 1, a company enters into an operating lease for office space and receives contr...",
+      "tokens_generated": 1,
+      "total_flops": 881403834368,
+      "flops_per_token": 881403834368.0
+    },
+    {
+      "prompt": "Question: Which of the following item difficulty (p) levels maximizes the differentiation of examine...",
+      "tokens_generated": 1,
+      "total_flops": 500632244224,
+      "flops_per_token": 500632244224.0
+    },
+    {
+      "prompt": "Question: For which of these two scenarios does the main character (who uses I/me/my) do something c...",
+      "tokens_generated": 1,
+      "total_flops": 985250631680,
+      "flops_per_token": 985250631680.0
+    },
+    {
+      "prompt": "Question: Which of these phrases refers specifically to a crisis, rather than an issue?\nA. A gap bet...",
+      "tokens_generated": 1,
+      "total_flops": 479768731648,
+      "flops_per_token": 479768731648.0
+    }
+  ],
+  "timestamp": "2025-04-25T19:06:29.964620"
+}
