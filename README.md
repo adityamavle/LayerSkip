@@ -3,7 +3,7 @@
 This fork extends the original Meta LayerSkip repository with new dynamic inference strategies and efficiency improvements for large language models (LLMs) such as LLaMA-3.2-1B. Our work focuses on reducing inference-time computational cost while preserving predictive accuracy across diverse tasks.
 
 ## Branch Structure
-All changes are integrated into the `main` branch of this fork.
+All changes are integrated into the `dev` branch of this fork.
 
 ## Key Enhancements
 
