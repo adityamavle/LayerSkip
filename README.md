@@ -1,4 +1,61 @@
-# our part
+# Enhanced LayerSkip: Efficient Dynamic Inference for LLMs
+
+This fork extends the original Meta LayerSkip repository with new dynamic inference strategies and efficiency improvements for large language models (LLMs) such as LLaMA-3.2-1B. Our work focuses on reducing inference-time computational cost while preserving predictive accuracy across diverse tasks.
+
+## Branch Structure
+All changes are integrated into the `main` branch of this fork.
+
+## Key Enhancements
+
+### 1. Dynamic Inference Strategies
+- **LayerDrop Integration**:  
+  Stochastic skipping of transformer layers at inference time based on a configurable dropout rate. Enables significant FLOPs and latency reduction with minimal accuracy degradation.
+
+- **Depth-Adaptive Transformer (DAT) Integration**:  
+  Early-exit mechanism based on cumulative halting probabilities. Allows per-sample adaptive computation during inference.
+
+- **Unified Generation Interface**:  
+  Extended `benchmark.py` to support multiple dynamic inference strategies seamlessly:  
+  - `autoregessive`
+  - `depth_adaptive_sequence`
+  - `layerdrop`
+
+### 2. Adapter-Assisted Early Exit
+- **Lightweight DeBERTa Adapter Model**:  
+  Introduced a small adapter (4\% of the base model size) trained on early hidden states to improve exit quality without retraining the full model.
+- **Combined Loss Training**:  
+  Adapter trained using a combined cross-entropy and KL-divergence loss to encourage alignment with full-model logits.
+
+### 3. Dataset Extensions
+- Added support for efficient evaluation across multiple datasets:
+  - **Reading Comprehension**: MMLU, RACE-M, RACE-H
+  - **Mathematical Reasoning**: GSM8K
+  - **Code Generation**: MBPP, HumanEval
+- Unified data loading pipeline with custom few-shot prompting, subsampling, and shuffling utilities.
+
+### 4. Computational Efficiency Benchmarking
+- **Custom FLOPs Counter**:  
+  Fine-grained profiling of FLOPs per layer and per generated token.
+- **Inference Timing**:  
+  High-precision wall-clock timing for measuring total inference latency and throughput.
+
+All experiments were conducted on a single NVIDIA A100 GPU using mixed-precision (FP16) inference.
+
+## Reproducing Results
+
+To reproduce the computational efficiency and accuracy results from our experiments, run the following:
+
+```bash
+python benchmark.py \
+    --model <path_to_model> \
+    --dataset {mmlu, race_m, race_h} \
+    --generation_strategy {depth_adaptive_sequence, autoregressive, layerdrop} \
+    [--halting_threshold <threshold>] {depth_adaptive_sequence, autoregressive, layerdrop} \
+    [--dropout_rate <rate>] {if generation_strategy is layerdrop}\
+    [--min_layers <min_layers>] \
+    [--num_samples <num_samples>] \
+    --output_dir ./benchmark_results
+
 # LayerSkip
 <a href='https://huggingface.co/collections/facebook/layerskip-666b25c50c8ae90e1965727a'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a> [![License: CC BY-NC](https://img.shields.io/badge/License-CC_BY--NC-lightgrey.svg)](./LICENSE) [![Slides](https://img.shields.io/badge/Slides-PPT-orange)](https://docs.google.com/presentation/d/1T8ei6H8ioFVJSPdRkc9RTqyUuUHSX0o8/edit?usp=sharing&ouid=107704645588623097646&rtpof=true&sd=true) [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=oPxdfVVmLP8) [![arXiv](https://img.shields.io/badge/arXiv-2404.16710-b31b1b.svg)](https://arxiv.org/abs/2404.16710) [![alphaXiv](https://img.shields.io/badge/alphaXiv-2404.16710-9a2037.svg)](https://www.alphaxiv.org/abs/2404.16710)
 
