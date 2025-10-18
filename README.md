@@ -1,6 +1,9 @@
 # Enhanced LayerSkip: Efficient Dynamic Inference for LLMs
 
-This fork extends the original Meta LayerSkip repository with new dynamic inference strategies and efficiency improvements for large language models (LLMs) such as LLaMA-3.2-1B. Our work focuses on reducing inference-time computational cost while preserving predictive accuracy across diverse tasks.
+This fork extends the original Meta LayerSkip repository with new dynamic inference strategies and efficiency improvements for large language models (LLMs) such as LLaMA-3.2-1B. Our work focuses on reducing inference-time computational cost while preserving predictive accuracy across diverse tasks.  
+
+The project report has further details: [Project Report](https://drive.google.com/file/d/1efy_GmlCAob3Ey-P4Gx4ux9pJ-xoWsZG/view)
+
 
 ## Branch Structure
 All changes are integrated into the `dev` branch of this fork.
